@@ -31,9 +31,17 @@
     "react",
     "components"
   ],
+  "author": "Stria Icons Authors",
+  "homepage": "https://stria-icons.dyzulk.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/twinpath/stria-icons-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twinpath/stria-icons/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "stria-icons": "workspace:*"

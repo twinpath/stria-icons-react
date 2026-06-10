@@ -1,66 +1,41 @@
-# Stria Icons
+# Stria Icons React
 
-The Essential Stroke for Modern Interfaces.
+React components wrapper for Stria Icons.
 
 Stria is a unified visual language of pixel-perfect SVG icons, built with absolute geometric precision and zero dependency bloat.
 
-## Ecosystem Packages
+## Installation
 
-This monorepo compiles and distributes Stria Icons to various ecosystems:
+Install the package via npm, pnpm, or yarn:
 
-| Package | Registry | Target Environment | Installation |
-| :--- | :--- | :--- | :--- |
-| `stria-icons` | npm | Core Vectors, CSS, Sprites, Vanilla JS | `npm install stria-icons` |
-| `@stria-icons/react` | npm | React / Next.js / Inertia React | `npm install @stria-icons/react` |
-| `stria/blade-icons` | Packagist | Laravel Blade components | `composer require stria/blade-icons` |
-
-## Usage Examples
-
-### 1. Plain HTML / Vanilla JS
-Using the lightweight self-executing script (replacer utility):
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/stria-icons@latest/dist/umd/stria.min.js"></script>
-
-<!-- Add elements with the data-stria attribute -->
-<i data-stria="user" data-stria-style="solid"></i>
-<i data-stria="home" data-stria-style="regular"></i>
-
-<script>
-  stria.replace();
-</script>
+```bash
+npm install @stria-icons/react
 ```
 
-Using CSS Masking:
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/stria-icons@latest/dist/css/stria.min.css">
+## Usage
 
-<!-- Use the utility classes -->
-<i class="stria-solid stria-user"></i>
-```
+Import the required icons as components:
 
-### 2. React
 ```jsx
-import { User, Home } from '@stria-icons/react';
+import { User, Home, Settings } from '@stria-icons/react';
 
 function App() {
   return (
     <div>
       <User size={24} color="blue" />
       <Home size={20} />
+      <Settings size={32} />
     </div>
   );
 }
 ```
 
-### 3. Laravel Blade
-```blade
-{{-- Render as a Blade component --}}
-<x-stria-solid-user class="w-5 h-5 text-gray-600" />
+### Component Props
 
-{{-- Render as a directive --}}
-@stria('user', 'solid', ['class' => 'w-5 h-5'])
-```
+Each icon component accepts the following props:
+- `size` (number | string): Sets both width and height (default: `24`).
+- `color` (string): Sets the stroke/fill color (default: `currentColor`).
+- Any standard SVG element attributes (e.g. `className`, `style`, `onClick`).
 
 ## Licenses
 
