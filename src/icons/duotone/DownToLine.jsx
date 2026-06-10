@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const DownToLineDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 384 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M352 416H32C14.327 416 0 430.327 0 448V448C0 465.673 14.327 480 32 480H352C369.673 480 384 465.673 384 448V448C384 430.327 369.673 416 352 416Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M350.048 206.625C353.83 215.428 352.033 225.654 345.455 232.628L209.455 376.731C200.392 386.331 183.611 386.331 174.548 376.731L38.548 232.628C31.97 225.654 30.173 215.428 33.955 206.625C37.751 197.822 46.423 192.114 56.001 192.114H128.001V64.023C128.001 46.336 142.328 32 160.001 32H224.001C241.673 32 256.001 46.336 256.001 64.023V192.114H328.001C337.58 192.114 346.251 197.822 350.048 206.625Z" />
+  </svg>
+));
+
+DownToLineDuotone.displayName = 'DownToLineDuotone';
+
+export default DownToLineDuotone;

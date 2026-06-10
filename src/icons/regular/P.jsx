@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const PRegular = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 320 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M32 480C14.312 480 0 465.688 0 448V64C0 46.312 14.312 32 32 32H160C248.219 32 320 103.781 320 192S248.219 352 160 352H64V448C64 465.688 49.688 480 32 480ZM64 288H160C212.938 288 256 244.938 256 192S212.938 96 160 96H64V288Z" />
+  </svg>
+));
+
+PRegular.displayName = 'PRegular';
+
+export default PRegular;

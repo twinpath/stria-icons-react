@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const ChartPyramidSolid = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M374.411 192H137.534L62.559 320H449.426L374.411 192ZM292.95 53C276.618 25 235.397 25 218.954 53L156.278 160H355.657L292.95 53ZM506.274 417L468.18 352H43.815L5.741 417C-10.591 444.891 9.852 480 42.741 480H469.276C502.051 480 522.606 445 506.274 417Z" />
+  </svg>
+));
+
+ChartPyramidSolid.displayName = 'ChartPyramidSolid';
+
+export default ChartPyramidSolid;

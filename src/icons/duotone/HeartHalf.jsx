@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const HeartHalfDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M256 96.241L275.68 75.924C325.629 24.358 408.684 15.885 462.959 62.862C525.104 116.653 528.197 212.516 472.176 270.485L279.025 470.197C272.695 476.744 264.346 480.005 256 479.994V96.241Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M256 479.992C247.654 480.004 239.305 476.742 232.974 470.195L39.824 270.484C-16.197 212.516 -13.104 116.652 49.041 62.861C103.316 15.885 186.371 24.357 236.32 75.924L256 96.24V479.992Z" />
+  </svg>
+));
+
+HeartHalfDuotone.displayName = 'HeartHalfDuotone';
+
+export default HeartHalfDuotone;

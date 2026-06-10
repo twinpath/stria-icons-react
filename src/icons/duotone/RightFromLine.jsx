@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const RightFromLineDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M32 64H32C14.327 64 0 78.327 0 96V416C0 433.673 14.327 448 32 448H32C49.673 448 64 433.673 64 416V96C64 78.327 49.673 64 32 64Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M440.732 273.453L296.629 409.453C289.654 416.031 279.43 417.828 270.625 414.047C261.822 410.25 256.115 401.578 256.115 392V320H128.023C110.338 320 96 305.674 96 288V224C96 206.328 110.338 192 128.023 192H256.115V120C256.115 110.422 261.822 101.75 270.625 97.953C279.43 94.172 289.654 95.969 296.629 102.547L440.732 238.547C450.332 247.609 450.332 264.391 440.732 273.453Z" />
+  </svg>
+));
+
+RightFromLineDuotone.displayName = 'RightFromLineDuotone';
+
+export default RightFromLineDuotone;

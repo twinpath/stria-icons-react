@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const FluteDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 640 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M608 160H96V352H608C625.625 352 640 337.625 640 320V192C640 174.375 625.625 160 608 160ZM320 280C306.75 280 296 269.25 296 256S306.75 232 320 232S344 242.75 344 256S333.25 280 320 280ZM416 280C402.75 280 392 269.25 392 256S402.75 232 416 232S440 242.75 440 256S429.25 280 416 280ZM512 280C498.75 280 488 269.25 488 256S498.75 232 512 232S536 242.75 536 256S525.25 280 512 280Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M320 232C306.75 232 296 242.75 296 256S306.75 280 320 280S344 269.25 344 256S333.25 232 320 232ZM0 192V320C0 337.625 14.375 352 32 352H96V160H32C14.375 160 0 174.375 0 192ZM512 232C498.75 232 488 242.75 488 256S498.75 280 512 280S536 269.25 536 256S525.25 232 512 232ZM416 232C402.75 232 392 242.75 392 256S402.75 280 416 280S440 269.25 440 256S429.25 232 416 232Z" />
+  </svg>
+));
+
+FluteDuotone.displayName = 'FluteDuotone';
+
+export default FluteDuotone;

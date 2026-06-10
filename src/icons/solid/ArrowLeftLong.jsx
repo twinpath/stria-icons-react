@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const ArrowLeftLongSolid = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M9.184 233.375L137.184 105.375C149.684 92.875 169.934 92.875 182.434 105.375S194.934 138.125 182.434 150.625L109.059 224H479.809C497.496 224 511.809 238.312 511.809 256S497.496 288 479.809 288H109.059L182.434 361.375C194.934 373.875 194.934 394.125 182.434 406.625C169.941 419.118 149.691 419.132 137.184 406.625L9.184 278.625C-3.316 266.125 -3.316 245.875 9.184 233.375Z" />
+  </svg>
+));
+
+ArrowLeftLongSolid.displayName = 'ArrowLeftLongSolid';
+
+export default ArrowLeftLongSolid;

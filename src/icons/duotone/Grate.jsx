@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const GrateDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M352 288V416H288V288H256V416H192V288H160V416H96V288H64V224H96V96H160V224H192V96H256V224H288V96H352V224H384V288H352Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M384 32H64C28.654 32 0 60.652 0 96V416C0 451.346 28.654 480 64 480H384C419.346 480 448 451.346 448 416V96C448 60.652 419.346 32 384 32ZM384 416H64V96H384V416Z" />
+  </svg>
+));
+
+GrateDuotone.displayName = 'GrateDuotone';
+
+export default GrateDuotone;

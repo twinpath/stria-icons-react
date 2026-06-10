@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const RhombusRegular = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M448.001 255.953C448.001 250.359 446.064 244.765 442.19 240.264L242.245 8.25C237.434 2.75 230.717 0 224 0S210.567 2.75 205.756 8.25L5.811 240.264C1.937 244.765 0 250.359 0 255.953S1.937 267.141 5.811 271.641L205.756 503.654C210.567 509.219 217.284 512 224 512S237.434 509.219 242.245 503.654L442.19 271.641C446.064 267.141 448.001 261.547 448.001 255.953ZM224 451.299L55.657 255.953L224 60.605L392.344 255.953L224 451.299Z " />
+  </svg>
+));
+
+RhombusRegular.displayName = 'RhombusRegular';
+
+export default RhombusRegular;

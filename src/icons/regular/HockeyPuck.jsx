@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const HockeyPuckRegular = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M256 64C128.588 64 0 96.273 0 177.848V315.078C0 402.309 128.705 448 256 448S512 402.309 512 315.078V184C512 102.426 383.412 64 256 64ZM464 315.078C464 361.109 368.748 400 256 400S48 361.109 48 315.078V258.926C87.561 285.035 153.838 304 256 304S424.439 285.035 464 258.926V315.078ZM256 256C141.09 256 48 223.824 48 184C48 150.121 131.58 112 256 112S464 150.121 464 184C464 223.824 370.91 256 256 256Z" />
+  </svg>
+));
+
+HockeyPuckRegular.displayName = 'HockeyPuckRegular';
+
+export default HockeyPuckRegular;

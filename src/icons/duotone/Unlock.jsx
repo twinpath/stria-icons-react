@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const UnlockDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M144 224H80V144C80 64.594 144.594 0 224 0S368 64.594 368 144V160H304V144C304 99.875 268.109 64 224 64S144 99.875 144 144V224Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M384 224H64C28.654 224 0 252.652 0 288V448C0 483.344 28.654 512 64 512H384C419.346 512 448 483.344 448 448V288C448 252.652 419.346 224 384 224Z" />
+  </svg>
+));
+
+UnlockDuotone.displayName = 'UnlockDuotone';
+
+export default UnlockDuotone;

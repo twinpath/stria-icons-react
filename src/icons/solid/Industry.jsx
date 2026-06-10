@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const IndustrySolid = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M512 152.013V448C512 465.673 497.673 480 480 480H32C14.327 480 0 465.673 0 448V64C0 46.327 14.327 32 32 32H128C145.673 32 160 46.327 160 64V224L299.125 131.763C315.125 121.638 336 133.138 336 152.013V224L475.125 131.763C491.125 121.638 512 133.138 512 152.013Z" />
+  </svg>
+));
+
+IndustrySolid.displayName = 'IndustrySolid';
+
+export default IndustrySolid;

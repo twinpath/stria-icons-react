@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const ChartPieSimpleDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M477.343 305.883C460.469 424.873 356.603 515.99 231.864 511.865C107.875 507.741 4.259 404.125 0.135 280.136C-3.99 155.397 87.127 51.531 206.116 34.657C215.616 33.408 223.99 41.157 223.99 50.781V288.01H461.219C470.843 288.01 478.592 296.384 477.343 305.883Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M511.979 223.266C512.604 232.265 504.854 240.014 495.73 240.014H272V16.284C272 7.16 279.624 -0.59 288.749 0.035C408.238 8.285 503.73 103.776 511.979 223.266Z" />
+  </svg>
+));
+
+ChartPieSimpleDuotone.displayName = 'ChartPieSimpleDuotone';
+
+export default ChartPieSimpleDuotone;

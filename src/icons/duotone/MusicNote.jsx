@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const MusicNoteDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 384 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M256 148.088V17.547L311 1.322C320.625 -1.553 331.125 0.322 339.125 6.324C347.25 12.324 352 21.824 352 31.951V95.957C352 110.209 342.625 122.711 329 126.711L256 148.088Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M256 431.992C256 476.121 205.875 512 144 512S32 476.121 32 431.992S82.125 351.984 144 351.984C160.375 351.984 176.5 354.734 192 359.984V60.328C192 46.328 201.125 33.951 214.375 29.826L256 17.547V431.992Z" />
+  </svg>
+));
+
+MusicNoteDuotone.displayName = 'MusicNoteDuotone';
+
+export default MusicNoteDuotone;

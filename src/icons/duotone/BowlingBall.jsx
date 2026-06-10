@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const BowlingBallDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M144 144C126.305 144 112 158.25 112 176S126.305 208 144 208S176 193.75 176 176S161.695 144 144 144ZM240.047 144C257.711 144 271.984 129.75 271.984 112S257.711 80 240.047 80S207.984 94.25 207.984 112S222.383 144 240.047 144ZM240 176C222.305 176 208 190.25 208 208S222.305 240 240 240S272 225.75 272 208S257.695 176 240 176Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M256 16C123.461 16 16 123.42 16 256S123.461 496 256 496S496 388.58 496 256S388.539 16 256 16ZM144 208C126.305 208 112 193.75 112 176S126.305 144 144 144S176 158.25 176 176S161.695 208 144 208ZM240.047 80C257.711 80 271.984 94.25 271.984 112S257.711 144 240.047 144S207.984 129.75 207.984 112S222.383 80 240.047 80ZM240 240C222.305 240 208 225.75 208 208S222.305 176 240 176S272 190.25 272 208S257.695 240 240 240Z" />
+  </svg>
+));
+
+BowlingBallDuotone.displayName = 'BowlingBallDuotone';
+
+export default BowlingBallDuotone;

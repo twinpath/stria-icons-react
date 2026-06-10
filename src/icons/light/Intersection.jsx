@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const IntersectionLight = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 384 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M384 224V464C384 472.844 376.844 480 368 480S352 472.844 352 464V224C352 135.781 280.219 64 192 64S32 135.781 32 224V464C32 472.844 24.844 480 16 480S0 472.844 0 464V224C0 118.125 86.125 32 192 32S384 118.125 384 224Z" />
+  </svg>
+));
+
+IntersectionLight.displayName = 'IntersectionLight';
+
+export default IntersectionLight;

@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const FThin = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 320 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M320 40C320 44.406 316.422 48 312 48H16V256.625H248C252.422 256.625 256 260.219 256 264.625S252.422 272.625 248 272.625H16V472C16 476.406 12.422 480 8 480S0 476.406 0 472V40C0 35.594 3.578 32 8 32H312C316.422 32 320 35.594 320 40Z" />
+  </svg>
+));
+
+FThin.displayName = 'FThin';
+
+export default FThin;

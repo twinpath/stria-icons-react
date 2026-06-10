@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const HeartHalfStrokeDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 512 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M472.096 270.484L278.947 470.195C272.637 476.723 264.318 479.98 256 479.992V424.877L437.592 237.115C455.48 218.637 465.064 192.961 463.904 166.656C462.734 140.168 451.246 116.195 431.557 99.152C413.266 83.322 392.732 80 378.729 80C353.209 80 328.219 90.688 310.17 109.32C283 137.371 293.797 126.225 256.01 165.24L256 165.23V96.24L256.008 96.248L275.693 75.924C303.377 47.344 341.236 32 378.723 32C408.871 31.998 438.775 41.92 462.969 62.859C525.117 116.648 528.211 212.516 472.096 270.484Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M256 479.992C247.654 480.004 239.305 476.742 232.974 470.195L39.824 270.484C-16.197 212.516 -13.104 116.652 49.041 62.861C103.316 15.885 186.371 24.357 236.32 75.924L256 96.24V479.992Z" />
+  </svg>
+));
+
+HeartHalfStrokeDuotone.displayName = 'HeartHalfStrokeDuotone';
+
+export default HeartHalfStrokeDuotone;

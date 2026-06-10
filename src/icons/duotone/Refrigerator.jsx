@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const RefrigeratorDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 384 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M0 192H288V160H0V192ZM320 160V192H384V160H320Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M320 368C320 376.801 312.801 384 304 384S288 376.801 288 368V192H0V480C0 497.674 14.326 512 32 512H352C369.674 512 384 497.674 384 480V192H320V368ZM320 0H64C28.654 0 0 28.654 0 64V160H288V80C288 71.199 295.199 64 304 64S320 71.199 320 80V160H384V64C384 28.654 355.346 0 320 0Z" />
+  </svg>
+));
+
+RefrigeratorDuotone.displayName = 'RefrigeratorDuotone';
+
+export default RefrigeratorDuotone;

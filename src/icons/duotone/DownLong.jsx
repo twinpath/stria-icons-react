@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const DownLongDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 320 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M200 352H120V40.012C120 17.912 137.906 0 160 0S200 17.912 200 40.012V352Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M142.405 504.32L38.405 392.25C31.921 385.258 30.186 375.066 33.999 366.312C37.714 357.781 46.03 352.283 55.284 352H264.718C273.968 352.283 282.288 357.781 286.003 366.312C289.811 375.066 288.077 385.258 281.593 392.25L177.593 504.32C168.093 514.559 151.905 514.559 142.405 504.32Z" />
+  </svg>
+));
+
+DownLongDuotone.displayName = 'DownLongDuotone';
+
+export default DownLongDuotone;

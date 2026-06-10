@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const Square9Solid = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M384 32H64C28.654 32 0 60.654 0 96V416C0 451.346 28.654 480 64 480H384C419.346 480 448 451.346 448 416V96C448 60.654 419.346 32 384 32ZM279.719 308.406L199.781 378.094C195.219 382.062 189.594 384 184 384C177.312 384 170.656 381.219 165.906 375.781C157.188 365.781 158.25 350.625 168.219 341.906L197.979 315.963C157.732 304.533 128 267.859 128 224C128 171.062 171.062 128 224 128S320 171.062 320 224C320 265.301 292.451 297.289 279.719 308.406ZM224 176C197.531 176 176 197.531 176 224S197.531 272 224 272C245.062 272 264 257.906 270.031 237.719C271.344 233.312 272 228.719 272 224C272 197.531 250.469 176 224 176Z" />
+  </svg>
+));
+
+Square9Solid.displayName = 'Square9Solid';
+
+export default Square9Solid;

@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const ArrowUpRightDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 384 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M288 160V216.562L84.281 420.281C68.656 435.906 43.344 435.906 27.719 420.281S12.094 379.344 27.719 363.719L231.437 160H288Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M120 160C97.906 160 80 142.094 80 120S97.906 80 120 80H328C350.094 80 368 97.906 368 120V328C368 350.094 350.094 368 328 368S288 350.094 288 328V160H120Z" />
+  </svg>
+));
+
+ArrowUpRightDuotone.displayName = 'ArrowUpRightDuotone';
+
+export default ArrowUpRightDuotone;

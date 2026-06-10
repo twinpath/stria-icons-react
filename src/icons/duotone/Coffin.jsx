@@ -1,0 +1,20 @@
+import React, { forwardRef } from 'react';
+
+const CoffinDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M406.537 115.25L298.766 9.375C292.638 3.375 284.263 0 275.636 0H172.364C163.737 0 155.362 3.375 149.234 9.375L41.463 115.25C33.461 123.125 30.211 134.625 32.961 145.625L120.103 487.75C123.729 502 136.733 512 151.735 512H296.39C311.267 512 324.271 502 327.897 487.75L415.039 145.625C417.789 134.625 414.539 123.125 406.537 115.25Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+  </svg>
+));
+
+CoffinDuotone.displayName = 'CoffinDuotone';
+
+export default CoffinDuotone;

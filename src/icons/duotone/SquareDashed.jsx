@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const SquareDashedDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M0 320H64V192H0V320ZM160 480H288V416H160V480ZM160 96H288V32H160V96ZM384 192V320H448V192H384Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M64 392V352H0V392C0 440.531 39.469 480 88 480H128V416H88C74.781 416 64 405.234 64 392ZM0 120V160H64V120C64 106.766 74.781 96 88 96H128V32H88C39.469 32 0 71.469 0 120ZM360 32H320V96H360C373.219 96 384 106.766 384 120V160H448V120C448 71.469 408.531 32 360 32ZM384 392C384 405.234 373.219 416 360 416H320V480H360C408.531 480 448 440.531 448 392V352H384V392Z" />
+  </svg>
+));
+
+SquareDashedDuotone.displayName = 'SquareDashedDuotone';
+
+export default SquareDashedDuotone;

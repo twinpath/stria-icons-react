@@ -1,0 +1,21 @@
+import React, { forwardRef } from 'react';
+
+const DropletDegreeDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
+  <svg
+    ref={ref}
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 448 512"
+    fill={color}
+    className={className}
+    {...props}
+  >
+    <path d="M368 32C323.937 32 288 67.938 288 112S323.937 192 368 192S447.999 156.062 447.999 112S412.062 32 368 32ZM368 144C350.25 144 336 129.75 336 112S350.25 80 368 80C385.75 80 400 94.25 400 112S385.75 144 368 144Z" className="stria-secondary" style={{ opacity: 0.4 }} />
+    <path d="M319.999 324.141C319.999 410.219 248.436 480 159.999 480S0 410.219 0 324.141C0 226.906 90.937 189.281 133.437 51.361C141.562 25.002 179.374 26.096 186.562 51.361C229.27 190.047 319.999 226.359 319.999 324.141Z" />
+  </svg>
+));
+
+DropletDegreeDuotone.displayName = 'DropletDegreeDuotone';
+
+export default DropletDegreeDuotone;

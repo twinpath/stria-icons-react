@@ -1,4 +1,4 @@
-import { forwardRef } from 'react';
+import React, { forwardRef } from 'react';
 
 const HandFingersCrossedDuotone = forwardRef(({ size = 24, color = 'currentColor', className, ...props }, ref) => (
   <svg
