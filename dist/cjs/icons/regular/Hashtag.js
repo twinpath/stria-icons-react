@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Hashtag_exports = {};
+__export(Hashtag_exports, {
+  default: () => Hashtag_default
+});
+module.exports = __toCommonJS(Hashtag_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HashtagRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M424 136L349.99 135.975L363.625 60.219C365.969 47.186 357.312 34.686 344.25 32.342C331.25 30.154 318.75 38.686 316.375 51.717L301.211 135.975H189.99L203.625 60.219C205.969 47.186 197.312 34.686 184.25 32.342C171.188 30.154 158.719 38.686 156.375 51.717L141.211 135.975H56C42.75 135.975 32 146.725 32 159.977C32 173.227 42.75 183.977 56 183.977H132.57L106.65 327.988H24C10.75 327.988 0 338.738 0 351.99C0 365.24 10.75 376 24 376L98.01 375.992L84.375 451.748C82.031 464.779 90.688 477.281 103.75 479.625C105.188 479.875 106.625 480 108.031 480C119.406 480 129.531 471.842 131.625 460.248L146.789 375.992H258.01L244.375 451.748C242.031 464.779 250.688 477.281 263.75 479.625C265.188 479.875 266.625 480 268.031 480C279.406 480 289.531 471.842 291.625 460.248L306.789 375.992L392 376C405.25 376 416 365.24 416 351.99C416 338.738 405.25 327.988 392 327.988H315.43L341.35 183.977L424 184C437.25 184 448 173.227 448 159.977C448 146.725 437.25 136 424 136ZM266.65 327.988H155.43L181.35 183.977H292.57L266.65 327.988Z" })
+  }
+));
+HashtagRegular.displayName = "HashtagRegular";
+var Hashtag_default = HashtagRegular;

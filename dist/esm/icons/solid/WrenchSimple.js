@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const WrenchSimpleSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 172.445C384 243.461 345.303 305.23 288 338.453V463.992C288 490.508 266.51 512 240 512H144C117.49 512 96 490.508 96 463.992V338.453C38.697 305.23 0 243.461 0 172.445C0 98.035 42.4 33.672 104.305 1.828C115.07 -3.711 128 3.992 128 16.102V159.969L192 223.973L256 159.969V16.102C256 3.992 268.93 -3.711 279.695 1.828C341.6 33.672 384 98.035 384 172.445Z" })
+  }
+));
+WrenchSimpleSolid.displayName = "WrenchSimpleSolid";
+var WrenchSimple_default = WrenchSimpleSolid;
+export {
+  WrenchSimple_default as default
+};

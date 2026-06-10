@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ArrowRightLongLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M363.312 100.687L507.312 244.687C510.438 247.812 512 251.906 512 256S510.438 264.187 507.312 267.312L363.312 411.312C357.062 417.562 346.937 417.562 340.688 411.312S334.438 394.937 340.688 388.687L457.375 272H16C7.156 272 0 264.844 0 256S7.156 240 16 240H457.375L340.688 123.312C334.438 117.062 334.438 106.937 340.688 100.687S357.062 94.437 363.312 100.687Z" })
+  }
+));
+ArrowRightLongLight.displayName = "ArrowRightLongLight";
+var ArrowRightLong_default = ArrowRightLongLight;
+export {
+  ArrowRightLong_default as default
+};

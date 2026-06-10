@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const FireFlameCurvedSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 320C384 425.875 297.875 512 192 512S0 425.875 0 320C0 261.328 27.812 213.156 54.562 185.047C69.531 169.313 96 179.844 96 201.547V287.047C96 322.219 123.969 351.547 159.156 351.985C194.875 352.453 224 323.625 224 288C224 200 48 191.844 171.844 10.813C185.344 -8.906 216 0.063 216 23.86C216 127 384 149.703 384 320Z" })
+  }
+));
+FireFlameCurvedSolid.displayName = "FireFlameCurvedSolid";
+var FireFlameCurved_default = FireFlameCurvedSolid;
+export {
+  FireFlameCurved_default as default
+};

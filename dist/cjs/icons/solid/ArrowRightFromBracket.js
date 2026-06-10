@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ArrowRightFromBracket_exports = {};
+__export(ArrowRightFromBracket_exports, {
+  default: () => ArrowRightFromBracket_default
+});
+module.exports = __toCommonJS(ArrowRightFromBracket_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ArrowRightFromBracketSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M160 416H96C78.326 416 64 401.672 64 384V128C64 110.328 78.326 96 96 96H160C177.674 96 192 81.672 192 64S177.674 32 160 32H96C42.98 32 0 74.98 0 128V384C0 437.02 42.98 480 96 480H160C177.674 480 192 465.672 192 448S177.674 416 160 416ZM502.625 233.375L374.625 105.375C362.117 92.867 341.867 92.883 329.375 105.375C316.875 117.875 316.875 138.125 329.375 150.625L402.75 224H192C174.312 224 160 238.312 160 256S174.312 288 192 288H402.75L329.375 361.375C316.875 373.875 316.875 394.125 329.375 406.625S362.125 419.125 374.625 406.625L502.625 278.625C515.125 266.125 515.125 245.875 502.625 233.375Z" })
+  }
+));
+ArrowRightFromBracketSolid.displayName = "ArrowRightFromBracketSolid";
+var ArrowRightFromBracket_default = ArrowRightFromBracketSolid;

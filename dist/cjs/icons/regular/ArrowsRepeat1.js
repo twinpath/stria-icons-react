@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ArrowsRepeat1_exports = {};
+__export(ArrowsRepeat1_exports, {
+  default: () => ArrowsRepeat1_default
+});
+module.exports = __toCommonJS(ArrowsRepeat1_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ArrowsRepeat1Regular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M488 232C474.75 232 464 242.75 464 256C464 313.344 417.344 360 360 360H88C74.665 360 64.031 370.883 64.031 384C64.031 387.649 64.988 394.925 71.031 400.969L175.031 504.969C179.719 509.656 185.844 512 192 512C210.795 512 216 494.802 216 488C216 481.859 213.656 475.719 208.969 471.031L145.938 408H360C443.812 408 512 339.812 512 256C512 242.75 501.25 232 488 232ZM152 152H424C437.335 152 447.969 141.117 447.969 128C447.969 124.351 447.012 117.075 440.969 111.031L336.969 7.031C332.281 2.344 326.141 0 320 0C306.291 0 296 11.21 296 24C296 30.141 298.344 36.281 303.031 40.969L366.062 104H152C68.188 104 0 172.188 0 256C0 269.25 10.75 280 24 280S48 269.25 48 256C48 198.656 94.656 152 152 152ZM264 328C277.25 328 288 317.25 288 304V216C288 206.868 280.79 191.969 264 191.969C260.33 191.969 256.659 192.821 253.281 194.531L221.281 210.531C212.858 214.743 207.988 223.216 207.988 232.013C207.988 244.536 218.083 256.028 231.953 256.028C234.634 256.028 237.352 255.573 240 254.625V304C240 317.25 250.75 328 264 328Z " })
+  }
+));
+ArrowsRepeat1Regular.displayName = "ArrowsRepeat1Regular";
+var ArrowsRepeat1_default = ArrowsRepeat1Regular;

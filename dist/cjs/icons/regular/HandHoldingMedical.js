@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HandHoldingMedical_exports = {};
+__export(HandHoldingMedical_exports, {
+  default: () => HandHoldingMedical_default
+});
+module.exports = __toCommonJS(HandHoldingMedical_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HandHoldingMedicalRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M551.953 312.111C520.824 285.75 482.693 295.994 463.564 310.361L403.182 355.836H399.807C399.682 317.857 369.303 288 330.672 288H186.65C158.271 288 130.268 297.369 108.141 314.359L79.762 336.098H24.004C10.801 336.098 0 346.893 0 360.084C0 373.277 10.801 384.07 24.004 384.07H96.014L137.27 352.588C151.271 341.844 168.773 336.098 186.775 336.098H330.797C358.676 336.098 359.801 376.324 329.672 376.324H269.787C262.287 376.324 256.035 382.447 256.035 390.068V390.193C256.035 397.812 262.287 403.936 269.787 403.936H404.395C414.105 403.936 423.553 400.777 431.311 394.939L492.568 348.84C500.82 342.719 513.072 342.219 520.949 348.84C531.074 357.336 530.324 371.953 520.072 379.574L419.434 455.031C411.684 460.777 402.307 464.025 392.555 464.025H24.004C10.801 464.025 0 474.82 0 488.014C0 501.205 10.801 512 24.004 512H392.805C412.809 512 432.186 505.504 448.062 493.51L548.828 417.678C565.455 405.184 575.33 386.195 575.955 365.707C576.707 345.217 567.83 325.604 551.953 312.111ZM160 176H224V240C224 248.836 231.164 256 240 256H304C312.836 256 320 248.836 320 240V176H384C392.836 176 400 168.836 400 160V96C400 87.162 392.836 80 384 80H320V16C320 7.162 312.836 0 304 0H240C231.164 0 224 7.162 224 16V80H160C151.164 80 144 87.162 144 96V160C144 168.836 151.164 176 160 176Z" })
+  }
+));
+HandHoldingMedicalRegular.displayName = "HandHoldingMedicalRegular";
+var HandHoldingMedical_default = HandHoldingMedicalRegular;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Ear_exports = {};
+__export(Ear_exports, {
+  default: () => Ear_default
+});
+module.exports = __toCommonJS(Ear_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const EarSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M192 0C86 0 0 86 0 192V368C0 447.5 64.5 512 144 512S288 447.5 288 368V358.125C345.375 324.875 384 263 384 192C384 86 298 0 192 0ZM280 208C266.766 208 256 197.234 256 184C256 153.121 230.879 128 200 128H184C153.121 128 128 153.121 128 184V215.717L141.92 221.293C160.648 228.77 173.586 245.154 176.523 265.111C179.479 285.031 171.852 304.441 156.121 317.033L118.973 346.738C114.637 350.182 109.516 352 104.166 352C96.879 352 89.814 348.633 85.248 342.965C77.004 332.641 78.684 317.51 89.004 309.225L126.127 279.539C129.367 276.947 129.246 273.488 129.043 272.121C128.84 270.748 127.951 267.385 124.094 265.838L95.117 254.256C85.934 250.619 80 241.873 80 231.973V184C80 126.654 126.654 80 184 80H200C257.346 80 304 126.654 304 184C304 197.234 293.234 208 280 208Z" })
+  }
+));
+EarSolid.displayName = "EarSolid";
+var Ear_default = EarSolid;

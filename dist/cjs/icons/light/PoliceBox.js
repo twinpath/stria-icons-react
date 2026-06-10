@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PoliceBox_exports = {};
+__export(PoliceBox_exports, {
+  default: () => PoliceBox_default
+});
+module.exports = __toCommonJS(PoliceBox_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PoliceBoxLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M200 248H136C127.164 248 120 255.162 120 264V328C120 336.836 127.164 344 136 344H200C208.838 344 216 336.836 216 328V264C216 255.162 208.838 248 200 248ZM192 320H144V272H192V320ZM248 128C239.164 128 232 135.162 232 144V208C232 216.836 239.164 224 248 224H312C320.838 224 328 216.836 328 208V144C328 135.162 320.838 128 312 128H248ZM276 200H256V180H276V200ZM276 172H256V152H276V172ZM304 200H284V180H304V200ZM304 172H284V152H304V172ZM200 128H136C127.164 128 120 135.162 120 144V208C120 216.836 127.164 224 136 224H200C208.838 224 216 216.836 216 208V144C216 135.162 208.838 128 200 128ZM164 200H144V180H164V200ZM164 172H144V152H164V172ZM192 200H172V180H192V200ZM192 172H172V152H192V172ZM400 480H384V96C384 78.326 369.674 64 352 64V48C352 39.162 344.836 32 336 32H240V16C240 7.162 232.836 0 224 0S208 7.162 208 16V32H112C103.164 32 96 39.162 96 48V64C78.328 64 64 78.326 64 96V480H48C39.164 480 32 487.162 32 496C32 504.836 39.164 512 48 512H400C408.836 512 416 504.836 416 496C416 487.162 408.836 480 400 480ZM352 480H96V96H128V64H320V96H352V480Z" })
+  }
+));
+PoliceBoxLight.displayName = "PoliceBoxLight";
+var PoliceBox_default = PoliceBoxLight;

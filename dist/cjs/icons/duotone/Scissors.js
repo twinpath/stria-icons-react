@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Scissors_exports = {};
+__export(Scissors_exports, {
+  default: () => Scissors_default
+});
+module.exports = __toCommonJS(Scissors_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ScissorsDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M214.323 156.953C232.331 115.922 224.79 66.398 191.196 32.805C169.327 10.934 140.663 0 112 0S54.674 10.934 32.805 32.805C-10.935 76.543 -10.935 147.457 32.805 191.195C54.674 213.066 83.338 224 112 224C121.874 224 131.637 222.219 141.233 219.625L177.608 256L245.489 188.117L214.323 156.953ZM112 160C85.456 160 64 138.516 64 112C64 85.453 85.487 64 112 64C138.545 64 160 85.484 160 112C160 138.547 138.514 160 112 160ZM507.315 449.941L313.372 256L245.489 323.883L394.176 472.57C425.418 503.813 476.073 503.813 507.315 472.57C513.563 466.32 513.563 456.188 507.315 449.941Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M507.315 39.43C476.073 8.187 425.418 8.187 394.176 39.43L141.233 292.375C131.637 289.781 121.874 288 112 288C83.338 288 54.674 298.934 32.805 320.805C-10.935 364.543 -10.935 435.457 32.805 479.195C54.674 501.066 83.338 512 112 512S169.327 501.066 191.196 479.195C224.79 445.602 232.331 396.078 214.323 355.047L507.315 62.059C513.563 55.812 513.563 45.68 507.315 39.43ZM112 448C85.487 448 64 426.547 64 400C64 373.484 85.456 352 112 352C138.514 352 160 373.453 160 400C160 426.516 138.545 448 112 448Z" })
+    ]
+  }
+));
+ScissorsDuotone.displayName = "ScissorsDuotone";
+var Scissors_default = ScissorsDuotone;

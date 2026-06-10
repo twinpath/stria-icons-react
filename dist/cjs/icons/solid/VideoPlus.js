@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var VideoPlus_exports = {};
+__export(VideoPlus_exports, {
+  default: () => VideoPlus_default
+});
+module.exports = __toCommonJS(VideoPlus_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const VideoPlusSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M336 64H48C21.49 64 0 85.492 0 112V400C0 426.508 21.49 448 48 448H336C362.51 448 384 426.508 384 400V112C384 85.492 362.51 64 336 64ZM272.002 279.998H215.998V336.002C215.998 349.262 205.258 360 192 360C178.734 360 168.002 349.258 168.002 336.002V279.998H111.998C98.73 279.998 88 269.256 88 256C88 242.742 98.738 232.002 111.998 232.002H168.002V175.998C168.002 162.738 178.742 152 192 152S215.998 162.738 215.998 175.998V232.002H272.002C285.262 232.002 296 242.742 296 256S285.262 279.998 272.002 279.998ZM525.594 101.703L416 177.297V334.703L525.594 410.203C546.812 424.797 576 409.906 576 384.406V127.5C576 102.094 546.906 87.094 525.594 101.703Z" })
+  }
+));
+VideoPlusSolid.displayName = "VideoPlusSolid";
+var VideoPlus_default = VideoPlusSolid;

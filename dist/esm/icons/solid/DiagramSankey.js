@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DiagramSankeySolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M404 160L347 256H592C601 256 608 263 608 272V304C608 313 601 320 592 320H277L315 384H576C594 384 608 398 608 416V448C608 466 594 480 576 480H297C275 480 254 468 242 449L165 320H64C46 320 32 306 32 288V224C32 206 46 192 64 192H236L313 63C325 44 346 32 368 32H576C594 32 608 46 608 64V128C608 146 594 160 576 160H404Z" })
+  }
+));
+DiagramSankeySolid.displayName = "DiagramSankeySolid";
+var DiagramSankey_default = DiagramSankeySolid;
+export {
+  DiagramSankey_default as default
+};

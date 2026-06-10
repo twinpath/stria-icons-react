@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var MicrophoneSlash_exports = {};
+__export(MicrophoneSlash_exports, {
+  default: () => MicrophoneSlash_default
+});
+module.exports = __toCommonJS(MicrophoneSlash_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MicrophoneSlashLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M480 256V208C480 199.199 472.801 192 464 192C455.2 192 448 199.199 448 208V256C448 262.172 446.953 268.059 446.106 273.998L474.227 296.197C477.612 283.279 480 269.971 480 256ZM256.001 96C256.001 60.75 284.751 32 320.001 32S384 60.75 384 96V224.965L416 250.229V96C416 43 373 0 320.001 0S224.001 43 224.001 96V98.646L256.001 123.91V96ZM633.924 483.436L25.921 3.42C18.983 -2.033 8.921 -0.83 3.437 6.061C-2.032 12.998 -0.845 23.061 6.077 28.545L614.08 508.562C617.018 510.875 620.518 512 623.986 512C628.721 512 633.408 509.906 636.564 505.922C642.033 498.984 640.846 488.92 633.924 483.436ZM400 480H336.001V415C357.213 412.865 377.088 406.393 395.055 396.799L367.071 374.705C349.915 381.547 331.088 385.049 311.251 383.75C243.251 379.125 192.001 319.625 192.001 251.5V236.486L160.001 211.223V250.375C160.001 333.75 221.626 406.5 304.001 414.75V480H240.001C231.2 480 224.001 487.199 224.001 496C224.001 504.799 231.2 512 240.001 512H400C408.801 512 416 504.799 416 496C416 487.199 408.801 480 400 480Z" })
+  }
+));
+MicrophoneSlashLight.displayName = "MicrophoneSlashLight";
+var MicrophoneSlash_default = MicrophoneSlashLight;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var CalendarClock_exports = {};
+__export(CalendarClock_exports, {
+  default: () => CalendarClock_default
+});
+module.exports = __toCommonJS(CalendarClock_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CalendarClockThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M488 368H432V296C432 291.594 428.422 288 424 288S416 291.594 416 296V376C416 380.406 419.578 384 424 384H488C492.422 384 496 380.406 496 376S492.422 368 488 368ZM432 224C352.471 224 288 288.471 288 368S352.471 512 432 512S576 447.529 576 368S511.529 224 432 224ZM432 496C361.422 496 304 438.58 304 368S361.422 240 432 240C502.58 240 560 297.42 560 368S502.58 496 432 496ZM16 464V208H280C284.418 208 288 204.418 288 200V200C288 195.582 284.418 192 280 192H16V112C16 94.327 30.327 80 48 80H112V128C112 132.422 115.594 136 120 136S128 132.422 128 128V80H320V128C320 132.422 323.594 136 328 136S336 132.422 336 128V80H400C417.673 80 432 94.327 432 112V152C432 156.418 435.582 160 440 160L440 160C444.418 160 448 156.418 448 152V112C448 85.49 426.51 64 400 64H336V8C336 3.578 332.406 0 328 0S320 3.578 320 8V64H128V8C128 3.578 124.406 0 120 0S112 3.578 112 8V64H48C21.49 64 0 85.49 0 112V464C0 490.51 21.49 512 48 512H280C284.418 512 288 508.418 288 504L288 504C288 499.582 284.418 496 280 496H48C30.327 496 16 481.673 16 464Z" })
+  }
+));
+CalendarClockThin.displayName = "CalendarClockThin";
+var CalendarClock_default = CalendarClockThin;

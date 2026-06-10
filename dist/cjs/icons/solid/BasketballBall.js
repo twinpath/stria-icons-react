@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BasketballBall_exports = {};
+__export(BasketballBall_exports, {
+  default: () => BasketballBall_default
+});
+module.exports = __toCommonJS(BasketballBall_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BasketballBallSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M230.647 17.364C238.983 16.488 247.431 16.001 255.999 16.001C316.511 15.999 371.636 38.567 413.851 75.521L255.999 233.373L186.971 164.344C215.289 130.885 233.04 88.203 233.04 41.04C233.04 32.933 231.626 25.21 230.647 17.364ZM278.627 256L347.655 325.029C381.114 296.71 423.796 278.959 470.96 278.959C479.067 278.959 486.79 280.373 494.635 281.352C495.511 273.016 495.998 264.568 495.998 256C496 195.489 473.432 140.363 436.479 98.148L278.627 256ZM347.637 370.265C325.066 397.852 310.955 432.614 310.955 470.96C310.955 477.126 312.093 482.976 312.775 488.961C350.844 479.71 385.307 461.466 413.851 436.479L347.637 370.265ZM436.479 413.852C461.465 385.308 479.712 350.845 488.962 312.777C482.976 312.095 477.125 310.955 470.96 310.955C432.613 310.955 397.851 325.067 370.265 347.638L436.479 413.852ZM75.52 98.148C50.534 126.692 32.29 161.155 23.038 199.224C29.023 199.907 34.874 201.045 41.039 201.045C79.385 201.045 114.147 186.933 141.734 164.362L75.52 98.148ZM278.958 470.96C278.958 423.797 296.709 381.115 325.028 347.656L255.999 278.627L98.147 436.479C140.362 473.433 195.488 496.001 255.999 495.999C264.567 495.999 273.015 495.512 281.351 494.636C280.371 486.789 278.958 479.067 278.958 470.96ZM233.372 256L164.343 186.971C130.884 215.29 88.202 233.041 41.039 233.041C32.932 233.041 25.21 231.628 17.363 230.648C16.488 238.984 16 247.432 16 256C15.999 316.512 38.567 371.637 75.52 413.852L233.372 256ZM199.222 23.037C161.154 32.288 126.691 50.534 98.147 75.521L164.361 141.735C186.932 114.148 201.044 79.386 201.044 41.04C201.044 34.874 199.904 29.023 199.222 23.037Z" })
+  }
+));
+BasketballBallSolid.displayName = "BasketballBallSolid";
+var BasketballBall_default = BasketballBallSolid;

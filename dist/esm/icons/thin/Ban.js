@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BanThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M256 16C123.453 16 16 123.451 16 256S123.453 496 256 496S496 388.549 496 256S388.547 16 256 16ZM32 256C32 197.117 55.016 143.631 92.297 103.607L408.391 419.705C368.367 456.988 314.883 480 256 480C132.484 480 32 379.514 32 256ZM419.703 408.393L103.609 92.295C143.633 55.012 197.117 32 256 32C379.516 32 480 132.486 480 256C480 314.883 456.984 368.369 419.703 408.393Z" })
+  }
+));
+BanThin.displayName = "BanThin";
+var Ban_default = BanThin;
+export {
+  Ban_default as default
+};

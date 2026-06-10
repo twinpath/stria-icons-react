@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const TengeSignSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M40 112H344C366.094 112 384 94.094 384 72S366.094 32 344 32H40C17.906 32 0 49.906 0 72S17.906 112 40 112ZM344 160H40C17.906 160 0 177.906 0 200S17.906 240 40 240H152V440C152 462.094 169.906 480 192 480S232 462.094 232 440V240H344C366.094 240 384 222.094 384 200S366.094 160 344 160Z" })
+  }
+));
+TengeSignSolid.displayName = "TengeSignSolid";
+var TengeSign_default = TengeSignSolid;
+export {
+  TengeSign_default as default
+};

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const HoodCloakSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M288.25 192C217.626 192 160.252 249.25 160.252 320V512H416.248V320C416.248 249.25 358.999 192 288.25 192ZM569.62 460.875C511.996 383.875 511.996 320 511.996 320V256C511.996 172 465.622 133 410.873 73.25L450.622 33.5C462.997 21.125 454.247 0 436.747 0H287.625C192.002 0 64.004 109.5 64.004 256V320C64.004 320 64.004 383.875 6.38 460.875C1.88 466.75 -0.119 473.5 0.006 480C0.256 496.5 13.505 512 32.38 512H128.253V320C128.253 231.75 200.002 160 288.25 160S448.247 231.75 448.247 320V512H543.62C562.495 512 575.745 496.5 575.995 480C576.12 473.5 574.12 466.75 569.62 460.875Z" })
+  }
+));
+HoodCloakSolid.displayName = "HoodCloakSolid";
+var HoodCloak_default = HoodCloakSolid;
+export {
+  HoodCloak_default as default
+};

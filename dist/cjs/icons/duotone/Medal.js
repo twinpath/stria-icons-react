@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Medal_exports = {};
+__export(Medal_exports, {
+  default: () => Medal_default
+});
+module.exports = __toCommonJS(Medal_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MedalDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M136.277 0H16.027C3.081 0 -4.505 14.578 2.923 25.18L133.253 209.969C161.991 181.977 200.253 163.836 242.755 160.668L149.997 7.77C147.107 2.949 141.898 0 136.277 0ZM495.972 0H375.722C370.101 0 364.892 2.949 362.001 7.77L269.243 160.668C311.745 163.836 350.007 181.977 378.745 209.969L509.075 25.18C516.503 14.578 508.917 0 495.972 0Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 160C158.75 160 80 238.75 80 336S158.75 512 256 512S432 433.25 432 336S353.25 160 256 160ZM348.49 317.25L310.615 354.25L319.49 406.5C321.115 415.75 311.24 423 302.865 418.5L255.99 393.875L209.115 418.5C200.74 423 190.865 415.75 192.49 406.5L201.365 354.25L163.49 317.25C156.615 310.625 160.49 299 169.865 297.625L222.24 290L245.74 242.5C247.74 238.25 251.865 236.125 255.99 236.125S264.24 238.25 266.24 242.5L289.74 290L342.115 297.625C351.615 299 355.365 310.625 348.49 317.25Z" })
+    ]
+  }
+));
+MedalDuotone.displayName = "MedalDuotone";
+var Medal_default = MedalDuotone;

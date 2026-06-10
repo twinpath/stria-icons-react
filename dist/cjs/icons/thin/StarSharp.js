@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var StarSharp_exports = {};
+__export(StarSharp_exports, {
+  default: () => StarSharp_default
+});
+module.exports = __toCommonJS(StarSharp_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const StarSharpThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M553.966 193.656C550.481 182.906 540.919 175.969 529.622 175.969H363.372L311.997 17.719C308.497 6.969 298.934 0 287.638 0S266.778 6.969 263.278 17.719L211.903 175.969H45.653C34.356 175.969 24.794 182.906 21.309 193.656C17.809 204.406 21.466 215.656 30.606 222.312L165.106 320.125L113.731 478.375C111.153 486.312 112.434 494.625 117.247 501.25C125.309 512.312 141.637 515.281 153.138 507.031L287.638 409.219L422.169 507.062C426.653 510.281 431.841 512 437.138 512C445.325 512 453.138 507.969 458.028 501.25C462.841 494.625 464.122 486.312 461.544 478.375L410.169 320.125L544.669 222.312C553.809 215.656 557.466 204.406 553.966 193.656ZM535.263 209.375L391.356 314L446.325 483.313C449.333 492.598 438.742 499.278 431.544 494.094L287.638 389.406L143.763 494.062C136.447 499.342 125.974 492.498 128.95 483.312L183.919 314L40.013 209.375C32.459 203.89 36.361 191.969 45.653 191.969H223.528L278.497 22.656C281.366 13.78 293.904 13.764 296.778 22.656L351.747 191.969H529.622C538.918 191.969 542.811 203.893 535.263 209.375Z" })
+  }
+));
+StarSharpThin.displayName = "StarSharpThin";
+var StarSharp_default = StarSharpThin;

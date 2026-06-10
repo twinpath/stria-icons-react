@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const UserDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M352 128C352 198.691 294.695 256 224 256C153.312 256 96 198.691 96 128S153.312 0 224 0C294.695 0 352 57.309 352 128Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M274.664 304.001H173.336C77.609 304.001 0 381.602 0 477.333C0 496.477 15.523 512.001 34.664 512.001H413.336C432.477 512.001 448 496.477 448 477.333C448 381.602 370.398 304.001 274.664 304.001Z" })
+    ]
+  }
+));
+UserDuotone.displayName = "UserDuotone";
+var User_default = UserDuotone;
+export {
+  User_default as default
+};

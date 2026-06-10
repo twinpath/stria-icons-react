@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const CoffinSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M408.537 115.25L300.766 9.375C294.638 3.375 286.263 0 277.636 0H174.364C165.737 0 157.362 3.375 151.234 9.375L43.463 115.25C35.461 123.125 32.211 134.625 34.961 145.625L122.103 487.75C125.729 502 138.733 512 153.735 512H298.39C313.267 512 326.271 502 329.897 487.75L417.039 145.625C419.789 134.625 416.539 123.125 408.537 115.25Z" })
+  }
+));
+CoffinSolid.displayName = "CoffinSolid";
+var Coffin_default = CoffinSolid;
+export {
+  Coffin_default as default
+};

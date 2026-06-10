@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const TicketSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M128 352H448V160H128V352ZM576 208V112C576 85.5 554.5 64 528 64H48C21.5 64 0 85.5 0 112V208C26.5 208 48 229.5 48 256S26.5 304 0 304V400C0 426.5 21.5 448 48 448H528C554.5 448 576 426.5 576 400V304C549.5 304 528 282.5 528 256S549.5 208 576 208ZM480 360C480 373.25 469.25 384 456 384H120C106.75 384 96 373.25 96 360V152C96 138.75 106.75 128 120 128H456C469.25 128 480 138.75 480 152V360Z" })
+  }
+));
+TicketSolid.displayName = "TicketSolid";
+var Ticket_default = TicketSolid;
+export {
+  Ticket_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PumpSoap_exports = {};
+__export(PumpSoap_exports, {
+  default: () => PumpSoap_default
+});
+module.exports = __toCommonJS(PumpSoap_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PumpSoapRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M152.032 243.984C135.703 265.781 100 316.25 100 341.25C100 373.672 126.875 400 160 400S220 373.672 220 341.25C220 316.25 184.297 265.781 167.969 243.984C163.985 238.672 156.016 238.672 152.032 243.984ZM376.969 103.031L320.969 47.031C316.469 42.531 310.36 40 304 40H240V32C240 14.326 225.674 0 208 0H112C94.328 0 80 14.326 80 32V128.414C48.897 130.551 23.494 154.727 20.631 186.205L0.268 442.205C-3.138 479.686 26.371 512 64.006 512H255.994C293.629 512 323.139 479.686 319.733 442.205L299.369 186.205C296.506 154.727 271.104 130.551 240 128.414V88H294.063L343.032 136.969C347.719 141.656 353.86 144 360 144S372.282 141.656 376.969 136.969C386.344 127.594 386.344 112.406 376.969 103.031ZM128 48H192V128H128V48ZM251.52 190.012L271.93 446.551C272.727 455.328 265.977 464 255.994 464H64.006C55.244 464 47.147 456.746 48.118 446.012L68.436 190.551C69.19 182.256 76.039 176 84.369 176H235.631C243.961 176 250.811 182.256 251.52 190.012Z" })
+  }
+));
+PumpSoapRegular.displayName = "PumpSoapRegular";
+var PumpSoap_default = PumpSoapRegular;

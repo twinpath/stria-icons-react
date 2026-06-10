@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Escalator_exports = {};
+__export(Escalator_exports, {
+  default: () => Escalator_default
+});
+module.exports = __toCommonJS(Escalator_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const EscalatorThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M173.27 299.559C175.006 298.039 176.002 295.844 176.002 293.537V226.359C176.002 192.926 200.639 163.398 233.928 160.285C257.121 158.115 277.85 168.525 290.633 185.348C293.469 189.078 298.787 189.742 302.314 186.654L302.377 186.602C305.594 183.787 305.988 178.969 303.396 175.57C287.494 154.707 261.73 141.813 232.918 144.307C191.199 147.918 160.002 184.49 160.002 226.365V293.537C160.002 300.41 168.098 304.084 173.27 299.559ZM560 128H448C428.625 128 409.906 135.031 395.312 147.797L161.938 352H80C35.812 352 0 387.812 0 432S35.812 512 80 512H192C211.375 512 230.094 504.969 244.688 492.203L478.062 288H560C604.188 288 640 252.188 640 208S604.188 128 560 128ZM560 272H472.051L467.527 275.959L234.154 480.16C222.477 490.375 207.506 496 192 496H80C44.711 496 16 467.289 16 432S44.711 368 80 368H167.949L172.475 364.041L405.848 159.84C417.525 149.625 432.494 144 448 144H560C595.291 144 624 172.711 624 208S595.291 272 560 272ZM240 112C270.947 111.883 296 86.863 296 56C296 25.133 270.947 0.115 240 0C209.055 0.115 184 25.133 184 56C184 86.863 209.055 111.883 240 112ZM240 16C262.062 16.115 280 34.047 280 56C280 77.973 262.029 95.916 240.061 96C217.971 95.916 200 77.973 200 56C200 34.047 217.939 16.115 240 16Z" })
+  }
+));
+EscalatorThin.displayName = "EscalatorThin";
+var Escalator_default = EscalatorThin;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Dryer_exports = {};
+__export(Dryer_exports, {
+  default: () => Dryer_default
+});
+module.exports = __toCommonJS(Dryer_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DryerThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M384 0H64C28.652 0 0 28.654 0 64V448C0 483.346 28.652 512 64 512H384C419.348 512 448 483.346 448 448V64C448 28.654 419.348 0 384 0ZM432 448C432 474.467 410.469 496 384 496H64C37.531 496 16 474.467 16 448V64C16 37.533 37.531 16 64 16H384C410.469 16 432 37.533 432 64V448ZM112 96C112 87.162 104.836 80 96 80S80 87.162 80 96C80 104.836 87.164 112 96 112S112 104.836 112 96ZM160 112C168.836 112 176 104.836 176 96C176 87.162 168.836 80 160 80S144 87.162 144 96C144 104.836 151.164 112 160 112ZM224 168C148.891 168 88 228.889 88 304S148.891 440 224 440S360 379.111 360 304S299.109 168 224 168ZM224 424C160.57 424 109.016 374.381 104.809 312H184C188.406 312 192 308.406 192 304S188.406 296 184 296H104.809C109.016 233.619 160.57 184 224 184C290.168 184 344 237.832 344 304S290.168 424 224 424Z" })
+  }
+));
+DryerThin.displayName = "DryerThin";
+var Dryer_default = DryerThin;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ToiletPaperBlankUnder_exports = {};
+__export(ToiletPaperBlankUnder_exports, {
+  default: () => ToiletPaperBlankUnder_default
+});
+module.exports = __toCommonJS(ToiletPaperBlankUnder_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ToiletPaperBlankUnderLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M399.996 112C372.619 112 351.992 146.406 351.992 192S372.619 272 399.996 272C427.371 272 447.998 237.594 447.998 192S427.371 112 399.996 112ZM399.996 240C390.869 240 383.994 219.355 383.994 192C383.994 164.643 390.869 144 399.996 144C409.121 144 415.996 164.643 415.996 192C415.996 219.355 409.121 240 399.996 240ZM512 192C512 85.961 461.855 0 400 0H112C50.145 0 0 85.961 0 192S50.145 384 112 384H400C431.357 384 459.67 361.848 480 326.246V464C480 472.812 472.812 480 464 480H144C135.188 480 128 472.812 128 464V432C128 423.156 120.844 416 112 416S96 423.156 96 432V464C96 490.469 117.531 512 144 512H464C490.469 512 512 490.469 512 464V224C512 221.949 511.537 220.021 510.836 218.221C511.521 209.625 512 200.918 512 192ZM112 352C74.162 352 32 286.291 32 192S74.162 32 112 32H338.141C307.934 66.389 288 125.18 288 192S307.934 317.611 338.141 352H112ZM400 352C362.162 352 320 286.291 320 192S362.162 32 400 32S480 97.709 480 192S437.838 352 400 352Z" })
+  }
+));
+ToiletPaperBlankUnderLight.displayName = "ToiletPaperBlankUnderLight";
+var ToiletPaperBlankUnder_default = ToiletPaperBlankUnderLight;

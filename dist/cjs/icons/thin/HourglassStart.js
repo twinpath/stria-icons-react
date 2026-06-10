@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HourglassStart_exports = {};
+__export(HourglassStart_exports, {
+  default: () => HourglassStart_default
+});
+module.exports = __toCommonJS(HourglassStart_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HourglassStartThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M352 77V56C352 51.594 348.422 48 344 48S336 51.594 336 56V77C336 105.469 326.438 133.344 309.062 155.438L233.719 251.188C231.422 254.094 231.422 258.156 233.719 261.063L309.062 356.844C326.438 378.938 336 406.781 336 435.25V456C336 460.406 339.578 464 344 464S352 460.406 352 456V435.25C352 403.219 341.219 371.875 321.625 346.969L250.172 256.125L321.625 165.312C341.219 140.406 352 109.062 352 77ZM32 435.25V456C32 460.406 35.578 464 40 464S48 460.406 48 456V435.25C48 406.781 57.562 378.938 74.938 356.844L150.281 261.062C152.578 258.156 152.578 254.094 150.281 251.187L74.938 155.438C57.562 133.344 48 105.469 48 77V56C48 51.594 44.422 48 40 48S32 51.594 32 56V77C32 109.062 42.781 140.406 62.375 165.312L133.828 256.125L62.375 346.969C42.781 371.875 32 403.219 32 435.25ZM376 496H8C3.578 496 0 499.594 0 504S3.578 512 8 512H376C380.422 512 384 508.406 384 504S380.422 496 376 496ZM8 16H376C380.422 16 384 12.406 384 8S380.422 0 376 0H8C3.578 0 0 3.594 0 8S3.578 16 8 16ZM288 48H96C91.578 48 88 51.594 88 56V77.344C88 92.781 93.109 108.125 102.391 120.562L185.594 231.469C187.109 233.469 189.484 234.656 192 234.656S196.891 233.469 198.406 231.469L281.609 120.531C290.891 108.125 296 92.781 296 77.344V56C296 51.594 292.422 48 288 48ZM280 77.344C280 89.375 276.016 101.312 268.797 110.938L192 213.312L115.203 110.969C107.984 101.312 104 89.375 104 77.344V64H280V77.344Z" })
+  }
+));
+HourglassStartThin.displayName = "HourglassStartThin";
+var HourglassStart_default = HourglassStartThin;

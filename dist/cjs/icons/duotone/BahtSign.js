@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BahtSign_exports = {};
+__export(BahtSign_exports, {
+  default: () => BahtSign_default
+});
+module.exports = __toCommonJS(BahtSign_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BahtSignDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M112 368H176V296H112V368ZM112 480C112 497.688 126.312 512 144 512S176 497.688 176 480V448H112V480ZM144 0C126.312 0 112 14.312 112 32V64H172C173.369 64 174.641 64.357 176 64.404V32C176 14.312 161.688 0 144 0ZM112 144V216H172C173.418 216 174.625 215.35 176 215.189V144.811C174.625 144.65 173.418 144 172 144H112Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M271.734 238.246C281.812 221.061 288 201.322 288 180C288 116.031 235.969 64 172 64H40C17.906 64 0 81.906 0 104V256V408C0 430.094 17.906 448 40 448H204C267.969 448 320 395.969 320 332C320 293.379 300.844 259.342 271.734 238.246ZM80 144H172C191.844 144 208 160.156 208 180S191.844 216 172 216H80V144ZM204 368H80V296H172H204C223.844 296 240 312.156 240 332S223.844 368 204 368Z" })
+    ]
+  }
+));
+BahtSignDuotone.displayName = "BahtSignDuotone";
+var BahtSign_default = BahtSignDuotone;

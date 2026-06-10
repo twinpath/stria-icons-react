@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var EnvelopeOpenText_exports = {};
+__export(EnvelopeOpenText_exports, {
+  default: () => EnvelopeOpenText_default
+});
+module.exports = __toCommonJS(EnvelopeOpenText_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const EnvelopeOpenTextSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 417.126C239.625 417.126 223.125 412.126 209.125 402.001L0 250.877V464C0 490.5 21.5 512 48 512H464C490.5 512 512 490.5 512 464V250.877L302.875 402.001C288.875 412.001 272.375 417.126 256 417.126ZM493.625 163.002C484.75 156.002 476.375 149.503 464 140.128V96.003C464 69.503 442.5 48.003 416 48.003H338.5C335.375 45.753 332.625 43.753 329.375 41.503C312.625 29.128 279.25 -0.371 256 0.004C232.75 -0.371 199.375 29.128 182.625 41.503C179.375 43.753 176.625 45.753 173.5 48.003H96C69.5 48.003 48 69.503 48 96.003V140.128C35.625 149.503 27.25 156.002 18.375 163.002C6.75 172.002 0 186.002 0 200.752V211.377L96 280.752V96.003H416V280.752L512 211.377V200.752C512 186.002 505.25 172.002 493.625 163.002ZM176 255.998H336C344.836 255.998 352 248.834 352 239.998C352 231.16 344.836 223.998 336 223.998H176C167.164 223.998 160 231.16 160 239.998C160 248.834 167.164 255.998 176 255.998ZM176 191.998H336C344.836 191.998 352 184.834 352 175.998C352 167.161 344.836 159.999 336 159.999H176C167.164 159.999 160 167.161 160 175.998C160 184.834 167.164 191.998 176 191.998Z" })
+  }
+));
+EnvelopeOpenTextSolid.displayName = "EnvelopeOpenTextSolid";
+var EnvelopeOpenText_default = EnvelopeOpenTextSolid;

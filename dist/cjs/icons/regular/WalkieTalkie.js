@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var WalkieTalkie_exports = {};
+__export(WalkieTalkie_exports, {
+  default: () => WalkieTalkie_default
+});
+module.exports = __toCommonJS(WalkieTalkie_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const WalkieTalkieRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M352 96H320V80C320 71.163 312.837 64 304 64H272C263.163 64 256 71.163 256 80V96H224V80C224 71.163 216.837 64 208 64H176C167.163 64 160 71.163 160 80V96H112V24C112 10.745 101.255 0 88 0H88C74.745 0 64 10.745 64 24V96H32C14.4 96 0 110.4 0 128V306.742C0 315.231 3.372 323.372 9.375 329.375L32 352V464C32 490.51 53.49 512 80 512H304C330.51 512 352 490.51 352 464V352L374.631 329.369C380.63 323.37 384 315.234 384 306.75V128C384 110.4 369.6 96 352 96ZM336 300.125L318 318L304 332.125V464H80V332.125L66 318L48 300.125V144H336V300.125ZM128 240H256C264.875 240 272 232.875 272 224V208C272 199.125 264.875 192 256 192H128C119.125 192 112 199.125 112 208V224C112 232.875 119.125 240 128 240ZM128 320H256C264.875 320 272 312.875 272 304V288C272 279.125 264.875 272 256 272H128C119.125 272 112 279.125 112 288V304C112 312.875 119.125 320 128 320Z" })
+  }
+));
+WalkieTalkieRegular.displayName = "WalkieTalkieRegular";
+var WalkieTalkie_default = WalkieTalkieRegular;

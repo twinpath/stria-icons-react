@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var DialMed_exports = {};
+__export(DialMed_exports, {
+  default: () => DialMed_default
+});
+module.exports = __toCommonJS(DialMed_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DialMedDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M84.352 446.395C71.855 458.891 71.855 479.152 84.352 491.65C96.848 504.146 117.109 504.146 129.607 491.65C142.104 479.152 142.104 458.891 129.607 446.395C117.109 433.898 96.848 433.898 84.352 446.395ZM84.352 84.355C71.855 96.852 71.855 117.113 84.352 129.609C96.848 142.107 117.109 142.107 129.607 129.609C142.104 117.113 142.104 96.852 129.607 84.355C117.109 71.857 96.848 71.857 84.352 84.355ZM32 256.002C14.326 256.002 0 270.328 0 288.002C0 305.674 14.326 320.002 32 320.002S64 305.674 64 288.002C64 270.328 49.674 256.002 32 256.002ZM446.391 84.355C433.895 96.852 433.895 117.113 446.391 129.609C458.889 142.107 479.15 142.107 491.646 129.609C504.143 117.113 504.143 96.852 491.646 84.355C479.15 71.857 458.889 71.857 446.391 84.355ZM288 0.002C270.326 0.002 256 14.328 256 32.002C256 49.674 270.326 64.002 288 64.002C305.672 64.002 320 49.674 320 32.002C320 14.328 305.672 0.002 288 0.002ZM544 256.002C526.326 256.002 512 270.33 512 288.002C512 305.676 526.326 320.002 544 320.002S576 305.676 576 288.002C576 270.33 561.674 256.002 544 256.002ZM446.391 446.395C433.895 458.891 433.895 479.152 446.391 491.65C458.889 504.146 479.15 504.146 491.646 491.65C504.143 479.152 504.143 458.891 491.646 446.395S458.889 433.898 446.391 446.395Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M448.002 288C448.002 376.365 376.367 448 288.002 448C199.635 448 128 376.365 128 288C128 205.115 191.26 137.75 272.002 129.613V288C272.002 296.844 279.158 304 288.002 304S304.002 296.844 304.002 288V129.613C384.742 137.75 448.002 205.115 448.002 288Z" })
+    ]
+  }
+));
+DialMedDuotone.displayName = "DialMedDuotone";
+var DialMed_default = DialMedDuotone;

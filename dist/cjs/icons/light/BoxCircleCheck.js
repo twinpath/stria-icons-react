@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BoxCircleCheck_exports = {};
+__export(BoxCircleCheck_exports, {
+  default: () => BoxCircleCheck_default
+});
+module.exports = __toCommonJS(BoxCircleCheck_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BoxCircleCheckLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M432.002 224C352.463 224 288 288.463 288 368S352.463 512 432.002 512C511.537 512 576 447.537 576 368S511.537 224 432.002 224ZM432.002 480C370.244 480 320 429.758 320 368S370.244 256 432.002 256C493.758 256 544 306.242 544 368S493.758 480 432.002 480ZM476.688 319.359L413.344 382.703L387.312 356.688C381.062 350.438 370.937 350.438 364.688 356.688S358.438 373.063 364.688 379.312L402.031 416.641C405.156 419.766 409.25 421.328 413.344 421.328S421.531 419.766 424.656 416.641L499.312 341.984C505.562 335.734 505.562 325.609 499.312 319.359S482.938 313.109 476.688 319.359ZM256 448H64C46.326 448 32 433.672 32 416V192H439.535C444.211 192 448 188.209 448 183.535C448 176.092 446.268 168.75 442.938 162.094L391.156 58.547C383.02 42.277 366.391 32 348.199 32H99.781C81.596 32 64.973 42.273 56.84 58.539L5.066 162.086C1.734 168.75 0 176.098 0 183.547V416C0 451.346 28.654 480 64 480H256C264.836 480 272 472.836 272 464C272 455.162 264.836 448 256 448ZM240 64H348.219C354.344 64 359.812 67.375 362.531 72.844L406.109 160H240V64ZM85.469 72.828C88.188 67.375 93.656 64 99.781 64H208V160H41.889L85.469 72.828Z" })
+  }
+));
+BoxCircleCheckLight.displayName = "BoxCircleCheckLight";
+var BoxCircleCheck_default = BoxCircleCheckLight;

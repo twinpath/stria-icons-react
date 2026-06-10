@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Motorcycle_exports = {};
+__export(Motorcycle_exports, {
+  default: () => Motorcycle_default
+});
+module.exports = __toCommonJS(Motorcycle_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MotorcycleSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M96 352C96 369.674 110.326 384 128 384S160 369.674 160 352S145.674 320 128 320S96 334.326 96 352ZM198.066 336H254.387C246.432 272.945 193.213 224 128 224C57.309 224 0 281.307 0 352S57.309 480 128 480C193.213 480 246.432 431.055 254.387 368H198.066C190.75 400 162.184 424 128 424C88.299 424 56 391.701 56 352S88.299 280 128 280C162.184 280 190.75 304 198.066 336ZM512 224C498.535 224 485.809 226.652 473.619 230.506L418.209 128H480C497.674 128 512 113.674 512 96V64C512 46.326 497.674 32 480 32H459.586C452.1 32 444.85 34.625 439.1 39.416L391.684 78.93L373.125 44.594C368.932 36.836 360.822 32 352.002 32H272C263.164 32 256 39.164 256 48V64C256 72.836 263.164 80 272 80H337.688L354.057 110.285L256 192H233.938L211.719 169.781C195.211 153.273 172.822 144 149.477 144H48C39.164 144 32 151.164 32 160V176C32 184.836 39.164 192 48 192H128C216.365 192 288 263.635 288 352C288 362.961 286.875 373.658 284.775 384H355.225C353.125 373.658 352 362.961 352 352C352 299.836 377.344 254.074 416.061 224.996L431.377 253.332C402.689 276.805 384 312.041 384 352C384 422.693 441.307 480 512 480S640 422.693 640 352S582.693 224 512 224ZM512 424C472.299 424 440 391.701 440 352C440 333.482 447.223 316.744 458.75 303.973L483.27 349.338C487.471 357.107 497.174 360.006 504.947 355.809L519.039 348.199C526.818 344 529.717 334.287 525.514 326.512L500.975 281.115C504.596 280.553 508.225 280 512 280C551.701 280 584 312.299 584 352S551.701 424 512 424Z" })
+  }
+));
+MotorcycleSolid.displayName = "MotorcycleSolid";
+var Motorcycle_default = MotorcycleSolid;

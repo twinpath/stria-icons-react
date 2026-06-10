@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ShieldSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M466.5 83.68L274.5 3.672C269.625 1.641 261.344 0 256.062 0C250.75 0 242.5 1.641 237.594 3.672L45.594 83.68C27.688 91.07 16 108.574 16 127.98C16 385.158 205.163 512 255.953 512C307.952 512 496 383.814 496 127.98C496 108.574 484.312 91.07 466.5 83.68ZM256 446.496V65.508C256.006 65.484 256.047 65.316 256.047 65.316L431.881 138.586C427.777 319.703 319.023 417.07 256 446.496Z " })
+  }
+));
+ShieldSolid.displayName = "ShieldSolid";
+var Shield_default = ShieldSolid;
+export {
+  Shield_default as default
+};

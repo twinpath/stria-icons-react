@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DisplayRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M512 0H64C28.654 0 0 28.654 0 64V352C0 387.346 28.654 416 64 416H212.328L202.729 464H152C138.75 464 128 474.75 128 488S138.75 512 152 512H424C437.25 512 448 501.25 448 488S437.25 464 424 464H373.271L363.672 416H512C547.346 416 576 387.346 576 352V64C576 28.654 547.346 0 512 0ZM324.328 464H251.672L261.271 416H314.729L324.328 464ZM528 352C528 360.822 520.822 368 512 368H64C55.178 368 48 360.822 48 352V64C48 55.178 55.178 48 64 48H512C520.822 48 528 55.178 528 64V352Z" })
+  }
+));
+DisplayRegular.displayName = "DisplayRegular";
+var Display_default = DisplayRegular;
+export {
+  Display_default as default
+};

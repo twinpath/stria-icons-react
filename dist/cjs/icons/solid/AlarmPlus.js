@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var AlarmPlus_exports = {};
+__export(AlarmPlus_exports, {
+  default: () => AlarmPlus_default
+});
+module.exports = __toCommonJS(AlarmPlus_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const AlarmPlusSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M96 0C43 0 0 42.992 0 95.988C0.125 114.234 5.375 131.984 15.25 147.234L161.25 25.621C143.5 9.125 120.25 0 96 0ZM416 0C391.75 0 368.5 9.125 350.875 25.621L496.75 147.234C506.625 131.984 511.875 114.234 512 95.988C512 42.992 469 0 416 0ZM435.25 421.949C464.375 383.328 480 336.336 480 287.965C480 165.015 383.584 63.993 256 63.993C132.25 63.993 32 164.227 32 287.965C32 336.336 47.75 383.328 76.75 421.949L41.333 457.459C35.111 463.699 32 471.869 32 480.039C32 488.195 35.101 496.352 41.304 502.59L41.305 502.59C47.543 508.863 55.771 512 64 512C72.214 512 80.429 508.874 86.665 502.62L122 467.195C161.687 497.066 208.844 512.002 256 512.002S350.312 497.066 390 467.195L425.444 502.666C431.687 508.888 439.859 512 448.032 512C456.192 512 464.353 508.897 470.594 502.691L470.594 502.691C476.864 496.455 480 488.231 480 480.007C480 471.795 476.874 463.583 470.62 457.35L435.25 421.949ZM344.002 312H280V376C280 389.195 269.199 400 256.002 400C242.801 400 232 389.195 232 376V312H168.002C154.801 312 144 301.195 144 288C144 274.797 154.801 264 168.002 264H232V200C232 186.797 242.801 176 256.002 176C269.199 176 280 186.797 280 200V264H344.002C357.199 264 368 274.797 368 288C368 301.195 357.199 312 344.002 312Z " })
+  }
+));
+AlarmPlusSolid.displayName = "AlarmPlusSolid";
+var AlarmPlus_default = AlarmPlusSolid;

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const GenderlessLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M192 112C271.402 112 336 176.598 336 256S271.402 400 192 400S48 335.402 48 256S112.598 112 192 112M192 80C94.799 80 16 158.799 16 256S94.799 432 192 432S368 353.201 368 256S289.201 80 192 80L192 80Z" })
+  }
+));
+GenderlessLight.displayName = "GenderlessLight";
+var Genderless_default = GenderlessLight;
+export {
+  Genderless_default as default
+};

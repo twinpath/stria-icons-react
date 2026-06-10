@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BackwardFastRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M479.787 64C472.787 64 465.645 66.307 459.5 71.406L288 227.879V96.027C288 76.809 272.289 64 255.787 64C248.787 64 241.645 66.307 235.5 71.406L64 227.879V88.031C64 74.777 53.256 64.031 40 64.031H39.998C26.744 64.031 16 74.775 16 88.029V423.967C16 437.223 26.746 447.967 40 447.967C53.256 447.967 64 437.223 64 423.967V285.244L235.5 440.594C241.645 445.693 248.785 448 255.787 448C272.287 448 288 435.189 288 415.973V285.244L459.5 440.594C465.645 445.693 472.785 448 479.787 448C496.287 448 512 435.189 512 415.973V96.027C512 76.809 496.289 64 479.787 64ZM240 379.904L103.807 256.537L240 132.277V379.904ZM464 379.904L327.807 256.537L464 132.277V379.904Z" })
+  }
+));
+BackwardFastRegular.displayName = "BackwardFastRegular";
+var BackwardFast_default = BackwardFastRegular;
+export {
+  BackwardFast_default as default
+};

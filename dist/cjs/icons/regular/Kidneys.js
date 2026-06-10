@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Kidneys_exports = {};
+__export(Kidneys_exports, {
+  default: () => Kidneys_default
+});
+module.exports = __toCommonJS(Kidneys_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const KidneysRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M273.006 216.357L234.26 195.982C237.133 192.607 240.133 189.732 242.633 187.482C283.156 152.654 298.402 82.664 249.765 32.381C207.232 -11.592 133.963 -9.725 88.824 31.57C12.773 101.145 -17.44 201.002 9.908 294.359C34.279 378.111 102.023 382.736 119.521 382.736C141.769 382.736 190.138 374.486 217.137 326.236C231.01 301.484 234.26 272.984 226.635 245.984L251.508 259.234C254.258 260.734 256.006 263.359 256.006 266.484V488.002C256.006 501.256 266.75 512 280.004 512S304.002 501.256 304.002 488.002V266.484C304.002 245.109 292.129 225.982 273.006 216.357ZM211.387 151.107C200.012 160.857 161.517 193.482 180.39 258.609C191.888 297.734 161.767 325.611 136.894 332.361C103.398 341.486 68.027 321.984 58.902 290.734C31.656 196.982 62.402 117.48 126.644 62.105C154.017 38.604 194.013 42.854 216.387 66.98C239.008 91.48 237.008 128.98 211.387 151.107ZM551.207 31.6C506.051 -9.725 432.738 -11.594 390.199 32.418C341.601 82.699 356.98 152.662 397.367 187.482C400.367 190.107 403.117 192.982 405.74 195.982L366.994 216.357C347.871 225.982 335.998 245.109 335.998 266.484V488.002C335.998 501.256 346.742 512 359.996 512S383.994 501.256 383.994 488.002V266.484C383.994 263.359 385.742 260.734 388.492 259.234L413.365 245.984C405.74 272.984 408.99 301.484 422.863 326.236C449.861 374.486 498.23 382.736 520.478 382.736C537.976 382.736 605.721 378.111 630.092 294.359C657.435 201.016 627.234 101.172 551.207 31.6ZM581.097 290.734C571.972 321.984 536.601 341.486 503.105 332.361C478.232 325.611 448.111 297.734 459.609 258.609C478.482 193.482 439.988 160.857 428.613 151.107C402.992 128.98 400.992 91.48 423.613 66.98C445.986 42.854 485.982 38.604 513.355 62.105C577.597 117.48 608.344 196.982 581.097 290.734Z" })
+  }
+));
+KidneysRegular.displayName = "KidneysRegular";
+var Kidneys_default = KidneysRegular;

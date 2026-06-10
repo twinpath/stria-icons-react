@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HandLove_exports = {};
+__export(HandLove_exports, {
+  default: () => HandLove_default
+});
+module.exports = __toCommonJS(HandLove_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HandLoveDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M448 64C430.312 64 416 78.328 416 96V320C416 355.344 387.344 384 352 384C332.775 384 315.732 375.346 304 361.926C292.268 375.346 275.225 384 256 384C220.656 384 192 355.344 192 320V32C192 14.328 177.688 0 160 0S128 14.328 128 32V336C128 338.646 128.279 341.223 128.396 343.842L68.281 283.719C60.469 275.906 50.234 272 40 272C17.198 272 0 290.642 0 311.994C0 322.23 3.906 332.469 11.719 340.281L134.219 462.797C165.938 494.531 208.125 512 253.031 512H304C401.031 512 480 433.047 480 336V96C480 78.328 465.688 64 448 64Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M352 224C334.312 224 320 238.328 320 256V320C320 337.672 334.312 352 352 352S384 337.672 384 320V256C384 238.328 369.688 224 352 224ZM256 192C238.312 192 224 206.328 224 224V320C224 337.672 238.312 352 256 352S288 337.672 288 320V224C288 206.328 273.688 192 256 192Z" })
+    ]
+  }
+));
+HandLoveDuotone.displayName = "HandLoveDuotone";
+var HandLove_default = HandLoveDuotone;

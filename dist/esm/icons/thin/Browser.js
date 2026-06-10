@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BrowserThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M464 32H48C21.49 32 0 53.49 0 80V432C0 458.51 21.49 480 48 480H464C490.51 480 512 458.51 512 432V80C512 53.49 490.51 32 464 32ZM16 80C16 62.355 30.355 48 48 48H88V128H16V80ZM496 432C496 449.645 481.645 464 464 464H48C30.355 464 16 449.645 16 432V144H496V432ZM496 128H104V48H464C481.645 48 496 62.355 496 80V128Z" })
+  }
+));
+BrowserThin.displayName = "BrowserThin";
+var Browser_default = BrowserThin;
+export {
+  Browser_default as default
+};

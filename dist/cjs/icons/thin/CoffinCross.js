@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var CoffinCross_exports = {};
+__export(CoffinCross_exports, {
+  default: () => CoffinCross_default
+});
+module.exports = __toCommonJS(CoffinCross_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CoffinCrossThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M374.537 115.25L266.766 9.375C260.639 3.375 252.264 0 243.637 0H140.363C131.736 0 123.361 3.375 117.234 9.375L9.463 115.25C1.461 123.125 -1.789 134.625 0.961 145.625L88.103 487.75C91.728 502 104.732 512 119.736 512H264.389C279.268 512 292.271 502 295.896 487.75L383.039 145.625C385.789 134.625 382.539 123.125 374.537 115.25ZM280.391 483.805C278.564 490.984 271.984 496 264.389 496H119.736C112.068 496 105.436 490.984 103.607 483.801L16.482 141.744C15.107 136.24 16.678 130.598 20.676 126.664L128.43 20.807C131.549 17.752 135.898 16 140.363 16H243.637C248.102 16 252.451 17.752 255.553 20.789L363.314 126.654C367.322 130.598 368.893 136.24 367.533 141.676L280.391 483.805ZM280 184H200V104C200 99.578 196.406 96 192 96S184 99.578 184 104V184H104C99.594 184 96 187.578 96 192S99.594 200 104 200H184V344C184 348.422 187.594 352 192 352S200 348.422 200 344V200H280C284.406 200 288 196.422 288 192S284.406 184 280 184Z" })
+  }
+));
+CoffinCrossThin.displayName = "CoffinCrossThin";
+var CoffinCross_default = CoffinCrossThin;

@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const LockOpenDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M576 150.406V208C576 216.836 568.836 224 560 224H528C519.164 224 512 216.836 512 208V148.719C512 106.883 481.988 68.68 440.371 64.43C392.523 59.539 352 97.113 352 144V224H288V144C288 59.852 360.541 -7.664 446.377 0.703C521.188 7.992 576 75.242 576 150.406Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M384 224C419.346 224 448 252.652 448 288V448C448 483.344 419.346 512 384 512H64C28.654 512 0 483.344 0 448V288C0 252.652 28.654 224 64 224H384Z" })
+    ]
+  }
+));
+LockOpenDuotone.displayName = "LockOpenDuotone";
+var LockOpen_default = LockOpenDuotone;
+export {
+  LockOpen_default as default
+};

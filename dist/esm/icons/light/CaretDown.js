@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const CaretDownLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M287.961 192H32.012C3.643 192 -10.729 226.5 9.392 246.625L137.366 374.625C149.864 387.125 170.11 387.125 182.607 374.625L310.581 246.625C330.702 226.5 316.455 192 287.961 192ZM159.987 352L32.012 224H287.961L159.987 352Z" })
+  }
+));
+CaretDownLight.displayName = "CaretDownLight";
+var CaretDown_default = CaretDownLight;
+export {
+  CaretDown_default as default
+};

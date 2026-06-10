@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var GasPumpSlash_exports = {};
+__export(GasPumpSlash_exports, {
+  default: () => GasPumpSlash_default
+});
+module.exports = __toCommonJS(GasPumpSlash_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const GasPumpSlashDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M400 447.996H384V397.645L96 171.92V447.996H80C71.25 447.996 64 455.246 64 463.996V495.995C64 504.745 71.25 511.995 80 511.995H400C408.75 511.995 416 504.745 416 495.995V463.996C416 455.246 408.75 447.996 400 447.996ZM160 63.999H320V191.998H277.234L384 275.677V63.999C384 28.75 355.25 0 320 0H160C129.203 0 103.375 21.949 97.344 51.003L160 100.112V63.999ZM557.25 107.249L476.25 26.25C470 20.125 459.75 20.125 453.625 26.25L442.25 37.625C436.125 43.75 436.125 54 442.25 60.249L480 97.874V159.999C480 188.123 500.875 211.248 528 215.248V375.996C528 379.801 526.93 383.27 525.352 386.465L563.406 416.293C571.242 404.762 576 390.973 576 375.996V152.624C576 135.624 569.25 119.249 557.25 107.249Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M615.984 512C610.796 512 605.593 510.344 601.187 506.875L9.187 42.879C-1.235 34.723 -3.063 19.63 5.109 9.192C13.296 -1.214 28.343 -3.089 38.812 5.13L630.812 469.125C641.234 477.282 643.062 492.375 634.89 502.813C630.156 508.844 623.109 512 615.984 512Z" })
+    ]
+  }
+));
+GasPumpSlashDuotone.displayName = "GasPumpSlashDuotone";
+var GasPumpSlash_default = GasPumpSlashDuotone;

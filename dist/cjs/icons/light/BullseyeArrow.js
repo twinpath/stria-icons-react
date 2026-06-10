@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BullseyeArrow_exports = {};
+__export(BullseyeArrow_exports, {
+  default: () => BullseyeArrow_default
+});
+module.exports = __toCommonJS(BullseyeArrow_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BullseyeArrowLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M475.488 208.156C466.738 209.406 460.66 217.5 461.895 226.25C463.301 236.094 464.004 246.109 464.004 256C464.004 370.688 370.691 463.998 256.002 463.998C141.314 463.998 48 370.688 48 256S141.314 48.002 256.002 48.002C265.893 48.002 275.908 48.705 285.752 50.111C294.502 51.424 302.611 45.268 303.846 36.518S299.002 19.674 290.252 18.424C278.924 16.814 267.393 16.002 256.002 16.002C123.658 16.002 16 123.656 16 256S123.658 495.998 256.002 495.998C388.348 495.998 496.004 388.344 496.004 256C496.004 244.609 495.191 233.078 493.582 221.75C492.316 213 484.145 206.875 475.488 208.156ZM232.002 214.406C239.658 209.984 242.268 200.188 237.83 192.547C233.408 184.891 223.596 182.312 215.971 186.719C191.314 201 176.002 227.547 176.002 256C176.002 300.109 211.893 336 256.002 336C284.455 336 311.002 320.688 325.283 296.031C329.721 288.391 327.111 278.594 319.455 274.172C311.814 269.719 302.033 272.344 297.596 280C289.018 294.797 273.08 304 256.002 304C229.533 304 208.002 282.469 208.002 256C208.002 238.922 217.205 222.984 232.002 214.406ZM272.002 112C272.002 103.156 264.846 96 256.002 96C167.783 96 96.002 167.781 96.002 256S167.783 415.998 256.002 415.998S416.004 344.219 416.004 256C416.004 247.156 408.848 240 400.004 240S384.004 247.156 384.004 256C384.004 326.578 326.58 384 256.002 384S128.002 326.578 128.002 256S185.424 128 256.002 128C264.846 128 272.002 120.844 272.002 112ZM511.316 107.359C509.613 101.719 504.926 97.469 499.145 96.313L429.598 82.408L415.691 12.861C414.535 7.08 410.285 2.393 404.645 0.689C398.973 -1.029 392.879 0.518 388.691 4.689L324.689 68.689C320.908 72.471 319.268 77.893 320.314 83.143L334.635 154.742L244.689 244.688C238.439 250.938 238.439 261.063 244.689 267.313C250.936 273.559 261.061 273.566 267.314 267.313L357.262 177.367L428.863 191.688C429.91 191.891 430.957 192 432.004 192C436.207 192 440.285 190.344 443.316 187.312L507.316 123.312C511.488 119.141 513.02 113.016 511.316 107.359ZM353.379 85.268L390.176 48.455L398.637 90.744L361.83 127.549L353.379 85.268ZM426.738 158.625L384.455 150.174L421.262 113.367L463.551 121.828L426.738 158.625Z" })
+  }
+));
+BullseyeArrowLight.displayName = "BullseyeArrowLight";
+var BullseyeArrow_default = BullseyeArrowLight;

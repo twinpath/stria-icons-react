@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Cauldron_exports = {};
+__export(Cauldron_exports, {
+  default: () => Cauldron_default
+});
+module.exports = __toCommonJS(Cauldron_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CauldronThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M393.352 176H440C444.422 176 448 172.422 448 168S444.422 160 440 160H8C3.578 160 0 163.578 0 168S3.578 176 8 176H54.65C20.748 239.186 0 308.604 0 352C0 385.396 11.832 414.795 32.373 439.1C32.33 439.439 32 439.648 32 440V504C32 508.422 35.578 512 40 512S48 508.422 48 504V455.25C88.305 491.053 150.883 512 224 512S359.695 491.053 400 455.25V504C400 508.422 403.578 512 408 512S416 508.422 416 504V440C416 439.648 415.67 439.439 415.627 439.1C436.168 414.795 448 385.396 448 352C448 308.604 427.254 239.186 393.352 176ZM224 496C101.533 496 16 436.785 16 352C16 307.432 39.074 236.191 72.674 176H375.328C408.926 236.189 432 307.43 432 352C432 436.785 346.467 496 224 496ZM160 64C177.674 64 192 49.672 192 32C192 14.326 177.674 0 160 0S128 14.326 128 32C128 49.672 142.326 64 160 64ZM160 16C168.822 16 176 23.178 176 32S168.822 48 160 48S144 40.822 144 32S151.178 16 160 16ZM272 128C298.51 128 320 106.51 320 80S298.51 32 272 32S224 53.49 224 80S245.49 128 272 128ZM272 48C289.645 48 304 62.355 304 80S289.645 112 272 112S240 97.645 240 80S254.355 48 272 48Z" })
+  }
+));
+CauldronThin.displayName = "CauldronThin";
+var Cauldron_default = CauldronThin;

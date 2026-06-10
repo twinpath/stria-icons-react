@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HandshakeSimple_exports = {};
+__export(HandshakeSimple_exports, {
+  default: () => HandshakeSimple_default
+});
+module.exports = __toCommonJS(HandshakeSimple_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HandshakeSimpleDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M608.002 128.228H480.002C439.024 87.299 415.446 64.302 357.493 64.302C346.999 64.302 337.514 63.486 327.252 72.666L217.002 163.567C196.752 180.679 194.237 210.968 211.362 231.171C220.862 242.38 234.393 248.157 248.034 248.157C258.971 248.157 269.987 244.441 279.002 236.822L312.592 208.423H312.594L318.577 203.364L483.877 338.746C488.239 342.286 490.969 346.869 492.924 351.732H608.002C625.602 351.732 640.002 337.349 640.002 319.769V160.195C640.002 142.541 625.676 128.228 608.002 128.228Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M483.875 338.745C497.555 349.846 499.656 369.912 488.576 383.605L479 395.431C467.875 409.171 447.75 411.169 433.999 400.178L428.625 395.681L397.25 434.268C384.25 450.123 360.75 452.621 344.875 439.635L327 424.151L326.75 424.401C304.5 451.746 264.25 455.993 236.75 433.643L146.25 351.856H31.988C14.395 351.856 0 337.473 0 319.893V160.202C0 142.616 14.4 128.227 32 128.227H128L128.15 128.079C168.753 87.613 223.632 64.376 280.945 64L327.25 72.666L217 163.567C196.75 180.678 194.234 210.967 211.359 231.17C220.859 242.38 234.391 248.156 248.031 248.156C258.969 248.156 269.984 244.441 279 236.822L318.574 203.364L483.875 338.745Z" })
+    ]
+  }
+));
+HandshakeSimpleDuotone.displayName = "HandshakeSimpleDuotone";
+var HandshakeSimple_default = HandshakeSimpleDuotone;

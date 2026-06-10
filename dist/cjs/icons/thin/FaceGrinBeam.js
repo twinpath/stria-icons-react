@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FaceGrinBeam_exports = {};
+__export(FaceGrinBeam_exports, {
+  default: () => FaceGrinBeam_default
+});
+module.exports = __toCommonJS(FaceGrinBeam_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FaceGrinBeamThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 16C123.453 16 16 123.453 16 256S123.453 496 256 496S496 388.547 496 256S388.547 16 256 16ZM256 480C132.484 480 32 379.516 32 256S132.484 32 256 32S480 132.484 480 256S379.516 480 256 480ZM286.062 231.75C290.219 232.781 294.672 230.188 295.766 225.938C299.531 210.906 315.031 168 336 168S372.469 210.906 376.234 225.938C377.156 229.562 380.406 232 384 232C384.641 232 385.297 231.906 385.938 231.75C390.234 230.688 392.828 226.344 391.766 222.062C389.969 214.875 373.172 152 336 152S282.031 214.875 280.234 222.062C279.172 226.344 281.766 230.688 286.062 231.75ZM126.062 231.75C130.25 232.781 134.672 230.188 135.766 225.938C139.531 210.906 155.031 168 176 168S212.469 210.906 216.234 225.938C217.156 229.562 220.406 232 224 232C224.641 232 225.297 231.906 225.938 231.75C230.234 230.688 232.828 226.344 231.766 222.062C229.969 214.875 213.172 152 176 152S122.031 214.875 120.234 222.062C119.172 226.344 121.766 230.688 126.062 231.75ZM383.98 320.012C382.383 320.012 380.746 320.258 379.107 320.785C348.848 330.531 303.943 336.031 256.012 336.031S163.176 330.531 132.916 320.785C131.26 320.258 129.609 320.012 127.998 320.012C118.543 320.012 110.563 328.531 112.219 338.781C121.537 393.77 195.492 432.012 256.012 432.012S390.607 393.77 399.805 338.781C401.357 328.531 393.363 320.012 383.98 320.012ZM256.012 416.016C201.971 416.016 135.736 381.844 128.014 336.012C159.611 346.188 206.266 352.027 256.012 352.027C305.73 352.027 352.357 346.195 383.984 336.02L384.031 336.141C376.385 381.859 310.135 416.016 256.012 416.016Z" })
+  }
+));
+FaceGrinBeamThin.displayName = "FaceGrinBeamThin";
+var FaceGrinBeam_default = FaceGrinBeamThin;

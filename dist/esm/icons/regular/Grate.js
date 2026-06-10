@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const GrateRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 32H64C28.654 32 0 60.652 0 96V416C0 451.346 28.654 480 64 480H384C419.346 480 448 451.346 448 416V96C448 60.652 419.346 32 384 32ZM400 96V232H344V80H384C392.822 80 400 87.178 400 96ZM200 280V432H152V280H200ZM152 232V80H200V232H152ZM248 280H296V432H248V280ZM248 232V80H296V232H248ZM64 80H104V232H48V96C48 87.178 55.178 80 64 80ZM48 416V280H104V432H64C55.178 432 48 424.822 48 416ZM384 432H344V280H400V416C400 424.822 392.822 432 384 432Z" })
+  }
+));
+GrateRegular.displayName = "GrateRegular";
+var Grate_default = GrateRegular;
+export {
+  Grate_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var RotateLeft_exports = {};
+__export(RotateLeft_exports, {
+  default: () => RotateLeft_default
+});
+module.exports = __toCommonJS(RotateLeft_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const RotateLeftSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M62.07 39.961L97.883 75.795C141.668 37.262 197.147 16 255.989 16C320.086 16 380.37 40.969 425.684 86.312C471.03 131.625 496 191.906 496 256S471.03 380.375 425.684 425.688C380.37 471.031 320.086 496 255.989 496C211.848 496 169.517 484.158 132.637 461.977C106.328 446.153 102.872 409.111 124.581 387.402L124.581 387.402C139.725 372.259 163.415 368.379 181.745 379.453C203.924 392.851 229.404 400 255.989 400C294.46 400 330.618 385.031 357.806 357.812C385.026 330.625 399.996 294.469 399.996 256S385.026 181.375 357.806 154.188C330.618 126.969 294.46 112 255.989 112C222.818 112 191.742 123.715 166.276 144.23L200.026 178C217.034 195.018 204.981 224.104 180.921 224.104H35.175C24.585 224.104 16 215.519 16 204.929V59.036C16 34.992 45.074 22.954 62.07 39.961Z" })
+  }
+));
+RotateLeftSolid.displayName = "RotateLeftSolid";
+var RotateLeft_default = RotateLeftSolid;

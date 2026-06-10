@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var SolarPanel_exports = {};
+__export(SolarPanel_exports, {
+  default: () => SolarPanel_default
+});
+module.exports = __toCommonJS(SolarPanel_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const SolarPanelLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M432 480H335.828V432C335.828 423.156 328.672 416 319.828 416S303.828 423.156 303.828 432V480H208C199.156 480 192 487.156 192 496S199.156 512 208 512H432C440.843 512 448 504.844 448 496S440.843 480 432 480ZM639.08 309.479L594.818 53.479C589.482 22.619 561.785 0 529.328 0H110.672C78.217 0 50.517 22.619 45.181 53.479L0.92 309.479C-5.825 348.488 25.383 384 66.41 384H573.592C614.617 384 645.826 348.488 639.08 309.479ZM255.103 32H385.386L398.564 176.969H241.715L255.103 32ZM193.404 352H66.41C55.775 352 45.904 347.52 39.328 339.711C35.871 335.604 30.379 326.922 32.453 314.93L50.773 208.969H206.613L193.404 352ZM209.568 176.969H56.306L76.715 58.93C79.412 43.326 93.693 32 110.672 32H222.957L209.568 176.969ZM225.55 352L238.759 208.969H401.474L414.476 352H225.55ZM417.523 32H529.328C546.306 32 560.588 43.326 563.287 58.93L583.695 176.969H430.701L417.523 32ZM600.672 339.711C594.095 347.52 584.226 352 573.592 352H446.613L433.611 208.969H589.228L607.549 314.93C609.621 326.922 604.131 335.604 600.672 339.711Z" })
+  }
+));
+SolarPanelLight.displayName = "SolarPanelLight";
+var SolarPanel_default = SolarPanelLight;

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DiceThreeLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 32H64C28.625 32 0 60.625 0 96V416C0 451.375 28.625 480 64 480H384C419.375 480 448 451.375 448 416V96C448 60.625 419.375 32 384 32ZM416 416C416 433.625 401.625 448 384 448H64C46.375 448 32 433.625 32 416V96C32 78.375 46.375 64 64 64H384C401.625 64 416 78.375 416 96V416ZM128 136C114.75 136 104 146.75 104 160S114.75 184 128 184S152 173.25 152 160S141.25 136 128 136ZM224 232C210.75 232 200 242.75 200 256C200 269.25 210.75 280 224 280S248 269.25 248 256C248 242.75 237.25 232 224 232ZM320 328C306.75 328 296 338.75 296 352S306.75 376 320 376S344 365.25 344 352S333.25 328 320 328Z " })
+  }
+));
+DiceThreeLight.displayName = "DiceThreeLight";
+var DiceThree_default = DiceThreeLight;
+export {
+  DiceThree_default as default
+};

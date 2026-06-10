@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var SquareAmpersand_exports = {};
+__export(SquareAmpersand_exports, {
+  default: () => SquareAmpersand_default
+});
+module.exports = __toCommonJS(SquareAmpersand_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const SquareAmpersandLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M384 32H64C28.654 32 0 60.654 0 96V416C0 451.346 28.654 480 64 480H384C419.346 480 448 451.346 448 416V96C448 60.654 419.346 32 384 32ZM416 416C416 433.645 401.645 448 384 448H64C46.355 448 32 433.645 32 416V96C32 78.355 46.355 64 64 64H384C401.645 64 416 78.355 416 96V416ZM297.396 320.516L333.062 270.125C338.156 262.906 336.469 252.922 329.25 247.813C322.062 242.75 312.094 244.438 306.938 251.625L275.051 296.688L224.688 242.984L251.875 221.078C264.656 211.109 272 196.219 272 180.25C272 151.438 247.938 128 218.375 128H197.625C168.062 128 144 151.438 144 180.25C144 195.547 149.875 210.156 160.469 221.297L177.719 239.703L135.969 273.359C120.719 285.203 112 302.875 112 321.859C112 356.125 140.656 384 175.875 384H212.156C237.438 384 261.031 371.938 275.313 351.719L278.529 347.174L308.344 378.953C311.469 382.297 315.75 384 320 384C323.938 384 327.844 382.562 330.938 379.672C337.406 373.625 337.719 363.5 331.656 357.047L297.396 320.516ZM176 180.25C176 169.078 185.688 160 197.625 160H218.375C230.312 160 240 169.078 240 180.25C240 186.281 237.156 191.969 232 196L202.719 219.578L183.719 199.328C178.75 194.078 176 187.312 176 180.25ZM249.188 333.234C249.182 333.244 249.18 333.254 249.174 333.264C240.861 344.988 227.055 352 212.156 352H175.875C158.312 352 144 338.484 144 321.859C144 312.828 148.219 304.344 155.812 298.438L199.688 263.109L256.184 323.348L249.188 333.234Z" })
+  }
+));
+SquareAmpersandLight.displayName = "SquareAmpersandLight";
+var SquareAmpersand_default = SquareAmpersandLight;

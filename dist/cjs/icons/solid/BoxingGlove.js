@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BoxingGlove_exports = {};
+__export(BoxingGlove_exports, {
+  default: () => BoxingGlove_default
+});
+module.exports = __toCommonJS(BoxingGlove_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BoxingGloveSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M479.961 224C479.961 188.75 451.211 160 415.969 160H387.695C362.273 160 338.707 178.145 336.312 203.455C333.824 229.688 352.562 252.09 377.219 255.5C381.219 256.125 384.094 259.625 384.094 263.625V279.625C384.094 284.25 379.969 288.125 375.219 287.625C335.223 283.25 304.102 249.25 304.102 208.125C304.102 202.625 304.727 197.25 305.727 192.125H173.238C142.617 192.125 113.742 181.25 90.867 161.25C87.367 158.25 87.242 152.875 90.492 149.625L101.742 138.25C104.742 135.25 109.492 135.25 112.742 137.875C129.617 152.25 150.742 160.25 173.238 160.25H319.977V160.75C348.348 122.625 386.844 128.25 415.969 128.25V96C415.969 42.98 372.984 0 319.969 0H127.992C75.762 0 32.086 41.754 32 93.982C32 94.654 32.039 95.328 32.039 96H32V288C32 316.32 44.492 341.514 64 359.086V464C64 490.51 85.492 512 112 512H335.969C362.477 512 383.969 490.51 383.969 464V384L442.461 325.5C482.711 285.125 479.961 237.75 479.961 224ZM280.875 418.688C288.219 423.594 290.219 433.516 285.313 440.875C282.219 445.5 277.156 448 272 448C268.938 448 265.844 447.125 263.125 445.312L224 419.229L184.875 445.312C182.156 447.125 179.062 448 176 448C170.844 448 165.781 445.5 162.688 440.875C157.781 433.516 159.781 423.594 167.125 418.688L195.156 400L167.125 381.312C159.781 376.406 157.781 366.484 162.687 359.125C167.625 351.75 177.594 349.828 184.875 354.687L224 380.771L263.125 354.688C270.406 349.812 280.375 351.75 285.312 359.125C290.219 366.484 288.219 376.406 280.875 381.313L252.844 400L280.875 418.688Z" })
+  }
+));
+BoxingGloveSolid.displayName = "BoxingGloveSolid";
+var BoxingGlove_default = BoxingGloveSolid;

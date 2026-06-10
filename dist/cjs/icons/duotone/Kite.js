@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Kite_exports = {};
+__export(Kite_exports, {
+  default: () => Kite_default
+});
+module.exports = __toCommonJS(Kite_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const KiteDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M72 251.007L96 266.877L120 251.007V224.006C120 175.404 80.601 136.004 32 136.004H16C7.163 136.004 0 143.167 0 152.004V168.005C0 176.842 7.163 184.005 16 184.005H32C54.091 184.005 72 201.914 72 224.006V251.007ZM630.63 9.37L475.1 164.905L628.92 318.729C635.957 312.649 640.001 303.808 640 294.508V32.001C640.012 23.511 636.64 15.366 630.63 9.37ZM321.27 11.11C317.859 15.037 315.456 19.736 314.27 24.801L234.18 371.9L146.64 459.443C140.547 465.535 130.67 465.534 124.578 459.441C121.661 456.523 120.018 452.569 120.01 448.443V325.009L96 309.169L72 325.009V443.322C72 459.873 77 476.323 87.7 489.034C114.18 520.565 156.7 517.294 180.57 493.374L268.12 405.821L261.42 407.371C253.358 409.228 244.909 406.802 239.06 400.951L475 165.005L321.27 11.11Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M154.69 228.006L96 266.847L37.31 228.006C21.31 217.456 0 228.796 0 247.807V328.129C0 347.13 21.36 358.48 37.31 347.93L96 309.169L154.69 348.01C170.64 358.56 192 347.22 192 328.209V247.847C192 228.836 170.64 217.496 154.69 228.006V228.006ZM630.63 9.37C624.634 3.36 616.49 -0.012 608 0H345.5C336.194 0.014 327.353 4.068 321.27 11.11L475 165.005L239.06 400.951C244.909 406.802 253.358 409.228 261.42 407.371L615.2 325.709C620.278 324.537 624.99 322.133 628.92 318.709L475.1 164.905L630.63 9.37Z" })
+    ]
+  }
+));
+KiteDuotone.displayName = "KiteDuotone";
+var Kite_default = KiteDuotone;

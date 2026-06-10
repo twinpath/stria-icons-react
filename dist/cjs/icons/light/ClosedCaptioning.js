@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ClosedCaptioning_exports = {};
+__export(ClosedCaptioning_exports, {
+  default: () => ClosedCaptioning_default
+});
+module.exports = __toCommonJS(ClosedCaptioning_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ClosedCaptioningLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M248.939 210.748C255.189 216.998 265.314 216.998 271.564 210.748S277.814 194.373 271.564 188.123C235.314 151.873 172.065 151.873 135.815 188.123C98.393 225.561 98.393 286.436 135.815 323.873C153.94 341.999 178.049 351.998 203.689 351.998S253.439 341.999 271.564 323.873C277.814 317.623 277.814 307.498 271.564 301.248S255.189 294.998 248.939 301.248C224.752 325.436 182.627 325.436 158.44 301.248C133.487 276.311 133.487 235.686 158.44 210.748C182.627 186.561 224.752 186.561 248.939 210.748ZM440.939 210.748C447.189 216.998 457.314 216.998 463.564 210.748S469.814 194.373 463.564 188.123C427.314 151.873 364.065 151.873 327.815 188.123C290.393 225.561 290.393 286.436 327.815 323.873C345.94 341.999 370.049 351.998 395.689 351.998C421.33 351.998 445.439 341.999 463.564 323.873C469.814 317.623 469.814 307.498 463.564 301.248S447.189 294.998 440.939 301.248C416.752 325.436 374.627 325.436 350.44 301.248C325.487 276.311 325.487 235.686 350.44 210.748C374.627 186.561 416.752 186.561 440.939 210.748ZM512 32H64C28.654 32 0 60.652 0 96V416C0 451.346 28.654 480 64 480H512C547.346 480 576 451.346 576 416V96C576 60.652 547.346 32 512 32ZM544 416C544 433.645 529.645 448 512 448H64C46.355 448 32 433.645 32 416V96C32 78.355 46.355 64 64 64H512C529.645 64 544 78.355 544 96V416Z" })
+  }
+));
+ClosedCaptioningLight.displayName = "ClosedCaptioningLight";
+var ClosedCaptioning_default = ClosedCaptioningLight;

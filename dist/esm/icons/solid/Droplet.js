@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DropletSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M221.25 22.127C213.25 -6.747 171.75 -7.997 162.75 22.127C116 179.877 16 222.751 16 333.876C16 432.375 94.75 512 192 512S368 432.375 368 333.876C368 222.126 268.25 180.627 221.25 22.127ZM192 448C130.25 448 80 397.751 80 336.001C80 327.126 87.125 320.001 96 320.001S112 327.126 112 336.001C112 380.126 147.875 416 192 416C200.875 416 208 423.125 208 432C208 440.875 200.875 448 192 448Z" })
+  }
+));
+DropletSolid.displayName = "DropletSolid";
+var Droplet_default = DropletSolid;
+export {
+  Droplet_default as default
+};

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const FlashlightSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 160H32C14.375 160 0 174.375 0 192V320C0 337.625 14.375 352 32 352H384L400.125 362.75C443.25 391.5 492.75 408.375 544 413.625V98.375C492.75 103.625 443.25 120.5 400.125 149.25L384 160ZM288 288H256C238.375 288 224 273.625 224 256S238.375 224 256 224H288C305.625 224 320 238.375 320 256S305.625 288 288 288ZM608 96H576V416H608C625.625 416 640 401.625 640 384V128C640 110.375 625.625 96 608 96Z" })
+  }
+));
+FlashlightSolid.displayName = "FlashlightSolid";
+var Flashlight_default = FlashlightSolid;
+export {
+  Flashlight_default as default
+};

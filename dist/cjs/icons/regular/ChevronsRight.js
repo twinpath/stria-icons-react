@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ChevronsRight_exports = {};
+__export(ChevronsRight_exports, {
+  default: () => ChevronsRight_default
+});
+module.exports = __toCommonJS(ChevronsRight_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ChevronsRightRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M233.344 239.406L57.344 55.401C48.188 45.838 33 45.494 23.406 54.651C18.469 59.37 16 65.682 16 71.995C16 77.964 18.219 83.933 22.656 88.589L182.781 256L22.656 423.411C13.531 433.005 13.813 448.193 23.406 457.349C33 466.506 48.188 466.162 57.344 456.599L233.344 272.594C242.219 263.281 242.219 248.719 233.344 239.406ZM425.344 239.406L249.344 55.401C240.188 45.838 225 45.494 215.406 54.651C210.469 59.37 208 65.682 208 71.995C208 77.964 210.219 83.933 214.656 88.589L374.781 256L214.656 423.411C205.531 433.005 205.813 448.193 215.406 457.349C225 466.506 240.188 466.162 249.344 456.599L425.344 272.594C434.219 263.281 434.219 248.719 425.344 239.406Z" })
+  }
+));
+ChevronsRightRegular.displayName = "ChevronsRightRegular";
+var ChevronsRight_default = ChevronsRightRegular;

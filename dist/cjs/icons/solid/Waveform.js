@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Waveform_exports = {};
+__export(Waveform_exports, {
+  default: () => Waveform_default
+});
+module.exports = __toCommonJS(Waveform_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const WaveformSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M640 287.998V288.002C640 305.674 625.674 320 608.002 320H576C566.453 320 557.656 315.781 551.688 308.813L527.297 422.719C524.047 437.844 510.047 447.813 495 448C479.547 447.5 466.641 436.031 464.359 420.75L446.344 300.625L415.561 485.266C412.988 500.693 399.64 512 384 512H383.625C367.844 511.813 354.547 500.156 352.328 484.531L320 258.281L287.672 484.531C285.453 500.156 272.156 511.813 256.375 512H256C240.36 512 227.012 500.693 224.439 485.266L193.656 300.625L175.641 420.75C173.359 436.031 160.453 447.5 145 448C129.062 447.719 115.938 437.844 112.703 422.719L88.313 308.813C82.344 315.781 73.547 320 64 320H31.998C14.326 320 0 305.674 0 288.002V287.998C0 270.326 14.326 256 31.998 256H40.937L65.641 181.875C71.186 165.297 89.617 155.961 106.797 161.758C117.655 165.422 125.188 175.428 127.586 186.634L138.438 237.344L160.398 90.984C162.726 75.474 176.05 64 191.734 64H192.002C207.642 64 220.989 75.307 223.561 90.734L253.563 270.75L288.328 27.469C290.845 9.851 307.44 -2.722 325.754 0.506C339.696 2.964 349.913 15.161 351.916 29.176L386.438 270.75L416.439 90.736C419.01 75.308 432.359 64 448 64H448.266C463.95 64 477.274 75.474 479.602 90.985L501.562 237.344L512.703 185.281C516.308 168.517 532.739 157.056 550.63 160.687C562.182 163.032 571.16 172.274 574.887 183.457L599.062 256H608.002C625.674 256 640 270.326 640 287.998Z" })
+  }
+));
+WaveformSolid.displayName = "WaveformSolid";
+var Waveform_default = WaveformSolid;

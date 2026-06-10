@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Dial_exports = {};
+__export(Dial_exports, {
+  default: () => Dial_default
+});
+module.exports = __toCommonJS(Dial_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DialSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M288 64C305.674 64 320 49.674 320 32S305.674 0 288 0C270.328 0 256 14.326 256 32S270.328 64 288 64ZM32 256C14.326 256 0 270.328 0 288C0 305.674 14.326 320 32 320S64 305.674 64 288C64 270.328 49.674 256 32 256ZM544 256C526.326 256 512 270.328 512 288C512 305.674 526.326 320 544 320S576 305.674 576 288C576 270.328 561.674 256 544 256ZM446.393 84.354C433.896 96.85 433.896 117.111 446.393 129.607C458.891 142.105 479.152 142.105 491.648 129.607C504.145 117.111 504.145 96.85 491.648 84.354S458.891 71.857 446.393 84.354ZM84.354 446.393C71.857 458.891 71.857 479.15 84.354 491.648C96.85 504.145 117.111 504.145 129.609 491.648C142.105 479.15 142.105 458.891 129.609 446.393C117.111 433.896 96.85 433.896 84.354 446.393ZM446.393 446.393C433.896 458.891 433.896 479.15 446.393 491.648C458.891 504.145 479.152 504.145 491.648 491.648C504.145 479.15 504.145 458.891 491.648 446.393C479.152 433.896 458.891 433.896 446.393 446.393ZM129.609 129.607C142.105 117.111 142.105 96.85 129.609 84.354C117.111 71.857 96.85 71.857 84.354 84.354S71.857 117.111 84.354 129.607C96.85 142.105 117.111 142.105 129.609 129.607ZM288.002 448.002C376.367 448.002 448.002 376.367 448.002 288.002C448.002 249.602 433.916 214.836 411.367 187.26L299.314 299.312C293.064 305.562 282.939 305.562 276.689 299.312S270.439 282.937 276.689 276.687L388.742 164.635C361.168 142.086 326.402 128 288.002 128C199.635 128 128 199.635 128 288.002C128 376.367 199.635 448.002 288.002 448.002Z" })
+  }
+));
+DialSolid.displayName = "DialSolid";
+var Dial_default = DialSolid;

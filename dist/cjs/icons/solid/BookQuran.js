@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BookQuran_exports = {};
+__export(BookQuran_exports, {
+  default: () => BookQuran_default
+});
+module.exports = __toCommonJS(BookQuran_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BookQuranSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M16 382.385V449.615C6.727 452.936 0 461.582 0 472V488C0 501.254 10.746 512 24 512H352C405.02 512 448 469.02 448 416V96C448 42.98 405.02 0 352 0H24C10.746 0 0 10.744 0 24V360C0 370.416 6.727 379.064 16 382.385ZM324.826 170.395C327.832 170.824 329.121 174.549 326.83 176.695L306.209 196.889L311.078 225.389C311.508 227.822 309.502 229.828 307.354 229.828C306.781 229.828 306.209 229.684 305.635 229.398L280 215.936L254.365 229.398C253.793 229.684 253.221 229.828 252.646 229.828C250.5 229.828 248.494 227.822 248.924 225.389L253.793 196.889L233.17 176.695C230.879 174.549 232.168 170.824 235.176 170.395L263.818 166.242L276.707 140.32C277.279 138.889 278.711 138.172 280 138.172S282.721 138.889 283.295 140.32L296.184 166.242L324.826 170.395ZM216 72C239.656 72 262.609 78.953 282.359 92.094C285.578 94.234 286.797 98.375 285.266 101.938C283.719 105.484 279.812 107.5 276.094 106.531C268.812 104.828 262.234 104 256 104C207.484 104 168 143.469 168 192S207.484 280 256 280C262.234 280 268.812 279.172 276.094 277.469C279.812 276.5 283.719 278.516 285.266 282.062C286.797 285.625 285.578 289.766 282.359 291.906C262.609 305.047 239.656 312 216 312C149.828 312 96 258.172 96 192S149.828 72 216 72ZM64 384H352C369.672 384 384 398.326 384 416C384 433.672 369.672 448 352 448H64V384Z" })
+  }
+));
+BookQuranSolid.displayName = "BookQuranSolid";
+var BookQuran_default = BookQuranSolid;

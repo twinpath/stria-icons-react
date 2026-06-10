@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var CodePullRequest_exports = {};
+__export(CodePullRequest_exports, {
+  default: () => CodePullRequest_default
+});
+module.exports = __toCommonJS(CodePullRequest_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CodePullRequestDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M48 169.246V342.754C57.812 338.461 68.605 336 80 336S102.189 338.461 112 342.754V169.246C102.189 173.539 91.395 176 80 176S57.812 173.539 48 169.246ZM368 64H320V16C320 9.781 316.406 4.156 310.781 1.5C305.188 -1.094 298.531 -0.281 293.75 3.719L197.75 83.719C194.094 86.75 192 91.25 192 96S194.094 105.25 197.75 108.281L293.75 188.281C296.688 190.75 300.312 192 304 192C306.312 192 308.625 191.5 310.781 190.5C316.406 187.844 320 182.219 320 176V128H368C385.656 128 400 142.344 400 160V342.754C409.812 338.461 420.605 336 432 336S454.189 338.461 464 342.754V160C464 107.062 420.938 64 368 64Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M80 16C35.818 16 0 51.816 0 96S35.818 176 80 176C124.184 176 160 140.184 160 96S124.184 16 80 16ZM80 120C66.768 120 56 109.234 56 96S66.768 72 80 72C93.234 72 104 82.766 104 96S93.234 120 80 120ZM80 336C35.818 336 0 371.816 0 416S35.818 496 80 496C124.184 496 160 460.184 160 416S124.184 336 80 336ZM80 440C66.768 440 56 429.234 56 416S66.768 392 80 392C93.234 392 104 402.766 104 416S93.234 440 80 440ZM432 336C387.818 336 352 371.816 352 416S387.818 496 432 496C476.184 496 512 460.184 512 416S476.184 336 432 336ZM432 440C418.768 440 408 429.234 408 416S418.768 392 432 392C445.234 392 456 402.766 456 416S445.234 440 432 440Z" })
+    ]
+  }
+));
+CodePullRequestDuotone.displayName = "CodePullRequestDuotone";
+var CodePullRequest_default = CodePullRequestDuotone;

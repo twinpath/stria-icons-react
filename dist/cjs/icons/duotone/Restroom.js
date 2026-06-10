@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Restroom_exports = {};
+__export(Restroom_exports, {
+  default: () => Restroom_default
+});
+module.exports = __toCommonJS(Restroom_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const RestroomDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M320.002 0C306.803 0 296.002 10.799 296.002 24V488C296.002 501.199 306.803 512 320.002 512S344.002 501.199 344.002 488V24C344.002 10.799 333.201 0 320.002 0ZM128 0C101.5 0 80 21.5 80 48S101.5 96 128 96S176 74.5 176 48S154.5 0 128 0ZM512.004 0C485.504 0 464.004 21.5 464.004 48S485.504 96 512.004 96S560.004 74.5 560.004 48S538.504 0 512.004 0Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M213.655 171.781C204.936 145.594 180.53 128 152.936 128H103.061C75.468 128 51.061 145.594 42.374 171.75L1.653 293.875C-3.94 310.641 5.122 328.766 21.872 334.359C34.552 338.57 47.802 334.502 55.999 325.18V480C55.999 497.672 70.325 512 87.999 512S119.999 497.672 119.999 480V336H135.999V480C135.999 497.672 150.325 512 167.999 512S199.999 497.672 199.999 480V324.762C206.04 331.732 214.702 336.016 224.001 336.016C227.345 336.016 230.751 335.484 234.126 334.359C250.876 328.766 259.938 310.641 254.345 293.875L213.655 171.781ZM638.349 293.875L597.659 171.781C588.94 145.594 564.534 128 536.94 128H487.065C459.472 128 435.065 145.594 426.378 171.75L385.657 293.875C380.063 310.641 389.126 328.766 405.876 334.359C409.298 335.496 412.731 335.633 416.126 335.623L400.001 384H440.003V480C440.003 497.672 454.329 512 472.003 512S504.003 497.672 504.003 480V384H520.003V480C520.003 497.672 534.329 512 552.003 512S584.003 497.672 584.003 480V384H624.005L608.009 336.016C611.351 336.016 614.757 335.484 618.13 334.359C634.88 328.766 643.942 310.641 638.349 293.875Z" })
+    ]
+  }
+));
+RestroomDuotone.displayName = "RestroomDuotone";
+var Restroom_default = RestroomDuotone;

@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const Circle1Duotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM320 384H192C178.75 384 168 373.25 168 360S178.75 336 192 336H232V196.844L217.312 206.625C206.266 213.938 191.359 210.969 184.031 199.969C176.672 188.938 179.656 174.031 190.688 166.688L242.688 132.031C250.078 127.094 259.547 126.656 267.328 130.844C275.125 135.031 280 143.156 280 152V336H320C333.25 336 344 346.75 344 360S333.25 384 320 384Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M344 360C344 373.25 333.25 384 320 384H192C178.75 384 168 373.25 168 360S178.75 336 192 336H232V196.844L217.312 206.625C206.266 213.938 191.359 210.969 184.031 199.969C176.672 188.938 179.656 174.031 190.688 166.688L242.688 132.031C250.078 127.094 259.547 126.656 267.328 130.844C275.125 135.031 280 143.156 280 152V336H320C333.25 336 344 346.75 344 360Z" })
+    ]
+  }
+));
+Circle1Duotone.displayName = "Circle1Duotone";
+var Circle1_default = Circle1Duotone;
+export {
+  Circle1_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var VolumeXmark_exports = {};
+__export(VolumeXmark_exports, {
+  default: () => VolumeXmark_default
+});
+module.exports = __toCommonJS(VolumeXmark_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const VolumeXmarkLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M502.625 256L555.312 203.312C561.562 197.062 561.562 186.937 555.312 180.688S538.937 174.438 532.688 180.688L480 233.375L427.312 180.688C421.062 174.438 410.937 174.438 404.688 180.688S398.438 197.063 404.688 203.312L457.375 256L404.688 308.688C398.438 314.938 398.438 325.063 404.688 331.312C410.934 337.559 421.059 337.566 427.312 331.312L480 278.625L532.688 331.312C538.934 337.559 549.059 337.566 555.312 331.312C561.562 325.062 561.562 314.937 555.312 308.688L502.625 256ZM288.014 32C280.316 32 272.715 34.783 266.734 40.1L131.84 160.004H48C21.49 160.004 0 181.496 0 208.002V304.002C0 330.51 21.49 352 48 352H131.84L266.734 471.906C272.719 477.219 280.312 480 288 480C309.042 480 320 462.133 320 448V64.006C320 50.14 309.081 32 288.014 32ZM287.98 447.951L153.086 328.043L143.996 319.963H48C39.178 319.963 32 312.803 32 304.002V208.002C32 199.201 39.178 192.041 48 192.041H143.996L153.086 183.961L287.98 64.057C287.988 64.049 287.996 64.045 288 64.041L287.98 447.951Z" })
+  }
+));
+VolumeXmarkLight.displayName = "VolumeXmarkLight";
+var VolumeXmark_default = VolumeXmarkLight;

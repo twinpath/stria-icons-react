@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DownLeftSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M313.374 89.373L358.628 134.629C371.124 147.125 371.124 167.385 358.628 179.883L229.016 309.492L296.898 377.375C306.047 386.523 308.785 400.291 303.836 412.244C298.879 424.211 287.223 432 274.27 432H47.996C39.16 432 31.16 428.42 25.371 422.631C19.582 416.84 16 408.842 16 400.002V173.729C16 160.779 23.789 149.123 35.754 144.162C47.707 139.213 61.477 141.953 70.625 151.102L138.504 218.984L268.116 89.373C280.616 76.875 300.874 76.877 313.374 89.373Z" })
+  }
+));
+DownLeftSolid.displayName = "DownLeftSolid";
+var DownLeft_default = DownLeftSolid;
+export {
+  DownLeft_default as default
+};

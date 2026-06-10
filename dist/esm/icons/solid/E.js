@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ESolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M320 432C320 458.5 298.516 480 272 480H48C21.484 480 0 458.5 0 432V80C0 53.5 21.484 32 48 32H272C298.516 32 320 53.5 320 80S298.516 128 272 128H96V208H208C234.516 208 256 229.5 256 256S234.516 304 208 304H96V384H272C298.516 384 320 405.5 320 432Z" })
+  }
+));
+ESolid.displayName = "ESolid";
+var E_default = ESolid;
+export {
+  E_default as default
+};

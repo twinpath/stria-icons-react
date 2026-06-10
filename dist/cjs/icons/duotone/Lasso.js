@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Lasso_exports = {};
+__export(Lasso_exports, {
+  default: () => Lasso_default
+});
+module.exports = __toCommonJS(Lasso_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const LassoDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M178.131 384.211C179.742 389.918 180.609 395.809 180.711 401.742C181.041 427.086 160.762 447.906 135.414 448.234C135.256 448.238 135.098 448.238 134.939 448.242H48C39.188 448.242 32.033 455.367 32 464.18V496.059C32.033 504.875 39.188 512 48 512H134.939C194.32 512 243.74 464.77 244.699 405.617C245.104 390.262 242.883 374.949 238.131 360.34C223.891 374.461 202.48 383.688 178.131 384.211ZM288 0C126.5 0 0 79.641 0 181.297C0 231.078 30.221 277.141 85 311C88.539 313.172 92.41 315.309 96.369 317.449C97.76 295.379 113.1 276.449 135.619 265.859C129.711 262.859 123.699 259.859 118.721 256.789C98.311 244.172 64 217.57 64 181.297C64 118.687 168.689 63.758 288 63.758S512 118.687 512 181.297C512 243.91 407.311 298.82 288 298.82C275.18 298.82 262.58 298.02 250.119 296.82C253.936 304.176 255.949 312.332 256 320.617C256 335.547 249.301 349.09 238.52 359.961C254.955 361.703 271.473 362.578 288 362.578C449.5 362.578 576 282.938 576 181.297C576 79.66 449.5 0 288 0Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 320.62C256 355.83 220.18 384.38 176 384.38S96 355.83 96 320.62S131.82 256.86 176 256.86S256 285.41 256 320.62Z" })
+    ]
+  }
+));
+LassoDuotone.displayName = "LassoDuotone";
+var Lasso_default = LassoDuotone;

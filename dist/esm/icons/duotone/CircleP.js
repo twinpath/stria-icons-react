@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const CirclePDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M280 176H208V256H280C302.062 256 320 238.062 320 216S302.062 176 280 176ZM256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM280 304H208V360C208 373.25 197.25 384 184 384S160 373.25 160 360V152C160 138.75 170.75 128 184 128H280C328.531 128 368 167.469 368 216S328.531 304 280 304Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M280 128H184C170.75 128 160 138.75 160 152V360C160 373.25 170.75 384 184 384S208 373.25 208 360V304H280C328.531 304 368 264.531 368 216S328.531 128 280 128ZM280 256H208V176H280C302.062 176 320 193.938 320 216S302.062 256 280 256Z" })
+    ]
+  }
+));
+CirclePDuotone.displayName = "CirclePDuotone";
+var CircleP_default = CirclePDuotone;
+export {
+  CircleP_default as default
+};

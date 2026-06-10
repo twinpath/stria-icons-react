@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Landmark_exports = {};
+__export(Landmark_exports, {
+  default: () => Landmark_default
+});
+module.exports = __toCommonJS(Landmark_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const LandmarkThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M504 496H8C3.594 496 0 499.594 0 504S3.594 512 8 512H504C508.406 512 512 508.406 512 504S508.406 496 504 496ZM501.625 92.125L267.25 2.031C264.25 0.906 259.219 0 256 0C252.812 0 247.781 0.906 244.781 2.031L10.375 92.125C4.656 94.25 0 100.969 0 107.094V144C0 152.844 7.156 160 16 160H496C504.844 160 512 152.844 512 144V107.094C512 100.406 507.875 94.438 501.625 92.125ZM496 144H16L16.113 107.059L250.398 17.012C251.586 16.566 254.727 16 256 16C257.316 16 260.422 16.559 261.508 16.965L496 107.094V144ZM72 192C67.594 192 64 195.594 64 200V376C64 380.406 67.594 384 72 384H440C444.406 384 448 380.406 448 376V200C448 195.594 444.406 192 440 192S432 195.594 432 200V368H328V200C328 195.594 324.406 192 320 192S312 195.594 312 200V368H200V200C200 195.594 196.406 192 192 192S184 195.594 184 200V368H80V200C80 195.594 76.406 192 72 192ZM32 440C32 444.406 35.594 448 40 448H472C476.406 448 480 444.406 480 440S476.406 432 472 432H40C35.594 432 32 435.594 32 440Z" })
+  }
+));
+LandmarkThin.displayName = "LandmarkThin";
+var Landmark_default = LandmarkThin;

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const StopLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M320 64H64C28.654 64 0 92.652 0 128V384C0 419.346 28.654 448 64 448H320C355.346 448 384 419.346 384 384V128C384 92.652 355.346 64 320 64ZM352 384C352 401.645 337.645 416 320 416H64C46.355 416 32 401.645 32 384V128C32 110.355 46.355 96 64 96H320C337.645 96 352 110.355 352 128V384Z" })
+  }
+));
+StopLight.displayName = "StopLight";
+var Stop_default = StopLight;
+export {
+  Stop_default as default
+};

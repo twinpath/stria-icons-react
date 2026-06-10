@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Pizza_exports = {};
+__export(Pizza_exports, {
+  default: () => Pizza_default
+});
+module.exports = __toCommonJS(Pizza_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PizzaSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M403.238 403.135C321.371 485.014 188.261 484.264 107.269 401.01C30.279 321.754 30.279 190.246 107.269 110.99C188.261 27.736 321.371 26.986 403.238 108.865L425.236 86.865C431.609 80.363 431.609 69.488 424.736 63.488C376.658 21.16 316.465 -0.003 256.254 0C175.276 0.004 94.265 38.292 42.652 114.865C14.217 156.993 0 206.496 0 256C0 305.503 14.217 355.007 42.652 397.135C93.271 472.233 172.167 510.507 251.598 511.957C313.379 513.085 375.483 491.937 424.861 448.512C431.734 442.512 431.734 431.637 425.236 425.135L403.238 403.135ZM131.892 380.508C164.888 413.51 209.634 432.012 256.254 432.012S347.619 413.51 380.615 380.508L256.254 256L380.615 131.492C347.619 98.49 302.873 79.988 256.254 79.988S164.888 98.49 131.892 131.492C63.275 200.246 63.275 311.754 131.892 380.508ZM256.254 352.006C265.129 352.006 272.252 359.131 272.252 368.008C272.252 376.883 265.129 384.008 256.254 384.008C247.381 384.008 240.256 376.883 240.256 368.008C240.256 359.131 247.381 352.006 256.254 352.006ZM197.009 148.619C200.009 145.617 204.009 143.992 208.259 143.992C217.133 143.992 224.258 151.119 224.258 159.994S217.133 175.994 208.259 175.994C199.384 175.994 192.261 168.869 192.261 159.994C192.261 155.744 194.009 151.619 197.009 148.619ZM149.015 244.625C152 241.641 156.097 240.025 160.324 240.01C169.17 240.045 176.261 247.146 176.261 256C176.261 264.875 169.138 272.002 160.263 272.002C151.39 272.002 144.265 264.875 144.265 256C144.265 251.75 146.015 247.625 149.015 244.625ZM523.225 100.115C517.476 92.615 505.976 92.24 499.226 98.99L477.855 120.367C544.598 198.246 544.598 313.754 477.855 391.633L499.226 413.01C505.976 419.76 517.476 419.385 523.225 411.885C558.408 365.882 576 310.941 576 256C576 201.059 558.408 146.118 523.225 100.115ZM455.232 143.117L405.238 193.121C411.736 195.246 416.111 201.371 416.111 208.121C416.111 216.998 408.988 224.123 400.113 224.123C393.363 224.123 387.24 219.748 385.115 213.248L342.369 256L455.232 368.883C509.602 303.504 509.602 208.496 455.232 143.117ZM448.107 288.002C439.234 288.002 432.109 280.877 432.109 272.002C432.109 263.125 439.234 256 448.107 256C456.857 256 464.105 263.125 464.105 272.002C464.105 280.877 456.857 288.002 448.107 288.002Z" })
+  }
+));
+PizzaSolid.displayName = "PizzaSolid";
+var Pizza_default = PizzaSolid;

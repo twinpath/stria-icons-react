@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var CandyCorn_exports = {};
+__export(CandyCorn_exports, {
+  default: () => CandyCorn_default
+});
+module.exports = __toCommonJS(CandyCorn_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CandyCornDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M379.694 278.618C409.302 356.975 444.547 416.001 479.87 416.001H479.995C515.316 415.917 550.67 356.868 580.354 278.467C553.352 274.758 520.607 271.875 480.62 271.875C440.06 271.875 406.898 274.825 379.694 278.618ZM479.995 0C314.234 1.625 315.484 39.5 322.109 72.5C325.609 89.875 329.486 107.75 333.861 125.75C366.737 118.75 415.492 111.875 480.62 111.875C544.875 111.875 593.378 118.625 626.254 125.625C630.504 107.625 634.381 89.75 637.881 72.5C644.506 39.5 645.756 1.625 479.995 0ZM247.853 145.44C229.202 117.42 203.303 89.754 84.944 205.815C-31.117 324.172 -3.453 350.071 24.567 368.719C39.329 378.532 54.71 388.428 70.533 398.063C88.828 369.868 118.442 330.532 164.496 284.481C209.931 239.045 249 209.522 277.198 191.227C267.475 175.492 257.576 160.112 247.853 145.44ZM277.635 397.618C248.955 426.298 227.591 451.831 211.036 473.749C287.381 508.22 354.041 525.036 379.018 500.059L379.106 499.972C404.023 474.936 387.268 408.184 352.818 331.756C331.103 348.227 305.909 369.342 277.635 397.618Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M480.51 143.875C418.632 143.875 372.379 150.5 341.501 157C352.478 199.121 365.392 241.061 379.584 278.618C406.788 274.825 439.951 271.875 480.51 271.875C520.497 271.875 553.242 274.758 580.245 278.467C594.473 240.885 607.417 198.916 618.394 156.75C587.391 150.375 541.638 143.875 480.51 143.875ZM187.014 307.108C143.259 350.862 115.237 388.251 98 414.68C135.546 436.704 174.336 457.227 210.926 473.749C227.481 451.831 248.845 426.298 277.525 397.618C305.799 369.342 330.993 348.227 352.708 331.756C336.194 295.122 315.671 256.293 293.615 218.715C267.185 236.129 230.237 263.885 187.014 307.108Z" })
+    ]
+  }
+));
+CandyCornDuotone.displayName = "CandyCornDuotone";
+var CandyCorn_default = CandyCornDuotone;

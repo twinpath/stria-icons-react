@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Mercury_exports = {};
+__export(Mercury_exports, {
+  default: () => Mercury_default
+});
+module.exports = __toCommonJS(Mercury_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MercuryDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 224C256 259.346 227.346 288 192 288S128 259.346 128 224S156.654 160 192 160S256 188.654 256 224Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M368 224C368 168.676 342.426 119.375 302.51 87.109C323.002 69.785 339.707 48 350.605 22.895C355.262 12.172 347.705 0 336.156 0H281.846C276.59 0 271.916 2.828 268.885 7.187C251.781 31.766 223.844 48 192 48C160.154 48 132.219 31.766 115.115 7.187C112.084 2.828 107.41 0 102.154 0H47.844C36.295 0 28.738 12.172 33.395 22.895C44.295 48 60.996 69.789 81.49 87.109C41.574 119.375 16 168.68 16 224C16 310.258 78.1 381.887 160 396.953V416H128C119.164 416 112 423.164 112 432V464C112 472.836 119.164 480 128 480H160V496C160 504.836 167.164 512 176 512H208C216.838 512 224 504.836 224 496V480H256C264.838 480 272 472.836 272 464V432C272 423.164 264.838 416 256 416H224V396.953C305.902 381.887 368 310.258 368 224ZM192 320C139.066 320 96 276.934 96 224C96 171.062 139.066 128 192 128C244.936 128 288 171.062 288 224C288 276.934 244.936 320 192 320Z" })
+    ]
+  }
+));
+MercuryDuotone.displayName = "MercuryDuotone";
+var Mercury_default = MercuryDuotone;

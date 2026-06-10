@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const PauseLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M48 64C39.164 64 32 71.162 32 80V432C32 440.836 39.164 448 48 448S64 440.836 64 432V80C64 71.162 56.836 64 48 64ZM272 64C263.164 64 256 71.162 256 80V432C256 440.836 263.164 448 272 448S288 440.836 288 432V80C288 71.162 280.836 64 272 64Z" })
+  }
+));
+PauseLight.displayName = "PauseLight";
+var Pause_default = PauseLight;
+export {
+  Pause_default as default
+};

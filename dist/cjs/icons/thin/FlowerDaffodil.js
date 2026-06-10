@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FlowerDaffodil_exports = {};
+__export(FlowerDaffodil_exports, {
+  default: () => FlowerDaffodil_default
+});
+module.exports = __toCommonJS(FlowerDaffodil_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FlowerDaffodilThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M304 144C304 117.492 282.51 96 256 96S208 117.492 208 144S229.49 192 256 192S304 170.508 304 144ZM224 144C224 126.355 238.355 112 256 112S288 126.355 288 144S273.645 176 256 176S224 161.645 224 144ZM504 320H442C362.371 320 293.855 365.773 264 431.008V264.125C278.428 278.617 297.93 288 320 288C364.184 288 400 252.18 400 208C400 181.707 387.146 158.586 367.562 144C387.146 129.414 400 106.289 400 80C400 35.816 364.184 0 320 0C293.707 0 270.584 12.852 256 32.438C241.416 12.852 218.293 0 192 0C147.816 0 112 35.816 112 80C112 106.289 124.854 129.414 144.438 144C124.854 158.586 112 181.707 112 208C112 252.18 147.816 288 192 288C214.07 288 233.572 278.617 248 264.125V431.008C218.145 365.773 149.629 320 70 320H8C3.578 320 0 323.594 0 328C0 429.469 87.031 512 194 512H318C424.969 512 512 429.469 512 328C512 323.594 508.422 320 504 320ZM194 496C98.688 496 20.641 424.938 16.203 336H70C165.312 336 243.359 407.062 247.797 496H194ZM243.168 246.008C230.867 262.527 212.217 272 192 272C156.711 272 128 243.289 128 208C128 187.785 137.475 169.137 153.994 156.832L171.225 144L153.994 131.168C137.475 118.863 128 100.215 128 80C128 44.711 156.711 16 192 16C212.217 16 230.867 25.473 243.168 41.992L256 59.227L268.834 41.992C281.135 25.473 299.783 16 320 16C355.291 16 384 44.711 384 80C384 100.215 374.525 118.863 358.006 131.168L340.777 144L358.006 156.832C374.525 169.137 384 187.785 384 208C384 243.289 355.291 272 320 272C299.783 272 281.135 262.527 268.834 246.008L256 228.773L243.168 246.008ZM255.592 256C255.713 255.84 255.881 255.723 256 255.562C256.119 255.723 256.287 255.84 256.408 256H255.592ZM318 496H264.203C268.641 407.062 346.687 336 442 336H495.797C491.359 424.938 413.312 496 318 496Z" })
+  }
+));
+FlowerDaffodilThin.displayName = "FlowerDaffodilThin";
+var FlowerDaffodil_default = FlowerDaffodilThin;

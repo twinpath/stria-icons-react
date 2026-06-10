@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FireFlame_exports = {};
+__export(FireFlame_exports, {
+  default: () => FireFlame_default
+});
+module.exports = __toCommonJS(FireFlame_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FireFlameRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M192 0C79.75 101.375 0 220.875 0 300.5C0 425 79 512 192 512S384 425 384 300.5C384 220.625 303.75 100.875 192 0ZM192 464C105.875 464 48 398.25 48 300.5C48 254.25 93.25 163.875 192 66.125C278.25 152 336 244.875 336 300.5C336 398.25 278.125 464 192 464ZM237.125 239.625C217.125 222.625 198.375 206.625 198.375 181.5C198.375 178.001 195.625 176.75 194.375 176.375C192 175.625 188.625 175.75 186.375 178.75C131.5 253.375 216 248 216 302.001C216 325.25 197.25 344 174 344C150.75 344 132 325.25 132 302.001V272C132 269.625 130.5 267.375 128.25 266.5C126 265.5 123.5 266.001 121.75 267.75C115.375 274.001 96 294.5 96 327.625C96 376.375 139 416 192 416S288 376.375 288 327.625C288 283.25 262.125 261.125 237.125 239.625Z" })
+  }
+));
+FireFlameRegular.displayName = "FireFlameRegular";
+var FireFlame_default = FireFlameRegular;

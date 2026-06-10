@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FolderUser_exports = {};
+__export(FolderUser_exports, {
+  default: () => FolderUser_default
+});
+module.exports = __toCommonJS(FolderUser_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FolderUserThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M464 96H272L217.373 41.375C211.371 35.371 203.232 32 194.746 32H48C21.49 32 0 53.492 0 80V432C0 458.508 21.49 480 48 480H464C490.51 480 512 458.508 512 432V144C512 117.492 490.51 96 464 96ZM496 432C496 449.672 481.674 464 464 464H48C30.326 464 16 449.672 16 432V80C16 62.328 30.326 48 48 48H188.117C196.604 48 204.742 51.371 210.744 57.371L265.371 112H464C481.674 112 496 126.328 496 144V432ZM256 288C291.348 288 320 259.344 320 224S291.348 160 256 160C220.656 160 192 188.656 192 224S220.656 288 256 288ZM256 176C282.469 176 304 197.531 304 224S282.469 272 256 272S208 250.469 208 224S229.531 176 256 176ZM288 320H224C179.82 320 144 355.816 144 400C144 408.836 151.164 416 160 416H352C360.836 416 368 408.836 368 400C368 355.816 332.184 320 288 320ZM160 400C160 364.711 188.711 336 224 336H288C323.289 336 352 364.711 352 400H160Z" })
+  }
+));
+FolderUserThin.displayName = "FolderUserThin";
+var FolderUser_default = FolderUserThin;

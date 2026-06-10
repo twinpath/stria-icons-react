@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PooBolt_exports = {};
+__export(PooBolt_exports, {
+  default: () => PooBolt_default
+});
+module.exports = __toCommonJS(PooBolt_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PooBoltSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M304.004 368.006H248.277L286.723 278.309C289.66 271.449 287.441 263.465 281.41 259.074C275.314 254.652 267.064 255.043 261.471 259.965L133.465 371.959C128.432 376.35 126.682 383.396 129.025 389.631C131.371 395.881 137.34 400.006 143.996 400.006H199.723L161.277 489.703C158.34 496.563 160.559 504.547 166.59 508.938C169.404 510.984 172.717 512 175.998 512C179.779 512 183.529 510.672 186.529 508.047L314.535 396.053C319.568 391.662 321.318 384.615 318.975 378.381C316.629 372.131 310.66 368.006 304.004 368.006ZM373.281 226.551C379.883 216.582 384 204.881 384 192C384 156.625 355.375 128 320 128H314.125C317.75 118 320 107.25 320 96C320 43 277 0 224 0C218.875 0 213.875 0.75 208.875 1.5C218.25 14.625 224 30.625 224 48C224 92.125 188.125 128 144 128H128C92.625 128 64 156.625 64 192C64 204.881 68.117 216.582 74.719 226.551C31.979 236.258 0 274.32 0 320C0 373.02 42.98 416 96 416H108.785C104.752 411.586 101.242 406.682 99.074 400.898C92.064 382.256 97.43 360.939 112.393 347.883L240.326 235.941C249.08 228.24 260.318 223.998 271.973 224C282.166 224 291.926 227.174 300.234 233.203C318.461 246.473 324.998 270.201 316.127 290.914L296.801 336.012H303.996C323.887 336.012 341.943 348.525 348.918 367.125C355.275 384.039 351.016 402.848 339.078 416H352C405.02 416 448 373.02 448 320C448 274.32 416.021 236.258 373.281 226.551Z" })
+  }
+));
+PooBoltSolid.displayName = "PooBoltSolid";
+var PooBolt_default = PooBoltSolid;

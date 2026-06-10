@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const GripLinesDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M416 288H32C14.4 288 0 302.4 0 320V320C0 337.6 14.4 352 32 352H416C433.6 352 448 337.6 448 320V320C448 302.4 433.6 288 416 288Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M416 160H32C14.4 160 0 174.4 0 192V192C0 209.6 14.4 224 32 224H416C433.6 224 448 209.6 448 192V192C448 174.4 433.6 160 416 160Z" })
+    ]
+  }
+));
+GripLinesDuotone.displayName = "GripLinesDuotone";
+var GripLines_default = GripLinesDuotone;
+export {
+  GripLines_default as default
+};

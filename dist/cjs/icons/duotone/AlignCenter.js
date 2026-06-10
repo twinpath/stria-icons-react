@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var AlignCenter_exports = {};
+__export(AlignCenter_exports, {
+  default: () => AlignCenter_default
+});
+module.exports = __toCommonJS(AlignCenter_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const AlignCenterDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M320 32H128C110.327 32 96 46.327 96 64V64C96 81.673 110.327 96 128 96H320C337.673 96 352 81.673 352 64V64C352 46.327 337.673 32 320 32ZM320 288H128C110.327 288 96 302.327 96 320V320C96 337.673 110.327 352 128 352H320C337.673 352 352 337.673 352 320V320C352 302.327 337.673 288 320 288Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M416 160H32C14.327 160 0 174.327 0 192V192C0 209.673 14.327 224 32 224H416C433.673 224 448 209.673 448 192V192C448 174.327 433.673 160 416 160ZM416 416H32C14.327 416 0 430.327 0 448V448C0 465.673 14.327 480 32 480H416C433.673 480 448 465.673 448 448V448C448 430.327 433.673 416 416 416Z" })
+    ]
+  }
+));
+AlignCenterDuotone.displayName = "AlignCenterDuotone";
+var AlignCenter_default = AlignCenterDuotone;

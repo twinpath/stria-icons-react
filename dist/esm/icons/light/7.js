@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const Icon7Light = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M317.633 56.375L61.627 472.375C58.595 477.281 53.345 480 48.001 480C45.126 480 42.22 479.25 39.626 477.625C32.095 473 29.751 463.125 34.376 455.625L275.382 64H16C7.156 64 0 56.844 0 48S7.156 32 16 32H304.008C309.789 32 315.133 35.125 317.977 40.188C320.789 45.25 320.664 51.438 317.633 56.375Z" })
+  }
+));
+Icon7Light.displayName = "Icon7Light";
+var __default = Icon7Light;
+export {
+  __default as default
+};

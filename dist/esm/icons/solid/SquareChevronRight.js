@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const SquareChevronRightSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 32H64C28.652 32 0 60.656 0 96V416C0 451.344 28.652 480 64 480H384C419.346 480 448 451.344 448 416V96C448 60.656 419.346 32 384 32ZM310.625 278.625L198.625 390.625C186.125 403.125 165.875 403.125 153.375 390.625S140.875 357.875 153.375 345.375L242.75 256L153.375 166.625C140.875 154.125 140.875 133.875 153.375 121.375S186.125 108.875 198.625 121.375L310.625 233.375C316.875 239.625 320 247.812 320 256S316.875 272.375 310.625 278.625Z" })
+  }
+));
+SquareChevronRightSolid.displayName = "SquareChevronRightSolid";
+var SquareChevronRight_default = SquareChevronRightSolid;
+export {
+  SquareChevronRight_default as default
+};

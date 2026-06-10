@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const SwatchbookSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M434.625 167.75L344.5 77.375C332.125 64.875 312 64.875 299.5 77.25L299.375 77.375L224 152.875V424L434.625 212.875C447.125 200.375 447.125 180.25 434.625 167.75ZM480 320H373.125L186.625 506.5C184.625 508.625 182.125 510.125 180 512H480C497.625 512 512 497.625 512 480V352C512 334.375 497.625 320 480 320ZM192 32C192 14.375 177.625 0 160 0H32C14.375 0 0 14.375 0 32V416C0 469 43 512 96 512S192 469 192 416V32ZM96 440C82.75 440 72 429.25 72 416S82.75 392 96 392S120 402.75 120 416S109.25 440 96 440ZM128 256H64V192H128V256ZM128 128H64V64H128V128Z" })
+  }
+));
+SwatchbookSolid.displayName = "SwatchbookSolid";
+var Swatchbook_default = SwatchbookSolid;
+export {
+  Swatchbook_default as default
+};

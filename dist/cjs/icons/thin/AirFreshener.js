@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var AirFreshener_exports = {};
+__export(AirFreshener_exports, {
+  default: () => AirFreshener_default
+});
+module.exports = __toCommonJS(AirFreshener_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const AirFreshenerThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M288 440.001H96C91.578 440.001 88 443.579 88 448.001S91.578 456.001 96 456.001H288C292.422 456.001 296 452.423 296 448.001S292.422 440.001 288 440.001ZM216.006 96.001C216.006 82.745 205.262 72.001 192.006 72.001C178.752 72.001 168.006 82.745 168.006 96.001C168.006 109.255 178.752 120.001 192.006 120.001C205.262 120.001 216.006 109.255 216.006 96.001ZM184.006 96.001C184.006 91.589 187.594 88.001 192.006 88.001S200.006 91.589 200.006 96.001C200.006 100.411 196.418 104.001 192.006 104.001S184.006 100.411 184.006 96.001ZM320 384.001H64C46.327 384.001 32 398.327 32 416.001V480.001C32 497.673 46.327 512.001 64 512.001H320C337.674 512.001 352 497.673 352 480.001V416.001C352 398.327 337.674 384.001 320 384.001ZM336 480.001C336 488.823 328.823 496.001 320 496.001H64C55.178 496.001 48 488.823 48 480.001V416.001C48 407.178 55.178 400.001 64 400.001H320C328.823 400.001 336 407.178 336 416.001V480.001ZM377.174 306.141L305.887 224.001H342.174C364.198 224.001 376.078 198.481 361.743 181.964L211.541 8.891C206.399 2.964 199.184 0.001 191.971 0.001C184.754 0.001 177.541 2.966 172.397 8.895L22.254 181.968C7.924 198.485 19.805 224.001 41.827 224.001H78.084L6.823 306.145C-8.81 324.165 4.151 352.001 28.176 352.001H136C140.418 352.001 144 348.419 144 344.001S140.418 336.001 136 336.001H28.176C17.979 336.001 12.506 324.01 19.19 316.307L90.17 234.485L113.147 208.001H41.827C33.465 208.001 29.014 198.594 34.34 192.452L184.483 19.38C187.049 16.423 194.387 13.534 199.457 19.378L349.659 192.452C354.989 198.591 350.535 208.001 342.174 208.001H270.817L293.803 234.487L364.811 316.305C371.494 324.009 366.024 336.001 355.825 336.001H248C243.582 336.001 240 339.583 240 344.001S243.582 352.001 248 352.001H355.825C379.852 352.001 392.813 324.161 377.174 306.141Z" })
+  }
+));
+AirFreshenerThin.displayName = "AirFreshenerThin";
+var AirFreshener_default = AirFreshenerThin;

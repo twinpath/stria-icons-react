@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const SquareUDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M384 32H64C28.654 32 0 60.654 0 96V416C0 451.346 28.654 480 64 480H384C419.348 480 448 451.346 448 416V96C448 60.654 419.348 32 384 32ZM336 274.906C336 335.062 285.75 384 224 384S112 335.062 112 274.906V152C112 138.75 122.75 128 136 128S160 138.75 160 152V274.906C160 308.594 188.703 336 224 336S288 308.594 288 274.906V152C288 138.75 298.75 128 312 128S336 138.75 336 152V274.906Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M312 128C298.75 128 288 138.75 288 152V274.906C288 308.594 259.297 336 224 336S160 308.594 160 274.906V152C160 138.75 149.25 128 136 128S112 138.75 112 152V274.906C112 335.062 162.25 384 224 384S336 335.062 336 274.906V152C336 138.75 325.25 128 312 128Z" })
+    ]
+  }
+));
+SquareUDuotone.displayName = "SquareUDuotone";
+var SquareU_default = SquareUDuotone;
+export {
+  SquareU_default as default
+};

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const AngleRightDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 256 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M72.001 448C62.126 448 52.22 444.375 44.485 437.032C28.454 421.846 27.767 396.536 42.97 380.506L160.907 256.017L42.97 131.528C27.767 115.498 28.454 90.188 44.485 75.002C60.501 59.753 85.813 60.441 101.032 76.533L245.031 228.52C259.656 243.924 259.656 268.11 245.031 283.515L101.032 435.501C93.173 443.813 82.594 448 72.001 448Z", className: "stria-secondary", style: { opacity: 0.4 } })
+  }
+));
+AngleRightDuotone.displayName = "AngleRightDuotone";
+var AngleRight_default = AngleRightDuotone;
+export {
+  AngleRight_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Cactus_exports = {};
+__export(Cactus_exports, {
+  default: () => Cactus_default
+});
+module.exports = __toCommonJS(Cactus_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CactusSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M464 224.003C437.5 224.003 416 245.503 416 272.003V336.002C416 344.877 408.875 352.002 400 352.002H352V101.38C352 49.38 313.125 2.881 261.125 0.131C234.875 -1.244 209.125 8.256 189.999 26.381C170.875 44.505 160 69.63 160 96.005V224.003H112C103.125 224.003 96 216.878 96 208.004V144.004C96 117.505 74.5 96.005 48 96.005S0 117.505 0 144.004V208.004C0 269.878 50.125 320.002 112 320.002H160V480C160 497.625 174.375 512 192 512H320C337.625 512 352 497.625 352 480V448.001H400C461.875 448.001 512 397.876 512 336.002V272.003C512 245.503 490.5 224.003 464 224.003ZM224 176.004C215.125 176.004 208 168.879 208 160.004C208 151.129 215.125 144.004 224 144.004S240 151.129 240 160.004C240 168.879 232.875 176.004 224 176.004ZM288 400.001C279.125 400.001 272 392.876 272 384.001C272 375.127 279.125 368.002 288 368.002S304 375.127 304 384.001C304 392.876 296.875 400.001 288 400.001Z" })
+  }
+));
+CactusSolid.displayName = "CactusSolid";
+var Cactus_default = CactusSolid;

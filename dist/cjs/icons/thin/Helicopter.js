@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Helicopter_exports = {};
+__export(Helicopter_exports, {
+  default: () => Helicopter_default
+});
+module.exports = __toCommonJS(Helicopter_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HelicopterThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M304.001 384H576.001C593.673 384 608.001 369.672 608.001 352C608.001 228.289 507.712 128 384.001 128H360.001V16H568.001C572.407 16 576.001 12.406 576.001 8S572.407 0 568.001 0H136.001C131.595 0 128.001 3.594 128.001 8S131.595 16 136.001 16H344.001V128H107.517L64.317 70.398C61.294 66.371 56.552 64 51.517 64H16.009C5.599 64 -2.038 73.781 0.485 83.879L23.548 176.125C26.04 186.094 33.169 194.262 42.708 198.078L192.001 256L278.399 371.199C284.442 379.258 293.931 384 304.001 384ZM416.001 146.723C515.517 162.195 592.001 248.219 592.001 352C592.001 360.824 584.825 368 576.001 368H416.001V146.723ZM202.056 242.738L197.79 241.082L48.649 183.223C43.895 181.32 40.313 177.215 39.071 172.246L16.009 80H51.517L94.716 137.602L99.517 144H384.001C389.399 144 394.704 144.406 400.001 144.812V368H304.001C298.989 368 294.204 365.609 291.2 361.598L204.802 246.398L202.056 242.738ZM632.001 432C627.595 432 624.001 435.594 624.001 440C624.001 470.875 598.876 496 568.001 496H232.001C227.595 496 224.001 499.594 224.001 504S227.595 512 232.001 512H568.001C607.688 512 640.001 479.688 640.001 440C640.001 435.594 636.407 432 632.001 432Z" })
+  }
+));
+HelicopterThin.displayName = "HelicopterThin";
+var Helicopter_default = HelicopterThin;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PersonSkating_exports = {};
+__export(PersonSkating_exports, {
+  default: () => PersonSkating_default
+});
+module.exports = __toCommonJS(PersonSkating_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PersonSkatingRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M399.993 0C373.49 0 351.987 21.5 351.987 48S373.49 96 399.993 96C426.497 96 448 74.5 448 48S426.497 0 399.993 0ZM151.959 144H255.098L218.593 175.25C206.716 185.375 199.715 200.125 199.09 215.75C198.465 231.25 204.466 246.5 216.218 258.25L303.98 338.25V424C303.98 437.25 314.731 448 327.983 448C341.235 448 351.987 437.25 351.987 424V334.625C351.987 324.125 347.736 313.75 339.485 305.625L266.725 239.25L355.237 150.75C364.488 141.5 367.239 127.75 362.238 115.75S345.611 96.125 332.609 96.125H151.959C138.707 96.125 127.955 106.875 127.955 120.125C127.955 133.25 138.707 144 151.959 144ZM187.464 273.375L85.824 375C76.448 384.375 76.448 399.625 85.824 408.875C90.575 413.625 96.701 415.875 102.827 415.875C109.078 415.875 115.204 413.625 119.829 408.875L221.968 306.75L193.589 280.75C191.214 278.5 189.589 275.875 187.464 273.375ZM399.993 448C391.242 448 383.991 455.25 383.991 464S376.74 480 367.989 480H271.975C263.224 480 255.973 487.25 255.973 496S263.224 512 271.975 512H367.989C394.493 512 415.996 490.5 415.996 464C415.996 455.25 408.745 448 399.993 448ZM117.704 456.625C111.578 462.75 101.327 462.75 95.201 456.625L27.191 388.75C21.065 382.5 10.814 382.5 4.688 388.75C-1.563 394.875 -1.563 405.125 4.688 411.25L72.573 479.25C81.824 488.625 94.201 493.25 106.452 493.25S131.081 488.5 140.332 479.25C146.583 473 146.583 462.75 140.332 456.625C134.206 450.375 124.08 450.25 117.704 456.625Z" })
+  }
+));
+PersonSkatingRegular.displayName = "PersonSkatingRegular";
+var PersonSkating_default = PersonSkatingRegular;

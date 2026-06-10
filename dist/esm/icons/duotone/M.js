@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const MDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M400 480C373.5 480 352 458.501 352 432.002V234.541L263.562 363.192C245.625 389.254 202.375 389.254 184.438 363.192L96 234.541V432.002C96 458.501 74.5 480 48 480S0 458.501 0 432.002V80.016C0 58.986 13.688 40.424 33.75 34.174C53.844 27.924 75.625 35.455 87.562 52.83L224 251.29L360.438 52.83C372.344 35.455 394.125 27.924 414.25 34.174C434.312 40.424 448 58.986 448 80.016V432.002C448 458.501 426.5 480 400 480Z", className: "stria-secondary", style: { opacity: 0.4 } })
+  }
+));
+MDuotone.displayName = "MDuotone";
+var M_default = MDuotone;
+export {
+  M_default as default
+};

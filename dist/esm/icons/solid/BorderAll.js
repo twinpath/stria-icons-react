@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BorderAllSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 32H64C28.8 32 0 60.8 0 96V416C0 451.2 28.8 480 64 480H384C419.2 480 448 451.2 448 416V96C448 60.8 419.2 32 384 32ZM384 96V224H256V96H384ZM192 96V224H64V96H192ZM64 416V288H192V416H64ZM256 416V288H384V416H256Z" })
+  }
+));
+BorderAllSolid.displayName = "BorderAllSolid";
+var BorderAll_default = BorderAllSolid;
+export {
+  BorderAll_default as default
+};

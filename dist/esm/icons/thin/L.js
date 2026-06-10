@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const LThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M312 480H40C35.594 480 32 476.406 32 472V40C32 35.594 35.594 32 40 32S48 35.594 48 40V464H312C316.406 464 320 467.594 320 472S316.406 480 312 480Z" })
+  }
+));
+LThin.displayName = "LThin";
+var L_default = LThin;
+export {
+  L_default as default
+};

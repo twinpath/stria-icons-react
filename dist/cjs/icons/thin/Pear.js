@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Pear_exports = {};
+__export(Pear_exports, {
+  default: () => Pear_default
+});
+module.exports = __toCommonJS(Pear_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PearThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M512 8C512 3.43 508.264 0 504 0C501.953 0 499.906 0.781 498.344 2.344L449.771 50.916C448.074 49.375 417.215 16 359.855 16C321.873 16 283.602 31.242 255.174 59.764C225.105 89.93 186.945 110.264 145.926 121.506C111.76 130.869 0 181.494 0 313.119C0 423.57 90.033 512 198.654 512C237.596 512 353.723 491.562 388.955 368.523C425.371 241.338 495.723 251.439 495.723 153.797C495.723 120.205 483.213 87.74 460.939 62.373L509.656 13.656C511.219 12.094 512 10.047 512 8ZM479.723 153.797C479.723 198.309 464.568 215.779 441.631 242.227C419.58 267.648 392.137 299.287 373.574 364.119C336.238 494.5 204.254 496 198.654 496C97.939 496 16 413.961 16 313.119C16 175.299 148.812 137.305 150.154 136.937C195.777 124.434 235.955 101.709 266.506 71.059C291.246 46.236 325.271 32 359.855 32C403.635 32 429.912 53.945 438.447 62.232L402.344 98.344C399.219 101.469 399.219 106.531 402.344 109.656C403.906 111.219 405.938 112 408 112S412.094 111.219 413.656 109.656L449.533 73.773C468.959 96.275 479.723 124.619 479.723 153.797Z" })
+  }
+));
+PearThin.displayName = "PearThin";
+var Pear_default = PearThin;

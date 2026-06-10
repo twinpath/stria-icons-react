@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DropletDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M221.25 22.128C213.25 -6.747 171.75 -7.997 162.75 22.128C116 179.877 16 222.752 16 333.876C16 432.376 94.75 512.001 192 512.001S368 432.376 368 333.876C368 222.127 268.25 180.627 221.25 22.128ZM192 448.001C130.25 448.001 80 397.751 80 336.001C80 327.126 87.125 320.002 96 320.002S112 327.126 112 336.001C112 380.126 147.875 416.001 192 416.001C200.875 416.001 208 423.126 208 432.001C208 440.876 200.875 448.001 192 448.001Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M192 448.001C130.25 448.001 80 397.751 80 336.001C80 327.126 87.125 320.002 96 320.002S112 327.126 112 336.001C112 380.126 147.875 416.001 192 416.001C200.875 416.001 208 423.126 208 432.001C208 440.876 200.875 448.001 192 448.001Z" })
+    ]
+  }
+));
+DropletDuotone.displayName = "DropletDuotone";
+var Droplet_default = DropletDuotone;
+export {
+  Droplet_default as default
+};

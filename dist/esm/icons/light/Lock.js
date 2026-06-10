@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const LockLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M416 224H384V128C384 57.406 326.594 0 256 0S128 57.406 128 128V224H96C60.654 224 32 252.652 32 288V448C32 483.346 60.654 512 96 512H416C451.348 512 480 483.346 480 448V288C480 252.652 451.348 224 416 224ZM160 128C160 75.062 203.062 32 256 32S352 75.062 352 128V224H160V128ZM448 448C448 465.645 433.645 480 416 480H96C78.355 480 64 465.645 64 448V288C64 270.355 78.355 256 96 256H416C433.645 256 448 270.355 448 288V448Z" })
+  }
+));
+LockLight.displayName = "LockLight";
+var Lock_default = LockLight;
+export {
+  Lock_default as default
+};

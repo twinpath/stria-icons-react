@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HouseLaptop_exports = {};
+__export(HouseLaptop_exports, {
+  default: () => HouseLaptop_default
+});
+module.exports = __toCommonJS(HouseLaptop_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HouseLaptopDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M480 224.006H332.795C315 224.006 299.121 232.238 287.992 245.105V208.006C287.992 199.131 280.867 192.008 271.992 192.008H207.992C199.117 192.008 191.992 199.131 191.992 208.006V272.006C191.992 280.879 199.117 288.004 207.992 288.004H271.994V416.002H111.994C85.596 416.002 63.994 394.402 63.994 368.002V256.006H31.996C14.211 256.006 0 241.551 0 224.006C0 215.248 3.598 206.684 10.293 200.506L218.293 8.512C224.42 2.855 232.206 0.012 239.992 0.012C239.995 0.012 239.997 0.012 240 0.012C247.787 0.012 255.572 2.855 261.699 8.512L351.992 91.857V48.008C351.992 39.174 359.156 32.012 367.99 32.012H399.99C408.828 32.012 415.99 39.174 415.99 48.01V150.93L469.699 200.506C476.389 206.678 479.994 215.258 480 224.006Z ", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M629.334 448.001H592V288.005C592 270.332 579.105 256.006 563.201 256.006H332.801C316.895 256.006 304 270.332 304 288.005V448.001H266.666C260.781 448.001 256 452.782 256 458.667V469.333C256.053 492.801 275.135 511.915 298.604 511.999H597.396C620.865 511.915 639.947 492.801 640 469.333V458.667C640 452.782 635.219 448.001 629.334 448.001ZM544 448.001H352V304.005H544V448.001Z " })
+    ]
+  }
+));
+HouseLaptopDuotone.displayName = "HouseLaptopDuotone";
+var HouseLaptop_default = HouseLaptopDuotone;

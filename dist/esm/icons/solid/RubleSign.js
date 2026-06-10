@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const RubleSignSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M240 320C319.406 320 384 255.406 384 176S319.406 32 240 32H104C81.906 32 64 49.906 64 72V240H40C17.906 240 0 257.906 0 280S17.906 320 40 320H64V352H32C14.328 352 0 366.328 0 384S14.328 416 32 416H64V440C64 462.094 81.906 480 104 480S144 462.094 144 440V416H288C305.672 416 320 401.672 320 384S305.672 352 288 352H144V320H240ZM144 112H240C275.297 112 304 140.703 304 176S275.297 240 240 240H144V112Z" })
+  }
+));
+RubleSignSolid.displayName = "RubleSignSolid";
+var RubleSign_default = RubleSignSolid;
+export {
+  RubleSign_default as default
+};

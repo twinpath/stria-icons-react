@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const QuestionThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M144 432C135.164 432 128 439.164 128 448S135.164 464 144 464S160 456.836 160 448S152.836 432 144 432ZM211.281 32H108.719C48.781 32 0 81.578 0 142.531V152C0 156.422 3.594 160 8 160S16 156.422 16 152V142.531C16 90.406 57.594 48 108.719 48H211.281C262.406 48 304 90.406 304 142.531C304 176.859 285.688 208.531 255.906 225.406L160.625 286.047C145.438 294.641 136 310.938 136 328.594V376C136 380.422 139.594 384 144 384S152 380.422 152 376V328.594C152 316.703 158.312 305.734 168.844 299.766L264.125 239.125C298.594 219.625 320 182.625 320 142.531C320 81.578 271.219 32 211.281 32Z" })
+  }
+));
+QuestionThin.displayName = "QuestionThin";
+var Question_default = QuestionThin;
+export {
+  Question_default as default
+};

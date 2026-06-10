@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const FolderOpenDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M480 144V224H147.781C135.656 224 124.578 230.848 119.156 241.688L0 480V80C0 53.492 21.49 32 48 32H208L272 96H432C458.51 96 480 117.492 480 144Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M572.578 270.312L476.578 462.312C471.16 473.152 460.078 480 447.961 480H0L119.156 241.688C124.578 230.848 135.656 224 147.781 224H543.961C567.746 224 583.219 249.031 572.578 270.312Z" })
+    ]
+  }
+));
+FolderOpenDuotone.displayName = "FolderOpenDuotone";
+var FolderOpen_default = FolderOpenDuotone;
+export {
+  FolderOpen_default as default
+};

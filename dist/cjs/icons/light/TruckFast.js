@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var TruckFast_exports = {};
+__export(TruckFast_exports, {
+  default: () => TruckFast_default
+});
+module.exports = __toCommonJS(TruckFast_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const TruckFastLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M272 192C280.836 192 288 184.836 288 176C288 167.162 280.836 160 272 160H48C39.164 160 32 167.162 32 176C32 184.836 39.164 192 48 192H272ZM624 384H608V247.672C608 228.594 601.156 210.109 588.75 195.625L517.734 112.766C508.594 102.109 495.312 96 481.281 96H416V64C416 28.654 387.346 0 352 0H128C92.654 0 64 28.654 64 64V96H16C7.164 96 0 103.162 0 112C0 120.836 7.164 128 16 128H240C248.836 128 256 120.836 256 112C256 103.162 248.836 96 240 96H96V64C96 46.326 110.326 32 128 32H352C369.674 32 384 46.326 384 64V288C384 296.836 391.164 304 400 304S416 296.836 416 288V256H576V384H570.4C557.18 346.773 521.705 320 480 320S402.82 346.773 389.6 384H250.121C236.896 346.799 201.738 320 160 320C135.301 320 113.012 329.59 96 344.914V256H240C248.836 256 256 248.836 256 240C256 231.162 248.836 224 240 224H16C7.164 224 0 231.162 0 240C0 248.836 7.164 256 16 256H64V416C64 469.02 106.98 512 160 512S256 469.02 256 416H384C384 468.938 427.062 512 480 512S576 468.938 576 416H624C632.844 416 640 408.844 640 400S632.844 384 624 384ZM416 224V128H481.281C485.969 128 490.391 130.031 493.422 133.578L564.453 216.438C566.463 218.789 568.18 221.34 569.688 224H416ZM160 480C124.711 480 96 451.289 96 416S124.711 352 160 352S224 380.711 224 416S195.289 480 160 480ZM480 480C444.703 480 416 451.297 416 416S444.703 352 480 352S544 380.703 544 416S515.297 480 480 480Z" })
+  }
+));
+TruckFastLight.displayName = "TruckFastLight";
+var TruckFast_default = TruckFastLight;

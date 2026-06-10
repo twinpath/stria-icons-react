@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const MugDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M416 128V64H448C518.75 64 576 121.25 576 192S518.75 320 448 320H416V256H448C483.375 256 512 227.375 512 192S483.375 128 448 128H416Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M416 352C416 405 373 448 320 448H128C75 448 32 405 32 352V88C32 72.976 44.419 64 56 64H416V352Z" })
+    ]
+  }
+));
+MugDuotone.displayName = "MugDuotone";
+var Mug_default = MugDuotone;
+export {
+  Mug_default as default
+};

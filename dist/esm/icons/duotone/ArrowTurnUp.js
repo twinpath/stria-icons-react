@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ArrowTurnUpDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M232 132.047V472C232 494.094 214.094 512 192 512H40C17.906 512 0 494.094 0 472S17.906 432 40 432H152V132.055L192.002 94.711L232 132.047Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M341.251 179.28C333.361 187.718 322.689 192 311.985 192C302.22 192 292.423 188.437 284.704 181.249L192 94.711L99.296 181.249C83.108 196.313 57.827 195.438 42.749 179.28C27.686 163.154 28.561 137.839 44.702 122.744L164.703 10.735C180.078 -3.578 203.922 -3.578 219.297 10.735L339.298 122.744C355.439 137.839 356.314 163.154 341.251 179.28Z" })
+    ]
+  }
+));
+ArrowTurnUpDuotone.displayName = "ArrowTurnUpDuotone";
+var ArrowTurnUp_default = ArrowTurnUpDuotone;
+export {
+  ArrowTurnUp_default as default
+};

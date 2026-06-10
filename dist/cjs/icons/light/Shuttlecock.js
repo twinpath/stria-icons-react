@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Shuttlecock_exports = {};
+__export(Shuttlecock_exports, {
+  default: () => Shuttlecock_default
+});
+module.exports = __toCommonJS(Shuttlecock_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ShuttlecockLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M479.994 192H418.358L428.735 119.375C431.735 98.625 414.232 80.25 392.603 83.25L319.965 93.625V32C319.965 14.25 305.712 0 287.959 0H244.826C232.699 0 221.322 7.125 216.071 18.125L98.049 263.875L31.037 330.875C-10.346 372.25 -10.346 439.5 31.037 480.875C51.666 501.625 78.796 512 106.051 512C133.181 512 160.311 501.625 181.064 480.875L248.077 413.875L493.872 295.875C504.874 290.625 512 279.25 512 267.125V224C512 206.25 497.747 192 479.994 192ZM397.104 114.875L385.727 195.125L293.96 218L316.839 126.25L397.104 114.875ZM244.826 32H287.959V102.25L185.565 155.625L244.826 32ZM279.832 142.625L257.578 231.75L169.687 319.625L127.305 277.25L162.561 203.75L279.832 142.625ZM31.912 406C31.912 387.375 38.913 370 51.416 356.375L155.685 460.625C141.932 473 124.554 480 105.926 480C65.043 480 31.912 446.875 31.912 406ZM178.439 438.25L73.67 333.5L105.926 301.25L210.695 406L178.439 438.25ZM234.699 384.75L192.316 342.25L280.208 254.5L369.349 232.25L308.213 349.5L234.699 384.75ZM479.994 267L356.346 326.375L409.731 224H479.994V267Z" })
+  }
+));
+ShuttlecockLight.displayName = "ShuttlecockLight";
+var Shuttlecock_default = ShuttlecockLight;

@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var EarListen_exports = {};
+__export(EarListen_exports, {
+  default: () => EarListen_default
+});
+module.exports = __toCommonJS(EarListen_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const EarListenDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M160.162 320.002C142.52 320.002 128.131 334.375 128.131 352S142.52 384 160.162 384S192.195 369.625 192.195 352S177.805 320.002 160.162 320.002ZM86.656 361.369C74.15 348.877 53.889 348.877 41.383 361.369C28.873 373.867 28.873 394.145 41.383 406.643L105.344 470.629C117.85 483.123 138.111 483.123 150.617 470.631V470.629C163.127 458.131 163.127 437.855 150.617 425.357L86.656 361.369ZM32.033 448C14.389 448 0 462.375 0 480S14.389 512 32.033 512C49.676 512 64.064 497.625 64.064 480S49.676 448 32.033 448ZM397.766 3.125C381.859 -4.469 362.719 2.281 355.109 18.219C347.516 34.187 354.281 53.281 370.234 60.875C417.469 83.406 448 134.875 448 192C448 209.688 462.328 224 480 224S512 209.688 512 192C512 110.344 467.156 36.188 397.766 3.125Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M287.924 70.314C177.054 40.938 76.191 117.844 65.172 221.203C63.174 239.943 78.902 255.996 97.748 255.996C114.353 255.996 126.994 242.93 128.992 226.443C135.926 169.219 186.199 125.148 245.904 128.139C317.611 131.732 363.855 204.961 348.371 275.068C341.82 304.719 326.968 331.941 304.988 353.934L288.176 370.746V383.996C288.176 415.396 265.461 441.578 235.593 446.975C220.619 449.682 208.176 463.348 208.176 478.566C208.176 498.348 226.052 513.502 245.556 510.209C301.472 500.766 345.183 454.93 351.41 397.996C391.515 357.32 414.302 304.047 416.064 247.145C418.566 166.416 365.998 91.004 287.924 70.314ZM240.176 200C262.238 200 280.176 217.938 280.176 240C280.176 253.25 290.926 264 304.176 264S328.176 253.25 328.176 240C328.176 191.469 288.707 152 240.176 152S152.176 191.469 152.176 240C152.176 253.25 162.926 264 176.176 264S200.176 253.25 200.176 240C200.176 217.938 218.113 200 240.176 200Z" })
+    ]
+  }
+));
+EarListenDuotone.displayName = "EarListenDuotone";
+var EarListen_default = EarListenDuotone;

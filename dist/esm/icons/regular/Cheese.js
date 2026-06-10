@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const CheeseRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M299.875 32H298.375C291.25 32.125 284.25 34.5 278.75 39L0 255.875V448C0 465.625 14.375 480 32 480H480C497.625 480 512 465.625 512 448V255.875C512 136 417.999 38.25 299.875 32ZM303.625 80.375C391.375 88.125 459.25 159.875 463.25 247.875H88.5L303.625 80.375ZM464 432H48V295.875H464V432Z" })
+  }
+));
+CheeseRegular.displayName = "CheeseRegular";
+var Cheese_default = CheeseRegular;
+export {
+  Cheese_default as default
+};

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const GreaterThanSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M384 255.943C384 271.094 375.437 284.932 361.89 291.709L57.898 443.641C34.232 455.469 11.914 441.111 4.226 425.744C-5.647 406.002 2.369 381.982 22.117 372.111L254.566 255.943L22.117 139.777C2.369 129.906 -5.647 105.887 4.226 86.145C14.101 66.342 38.101 58.346 57.898 68.246L361.89 220.18C375.437 226.957 384 240.795 384 255.943Z" })
+  }
+));
+GreaterThanSolid.displayName = "GreaterThanSolid";
+var GreaterThan_default = GreaterThanSolid;
+export {
+  GreaterThan_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Banjo_exports = {};
+__export(Banjo_exports, {
+  default: () => Banjo_default
+});
+module.exports = __toCommonJS(Banjo_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BanjoSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M502.625 39L473 9.375C460.5 -3.125 440.25 -3.125 427.75 9.375L381.5 55.75C377.625 59.625 374.75 64.25 373 69.5L360.75 106.125L286 180.75C266.125 167.25 242.875 158.5 218.125 154.625V154.125C218.125 139.75 206.375 128 192 128C177.5 128 165.75 139.75 165.75 154.125V154.625C139.625 158.75 114.875 168.875 93.5 184.5L93.25 184.25C83 174.625 66.875 174.875 56.875 184.875C47 194.875 46.625 210.875 56.25 221.25L56.5 221.5C41 242.875 30.75 267.625 26.625 293.75H26.25C11.75 293.75 0 305.5 0 320C0 334.375 11.75 346.125 26.25 346.125H26.625C30.75 372.25 41 397.125 56.5 418.5L56.25 418.75C49.25 425.25 46.375 435.125 48.75 444.375C51.125 453.625 58.375 460.875 67.625 463.25C76.875 465.625 86.75 462.75 93.25 455.75L93.5 455.5C114.875 471 139.625 481.25 165.875 485.25V485.75C165.875 500.25 177.5 512 192 512S218.125 500.25 218.125 485.75V485.25C244.375 481.25 269.125 471 290.5 455.5L290.75 455.75C297.25 462.75 307.125 465.625 316.375 463.25C325.625 460.875 332.875 453.625 335.25 444.375C337.625 435.125 334.75 425.25 327.75 418.75L327.5 418.5C343 397.125 353.25 372.25 357.375 346.125H357.75C372.25 346.125 384 334.375 384 320C384 305.5 372.25 293.75 357.75 293.75H357.375C353.5 269 344.75 245.875 331.25 226L406.125 151.125L442.5 139C447.75 137.25 452.375 134.375 456.25 130.5L502.625 84.125C515.125 71.75 515.125 51.5 502.625 39ZM192 432C130.125 432 80 381.875 80 320S130.125 208 192 208S304 258.125 304 320C303.875 381.875 253.875 431.875 192 432ZM153 306.375C151.5 304.875 149.5 304 147.375 304C145.25 304 143.125 304.875 141.625 306.375L130.375 317.625C127.25 320.75 127.25 325.875 130.375 329L183 381.625C186.125 384.75 191.125 384.75 194.25 381.625L205.625 370.375C207.125 368.875 208 366.875 208 364.75C208 362.625 207.125 360.5 205.625 359L153 306.375Z" })
+  }
+));
+BanjoSolid.displayName = "BanjoSolid";
+var Banjo_default = BanjoSolid;

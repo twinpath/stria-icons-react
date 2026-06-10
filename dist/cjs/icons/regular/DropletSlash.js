@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var DropletSlash_exports = {};
+__export(DropletSlash_exports, {
+  default: () => DropletSlash_default
+});
+module.exports = __toCommonJS(DropletSlash_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DropletSlashRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M630.81 469.102L493.575 361.541C495.001 352.506 495.999 343.328 495.999 333.875C495.999 222.125 396.249 180.625 349.249 22.125C345.249 7.5 332.624 0 319.999 0C307.624 0 295.249 7.25 290.749 22.125C274.318 77.572 251.316 118.688 228.388 153.693L38.814 5.109C34.407 1.672 29.189 0 24.032 0C16.907 0 9.845 3.156 5.126 9.188C-3.061 19.625 -1.249 34.717 9.189 42.889L239.138 223.117L601.185 506.883C611.685 515.086 626.747 513.211 634.872 502.805C643.06 492.367 641.247 477.273 630.81 469.102ZM266.269 183.383C284.624 155.652 303.761 123.602 319.999 83.625C343.124 140.5 371.999 181.75 396.249 216.375C425.28 257.881 444.945 286.48 447.489 325.42L266.269 183.383ZM319.999 464C249.374 464 191.999 405.625 191.999 333.875C191.999 307.533 199.728 286.23 212.798 263.475L174.765 233.666C156.583 263.939 143.999 294.648 143.999 333.875C143.999 432.375 222.749 512 319.999 512C372.806 512 420.03 488.404 452.282 451.176L414.169 421.303C390.753 447.352 357.392 464 319.999 464ZM335.999 432C344.874 432 351.999 424.875 351.999 416S344.874 400 335.999 400C291.874 400 255.999 364.125 255.999 320C255.999 311.125 248.874 304 239.999 304S223.999 311.125 223.999 320C223.999 381.75 274.249 432 335.999 432Z" })
+  }
+));
+DropletSlashRegular.displayName = "DropletSlashRegular";
+var DropletSlash_default = DropletSlashRegular;

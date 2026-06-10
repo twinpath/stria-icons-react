@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Signature_exports = {};
+__export(Signature_exports, {
+  default: () => Signature_default
+});
+module.exports = __toCommonJS(Signature_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const SignatureDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M128 367.998H24C10.746 367.998 0 378.742 0 391.998S10.746 416 24.002 416H128.971C128.676 412.789 128 409.689 128 406.404V367.998ZM7.031 296.969C11.719 301.656 17.844 304 24 304S36.281 301.656 40.969 296.969L64 273.937L87.031 296.969C91.719 301.656 97.844 304 104 304S116.281 301.656 120.969 296.969C130.344 287.594 130.344 272.406 120.969 263.031L97.938 240L120.969 216.969C130.344 207.594 130.344 192.406 120.969 183.031S96.406 173.656 87.031 183.031L64 206.062L40.969 183.031C31.594 173.656 16.406 173.656 7.031 183.031S-2.344 207.594 7.031 216.969L30.062 240L7.031 263.031C-2.344 272.406 -2.344 287.594 7.031 296.969ZM616 367.998H367.318C361.586 383.967 355.123 400.17 347.877 416H616C629.254 416 640 405.254 640 392V391.998C640 378.742 629.254 367.998 616 367.998Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M616 255.997H524.391L542.359 202.121C546.141 190.777 543.281 178.276 534.969 169.714C526.625 161.151 514.187 157.932 502.812 161.339L377.437 198.964C381.281 174.433 383.5 152.338 383.906 134.619C385.094 84.462 350.687 40.899 303.891 33.274C275.766 28.711 247.328 36.524 225.844 54.837C204.328 73.118 192 99.775 192 127.994V167.995C192 181.249 202.746 191.995 216 191.995H232C245.254 191.995 256 181.249 256 167.995V127.994C256 118.588 260.109 109.681 267.297 103.587C274.562 97.4 283.875 94.806 293.609 96.462C311.203 99.306 320.297 117.463 319.938 133.119C319.375 156.62 315.391 186.995 308.891 219.496L212.437 248.434C181.314 257.772 160 286.419 160 318.914V402.962C160 439.859 185.615 473.702 222.109 479.143C251.682 483.554 279.895 470.67 295.313 446.625C324.188 401.656 347.656 334.154 363.188 270.028L462.156 240.371L449.641 277.872C446.391 287.622 448.031 298.372 454.047 306.716S469.719 319.998 480 319.998H616C629.254 319.998 640 309.251 640 295.997V279.997C640 266.743 629.254 255.997 616 255.997ZM241.469 412.062C237.391 418.406 223.969 414.968 224 406.406V318.935C224 314.716 226.812 310.935 230.828 309.748L291.172 291.653C277.5 338.529 260.078 383.061 241.469 412.062Z" })
+    ]
+  }
+));
+SignatureDuotone.displayName = "SignatureDuotone";
+var Signature_default = SignatureDuotone;

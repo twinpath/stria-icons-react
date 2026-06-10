@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var MillSign_exports = {};
+__export(MillSign_exports, {
+  default: () => MillSign_default
+});
+module.exports = __toCommonJS(MillSign_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MillSignLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M384 200V432C384 440.844 376.844 448 368 448S352 440.844 352 432V200C352 160.312 319.688 128 280 128C268.912 128 258.523 130.73 249.131 135.232L208 258.625V432C208 440.844 200.844 448 192 448S176 440.844 176 432V354.625L127.188 501.062C124.938 507.75 118.688 512 112 512C110.312 512 108.625 511.75 106.938 511.188C98.562 508.375 94.031 499.312 96.813 490.938L176 253.375V200C176 160.312 143.688 128 104 128S32 160.312 32 200V432C32 440.844 24.844 448 16 448S0 440.844 0 432V112C0 103.156 7.156 96 16 96S32 103.156 32 112V125.254C50.711 107.227 76.027 96 104 96C141.174 96 173.607 115.766 192 145.182C199.908 132.533 210.256 121.607 222.67 113.365L256.813 10.938C259.625 2.594 268.75 -1.969 277.063 0.813C285.438 3.625 289.969 12.688 287.188 21.063L261.588 97.861C267.586 96.781 273.695 96 280 96C337.344 96 384 142.656 384 200Z" })
+  }
+));
+MillSignLight.displayName = "MillSignLight";
+var MillSign_default = MillSignLight;

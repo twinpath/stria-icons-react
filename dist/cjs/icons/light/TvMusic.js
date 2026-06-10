@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var TvMusic_exports = {};
+__export(TvMusic_exports, {
+  default: () => TvMusic_default
+});
+module.exports = __toCommonJS(TvMusic_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const TvMusicLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M402.25 101.75C393.625 95.75 382.625 94.312 372.75 98.062L276.75 134.062C264.344 138.719 256 150.75 256 164.031V237.752C248.697 234.756 240.621 232.938 232 232.938C201.125 232.938 176 254.469 176 280.938S201.125 328.938 232 328.938S288 307.406 288 280.938V164L384 128.031V205.752C376.697 202.756 368.621 200.938 360 200.938C329.125 200.938 304 222.469 304 248.938S329.125 296.938 360 296.938S416 275.406 416 248.938V128.031C416 117.531 410.844 107.719 402.25 101.75ZM232 296.938C219.219 296.938 208 289.469 208 280.938S219.219 264.938 232 264.938S256 272.406 256 280.938S244.781 296.938 232 296.938ZM360 264.938C347.219 264.938 336 257.469 336 248.938S347.219 232.938 360 232.938S384 240.406 384 248.938S372.781 264.938 360 264.938ZM528 480H112C103.164 480 96 487.162 96 496C96 504.836 103.164 512 112 512H528C536.838 512 544 504.836 544 496C544 487.162 536.838 480 528 480ZM576 0H64C28.654 0 0 28.654 0 64V384C0 419.346 28.654 448 64 448H576C611.348 448 640 419.346 640 384V64C640 28.654 611.348 0 576 0ZM608 384C608 401.645 593.645 416 576 416H64C46.355 416 32 401.645 32 384V64C32 46.355 46.355 32 64 32H576C593.645 32 608 46.355 608 64V384Z" })
+  }
+));
+TvMusicLight.displayName = "TvMusicLight";
+var TvMusic_default = TvMusicLight;

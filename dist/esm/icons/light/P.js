@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const PLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M16 480C7.156 480 0 472.844 0 464V48C0 39.156 7.156 32 16 32H176C255.406 32 320 96.594 320 176S255.406 320 176 320H32V464C32 472.844 24.844 480 16 480ZM32 288H176C237.75 288 288 237.75 288 176S237.75 64 176 64H32V288Z" })
+  }
+));
+PLight.displayName = "PLight";
+var P_default = PLight;
+export {
+  P_default as default
+};

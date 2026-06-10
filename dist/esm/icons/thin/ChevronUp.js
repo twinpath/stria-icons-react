@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ChevronUpThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M445.348 349.934C443.817 351.31 441.91 351.982 440.004 351.982C437.816 351.982 435.629 351.091 434.066 349.34L224 115.829L13.934 349.34C11.027 352.623 5.933 352.92 2.652 349.934C-0.629 346.964 -0.91 341.915 2.058 338.617L218.062 98.509C221.062 95.164 226.938 95.164 229.938 98.509L445.942 338.617C448.91 341.915 448.629 346.964 445.348 349.934Z" })
+  }
+));
+ChevronUpThin.displayName = "ChevronUpThin";
+var ChevronUp_default = ChevronUpThin;
+export {
+  ChevronUp_default as default
+};

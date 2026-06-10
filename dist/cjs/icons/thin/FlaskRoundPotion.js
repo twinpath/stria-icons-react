@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FlaskRoundPotion_exports = {};
+__export(FlaskRoundPotion_exports, {
+  default: () => FlaskRoundPotion_default
+});
+module.exports = __toCommonJS(FlaskRoundPotion_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FlaskRoundPotionThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M288 154.137V16H312C316.406 16 320 12.406 320 8S316.406 0 312 0H136C131.594 0 128 3.594 128 8S131.594 16 136 16H160V154.137C76.461 181.145 16 259.469 16 352C16 411.91 41.348 465.879 81.883 503.832C87.684 509.262 95.539 512 103.484 512H344.516C352.461 512 360.316 509.262 366.117 503.832C406.652 465.879 432 411.91 432 352C432 259.469 371.539 181.145 288 154.137ZM164.922 169.359L176 165.777V16H272V165.777L283.078 169.359C362.438 195.016 415.77 268.199 415.965 351.551L413.063 351.562C380.375 351.938 336.062 352 280.719 324.344C203.453 285.664 118.32 286.441 34.102 325.594C44.051 253.344 93.945 192.305 164.922 169.359ZM355.184 492.152C352.57 494.598 348.68 496 344.516 496H103.484C99.32 496 95.43 494.598 92.82 492.152C53.598 455.434 32 405.656 32 352C32 349.172 32.543 346.469 32.664 343.664C116.203 302.156 197.273 300.48 273.563 338.656C327.406 365.594 372.719 367.594 404.688 367.594C407.625 367.594 410.438 367.563 413.156 367.563L415.219 367.555C411.445 415.211 390.574 459.016 355.184 492.152Z" })
+  }
+));
+FlaskRoundPotionThin.displayName = "FlaskRoundPotionThin";
+var FlaskRoundPotion_default = FlaskRoundPotionThin;

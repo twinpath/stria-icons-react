@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var VanShuttle_exports = {};
+__export(VanShuttle_exports, {
+  default: () => VanShuttle_default
+});
+module.exports = __toCommonJS(VanShuttle_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const VanShuttleLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M629.023 203.488L501.92 49.471C492.801 38.367 479.297 32 464.928 32H48C21.535 32 0 53.535 0 80V336C0 362.463 21.535 384 48 384H64C64 437.023 106.977 480 160 480S256 437.023 256 384H384C384 437.023 426.977 480 480 480S576 437.023 576 384H592C618.465 384 640 362.463 640 336V234.047C640 222.943 636.096 212.096 629.023 203.488ZM384 64H464.928C469.695 64 474.209 66.111 477.248 69.824L578.049 192H384V64ZM192 64H352V192H192V64ZM32 80C32 71.168 39.168 64 48 64H160V192H32V80ZM160 448C124.703 448 96 419.295 96 384C96 348.703 124.703 320 160 320S224 348.703 224 384C224 419.295 195.297 448 160 448ZM480 448C444.703 448 416 419.295 416 384C416 348.703 444.703 320 480 320S544 348.703 544 384C544 419.295 515.297 448 480 448ZM608 336C608 344.832 600.832 352 592 352H570.111C556.896 314.783 521.729 288 480 288S403.104 314.783 389.889 352H250.111C236.896 314.783 201.729 288 160 288S83.104 314.783 69.889 352H48C39.168 352 32 344.832 32 336V224H604.416C606.721 226.848 608 230.4 608 234.047V336Z" })
+  }
+));
+VanShuttleLight.displayName = "VanShuttleLight";
+var VanShuttle_default = VanShuttleLight;

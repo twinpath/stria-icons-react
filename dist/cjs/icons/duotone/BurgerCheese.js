@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BurgerCheese_exports = {};
+__export(BurgerCheese_exports, {
+  default: () => BurgerCheese_default
+});
+module.exports = __toCommonJS(BurgerCheese_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BurgerCheeseDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M58.654 224H453.279C487.904 224 507.904 180.125 488.154 148.125C448.029 83.25 359.529 32.125 256.029 32C152.529 32.125 64.029 83.25 23.779 148.125C4.029 180.125 24.154 224 58.654 224ZM384.029 112C392.904 112 400.029 119.125 400.029 128S392.904 144 384.029 144S368.029 136.875 368.029 128S375.154 112 384.029 112ZM256.029 80C264.904 80 272.029 87.125 272.029 96S264.904 112 256.029 112S240.029 104.875 240.029 96S247.154 80 256.029 80ZM128.029 112C136.904 112 144.029 119.125 144.029 128S136.904 144 128.029 144S112.029 136.875 112.029 128S119.154 112 128.029 112ZM480.029 384H32.029C23.154 384 16.029 391.125 16.029 400V416C16.029 451.375 44.654 480 80.029 480H432.029C467.404 480 496.029 451.375 496.029 416V400C496.029 391.125 488.904 384 480.029 384ZM416.029 256H224.029L320.029 320L416.029 256Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M512 304C512 330.5 490.5 352 464 352H48C21.5 352 0 330.5 0 304S21.5 256 48 256H224L320 320L416 256H464C490.5 256 512 277.5 512 304Z" })
+    ]
+  }
+));
+BurgerCheeseDuotone.displayName = "BurgerCheeseDuotone";
+var BurgerCheese_default = BurgerCheeseDuotone;

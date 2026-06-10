@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BorderAllThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M416 32H32C14.326 32 0 46.326 0 64V448C0 465.674 14.326 480 32 480H416C433.674 480 448 465.674 448 448V64C448 46.326 433.674 32 416 32ZM16 64C16 55.178 23.178 48 32 48H216V248H16V64ZM32 464C23.178 464 16 456.822 16 448V264H216V464H32ZM432 448C432 456.822 424.822 464 416 464H232V264H432V448ZM232 248V48H416C424.822 48 432 55.178 432 64V248H232Z" })
+  }
+));
+BorderAllThin.displayName = "BorderAllThin";
+var BorderAll_default = BorderAllThin;
+export {
+  BorderAll_default as default
+};

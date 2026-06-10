@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const StairsRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M576 56C576 69.25 565.25 80 552 80H432V200C432 213.25 421.25 224 408 224H304V328C304 341.25 293.25 352 280 352H176V456C176 469.25 165.25 480 152 480H24C10.75 480 0 469.25 0 456S10.75 432 24 432H128V328C128 314.75 138.75 304 152 304H256V200C256 186.75 266.75 176 280 176H384V56C384 42.75 394.75 32 408 32H552C565.25 32 576 42.75 576 56Z" })
+  }
+));
+StairsRegular.displayName = "StairsRegular";
+var Stairs_default = StairsRegular;
+export {
+  Stairs_default as default
+};

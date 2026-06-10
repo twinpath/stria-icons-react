@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Church_exports = {};
+__export(Church_exports, {
+  default: () => Church_default
+});
+module.exports = __toCommonJS(Church_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ChurchSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M464.5 246.625L352 179.25V128H400C408.875 128 416 120.875 416 112V80C416 71.125 408.875 64 400 64H352V16C352 7.125 344.875 0 336 0H304C295.125 0 288 7.125 288 16V64H240C231.125 64 224 71.125 224 80V112C224 120.875 231.125 128 240 128H288V179.25L175.5 246.625C165.875 252.5 160 262.875 160 274.125V512H256V416C256 380.625 284.625 352 320 352S384 380.625 384 416V512H480V274.125C480 262.875 474.125 252.5 464.5 246.625ZM0 396V480C0 497.673 14.327 512 32 512H128V320L19.375 366.5C7.625 371.625 0 383.125 0 396ZM620.625 366.5L512 320V512H608C625.673 512 640 497.673 640 480V396C640 383.125 632.375 371.625 620.625 366.5Z" })
+  }
+));
+ChurchSolid.displayName = "ChurchSolid";
+var Church_default = ChurchSolid;

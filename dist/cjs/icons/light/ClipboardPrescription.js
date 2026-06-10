@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ClipboardPrescription_exports = {};
+__export(ClipboardPrescription_exports, {
+  default: () => ClipboardPrescription_default
+});
+module.exports = __toCommonJS(ClipboardPrescription_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ClipboardPrescriptionLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M112 128H272C280.844 128 288 120.844 288 112S280.844 96 272 96H247.123C252.621 86.555 256 75.717 256 64C256 28.654 227.346 0 192 0S128 28.654 128 64C128 75.717 131.379 86.555 136.877 96H112C103.156 96 96 103.156 96 112S103.156 128 112 128ZM192 32C209.645 32 224 46.355 224 64S209.645 96 192 96S160 81.645 160 64S174.355 32 192 32ZM320 64C311.156 64 304 71.156 304 80S311.156 96 320 96C337.641 96 352 110.344 352 128V448C352 465.656 337.641 480 320 480H64C46.359 480 32 465.656 32 448V128C32 110.344 46.359 96 64 96C72.844 96 80 88.844 80 80S72.844 64 64 64C28.703 64 0 92.719 0 128V448C0 483.281 28.703 512 64 512H320C355.297 512 384 483.281 384 448V128C384 92.719 355.297 64 320 64ZM80 352C80 360.844 87.156 368 96 368S112 360.844 112 352V304H153.375L217.375 368L180.688 404.688C174.438 410.938 174.438 421.063 180.688 427.312C183.812 430.438 187.906 432 192 432S200.188 430.438 203.312 427.312L240 390.625L276.688 427.312C279.812 430.438 283.906 432 288 432S296.188 430.438 299.312 427.312C305.562 421.062 305.562 410.937 299.312 404.688L262.625 368L299.312 331.312C305.562 325.062 305.562 314.937 299.312 308.688S282.937 302.438 276.688 308.688L240 345.375L195.32 300.695C221.137 292.445 240 268.508 240 240C240 204.719 211.297 176 176 176H96C87.156 176 80 183.156 80 192V352ZM112 208H176C193.641 208 208 222.344 208 240S193.641 272 176 272H112V208Z" })
+  }
+));
+ClipboardPrescriptionLight.displayName = "ClipboardPrescriptionLight";
+var ClipboardPrescription_default = ClipboardPrescriptionLight;

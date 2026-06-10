@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var EnvelopesBulk_exports = {};
+__export(EnvelopesBulk_exports, {
+  default: () => EnvelopesBulk_default
+});
+module.exports = __toCommonJS(EnvelopesBulk_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const EnvelopesBulkLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M80 160C88.836 160 96 152.836 96 144V64C96 46.326 110.326 32 128 32H384C401.674 32 416 46.326 416 64H448C448 28.652 419.346 0 384 0H128C92.654 0 64 28.652 64 64V144C64 152.836 71.164 160 80 160ZM576 96H256C220.654 96 192 124.652 192 160H224C224 142.326 238.326 128 256 128H576C593.674 128 608 142.326 608 160V352C608 369.672 593.674 384 576 384H432C423.164 384 416 391.162 416 400C416 408.836 423.164 416 432 416H576C611.346 416 640 387.346 640 352V160C640 124.652 611.346 96 576 96ZM560 256C568.875 256 576 248.875 576 240V176C576 167.125 568.875 160 560 160H496C487.125 160 480 167.125 480 176V240C480 248.875 487.125 256 496 256H560ZM512 192H544V224H512V192ZM320 192H64C28.654 192 0 220.652 0 256V448C0 483.346 28.654 512 64 512H320C355.346 512 384 483.346 384 448V256C384 220.652 355.346 192 320 192ZM352 448C352 465.672 337.674 480 320 480H64C46.326 480 32 465.672 32 448V313.625C44.75 323.25 64 339.25 128 384C140.75 393.625 166.375 416 192 416S243.25 393.625 256 384C320 339.25 339.25 323.25 352 313.625V448ZM352 275.25C326.375 294.375 329.625 294.375 236.75 361.625C227.25 364.75 208 384 192 384S156.75 364.75 147.25 358.375C54.375 291.25 57.625 291.25 32 272V256C32 238.326 46.326 224 64 224H320C337.674 224 352 238.326 352 256V275.25Z" })
+  }
+));
+EnvelopesBulkLight.displayName = "EnvelopesBulkLight";
+var EnvelopesBulk_default = EnvelopesBulkLight;

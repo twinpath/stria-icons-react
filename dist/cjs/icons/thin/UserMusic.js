@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var UserMusic_exports = {};
+__export(UserMusic_exports, {
+  default: () => UserMusic_default
+});
+module.exports = __toCommonJS(UserMusic_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const UserMusicThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M224 256C294.695 256 352 198.691 352 128S294.695 0 224 0C153.312 0 96 57.309 96 128S153.312 256 224 256ZM224 16C285.758 16 336 66.242 336 128S285.758 240 224 240S112 189.758 112 128S162.242 16 224 16ZM320 496H41.422C27.406 496 16 485.219 16 472C16 388.188 87.391 320 175.141 320H272.859C299.172 320 325.266 326.281 348.344 338.156C352.234 340.125 357.094 338.625 359.109 334.688C361.141 330.75 359.594 325.938 355.656 323.906C330.344 310.875 301.703 304 272.859 304H175.141C78.562 304 0 379.375 0 472C0 494.062 18.578 512 41.422 512H320C324.422 512 328 508.406 328 504S324.422 496 320 496ZM609.242 128.986L524.594 153.814C507.68 158.892 496.094 174.462 496.094 192.118V388.023C478.922 366.344 449.5 352 416 352C362.98 352 320 387.816 320 432C320 476.18 362.98 512 416 512S512 476.18 512 432H512.094V290.759L622.766 258.228C632.984 255.228 640 245.853 640 235.204V152.013C640 135.997 624.613 124.478 609.242 128.986ZM416 496C371.887 496 336 467.289 336 432S371.887 368 416 368S496 396.711 496 432S460.113 496 416 496ZM624 235.193C624 238.743 621.66 241.868 618.258 242.868L512.094 274.064V192.15C512.094 181.486 519.125 172.095 529.359 169.095L613.75 144.337C618.871 142.833 624 146.673 624 152.013V235.193Z" })
+  }
+));
+UserMusicThin.displayName = "UserMusicThin";
+var UserMusic_default = UserMusicThin;

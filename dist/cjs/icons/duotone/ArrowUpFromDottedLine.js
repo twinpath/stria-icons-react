@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ArrowUpFromDottedLine_exports = {};
+__export(ArrowUpFromDottedLine_exports, {
+  default: () => ArrowUpFromDottedLine_default
+});
+module.exports = __toCommonJS(ArrowUpFromDottedLine_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ArrowUpFromDottedLineDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M32 416C14.326 416 0 430.328 0 448S14.326 480 32 480S64 465.672 64 448S49.674 416 32 416ZM128 416C110.326 416 96 430.328 96 448S110.326 480 128 480S160 465.672 160 448S145.674 416 128 416ZM224 416C206.326 416 192 430.328 192 448S206.326 480 224 480S256 465.672 256 448S241.674 416 224 416ZM320 416C302.326 416 288 430.328 288 448S302.326 480 320 480S352 465.672 352 448S337.674 416 320 416ZM416 416C398.326 416 384 430.328 384 448S398.326 480 416 480S448 465.672 448 448S433.674 416 416 416Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M374.509 214.625C368.259 220.875 360.072 224 351.884 224S335.509 220.875 329.259 214.625L255.884 141.25V320C255.884 337.688 241.572 352 223.884 352S191.884 337.688 191.884 320V141.25L118.509 214.625C106.009 227.125 85.759 227.125 73.259 214.625S60.759 181.875 73.259 169.375L201.259 41.375C213.759 28.875 234.009 28.875 246.509 41.375L374.509 169.375C387.009 181.875 387.009 202.125 374.509 214.625Z" })
+    ]
+  }
+));
+ArrowUpFromDottedLineDuotone.displayName = "ArrowUpFromDottedLineDuotone";
+var ArrowUpFromDottedLine_default = ArrowUpFromDottedLineDuotone;

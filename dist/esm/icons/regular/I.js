@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const IRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M320 448C320 465.688 305.688 480 288 480H32C14.312 480 0 465.688 0 448S14.312 416 32 416H128V96H32C14.312 96 0 81.688 0 64S14.312 32 32 32H288C305.688 32 320 46.312 320 64S305.688 96 288 96H192V416H288C305.688 416 320 430.312 320 448Z" })
+  }
+));
+IRegular.displayName = "IRegular";
+var I_default = IRegular;
+export {
+  I_default as default
+};

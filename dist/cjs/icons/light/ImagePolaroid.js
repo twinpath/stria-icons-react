@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ImagePolaroid_exports = {};
+__export(ImagePolaroid_exports, {
+  default: () => ImagePolaroid_default
+});
+module.exports = __toCommonJS(ImagePolaroid_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ImagePolaroidLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M96.002 152C109.258 152 120.002 141.254 120.002 128S109.258 104 96.002 104C82.748 104 72.002 114.746 72.002 128S82.748 152 96.002 152ZM282.588 139.91C271.307 124.098 244.09 123.973 232.59 139.879L188.561 201.311L181.592 192.369C170.154 177.904 144.625 177.811 133.188 192.4L70.158 272.75C63.035 281.881 62.004 294.305 67.535 304.312C72.783 313.977 83.064 320 94.377 320H353.584C364.584 320 374.74 314.227 380.113 304.939C380.113 304.908 380.113 304.908 380.145 304.877C385.801 294.994 385.207 283.072 378.551 273.754L282.588 139.91ZM98.189 287.873L156.438 212.26L176.529 237.924C180.877 243.469 194.127 248.578 202.121 237.391L256.557 158.641L349.24 287.873H98.189ZM384 32H64C28.654 32 0 60.654 0 96V416C0 451.346 28.654 480 64 480H384C419.346 480 448 451.346 448 416V96C448 60.654 419.346 32 384 32ZM416 416C416 433.645 401.645 448 384 448H64C46.355 448 32 433.645 32 416V384H416V416ZM416 352H32V96C32 78.355 46.355 64 64 64H384C401.645 64 416 78.355 416 96V352Z" })
+  }
+));
+ImagePolaroidLight.displayName = "ImagePolaroidLight";
+var ImagePolaroid_default = ImagePolaroidLight;

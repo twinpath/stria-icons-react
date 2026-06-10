@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var DiceD20_exports = {};
+__export(DiceD20_exports, {
+  default: () => DiceD20_default
+});
+module.exports = __toCommonJS(DiceD20_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DiceD20Regular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M463.875 116.108L271.875 4.219C267 1.406 261.5 0 256 0S245 1.406 240.125 4.219L48.125 116.108C38.125 121.984 32 132.735 32 144.486V367.514C32 379.265 38.125 390.016 48.125 395.892L240.125 507.781C245 510.594 250.5 512 256 512S267 510.594 271.875 507.781L463.875 395.892C473.875 390.016 480 379.265 480 367.514V144.486C480 132.735 473.875 121.984 463.875 116.108ZM256 87.854L328.5 183.991H183.5L256 87.854ZM256 339.26L187.75 231.997H324.25L256 339.26ZM145.125 254.5L208.5 354.012L125.125 334.635L145.125 254.5ZM366.875 254.5L386.875 334.635L303.5 354.012L366.875 254.5ZM383.5 177.24L313.125 83.854L419.125 145.612L383.5 177.24ZM128.5 177.24L92.875 145.612L198.875 83.854L128.5 177.24ZM104.25 219.871L80 317.007V198.368L104.25 219.871ZM232 408.769V447.398L121.75 383.141L232 408.769ZM280 408.769L390.25 383.141L280 447.398V408.769ZM432 317.007L407.75 219.871L432 198.368V317.007Z " })
+  }
+));
+DiceD20Regular.displayName = "DiceD20Regular";
+var DiceD20_default = DiceD20Regular;

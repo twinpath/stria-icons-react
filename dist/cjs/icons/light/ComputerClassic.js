@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ComputerClassic_exports = {};
+__export(ComputerClassic_exports, {
+  default: () => ComputerClassic_default
+});
+module.exports = __toCommonJS(ComputerClassic_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ComputerClassicLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M384 0H64C28.801 0 0 28.799 0 64V384C0 407.629 12.951 428.037 32 439.123V480C32 497.656 46.344 512 64 512H384C401.656 512 416 497.656 416 480V439.123C435.049 428.037 448 407.629 448 384V64C448 28.799 419.199 0 384 0ZM384 480H64V448H384V480ZM416 384C416 401.672 401.674 416 384 416H64C46.326 416 32 401.672 32 384V64C32 46.326 46.326 32 64 32H384C401.674 32 416 46.326 416 64V384ZM320 64H128C92.654 64 64 92.652 64 128V192C64 227.346 92.654 256 128 256H320C355.348 256 384 227.346 384 192V128C384 92.652 355.348 64 320 64ZM352 192C352 209.645 337.645 224 320 224H128C110.355 224 96 209.645 96 192V128C96 110.355 110.355 96 128 96H320C337.645 96 352 110.355 352 128V192ZM96 312C82.746 312 72 322.744 72 336C72 349.254 82.746 360 96 360S120 349.254 120 336C120 322.744 109.254 312 96 312ZM368 320H240C231.156 320 224 327.156 224 336S231.156 352 240 352H368C376.844 352 384 344.844 384 336S376.844 320 368 320Z" })
+  }
+));
+ComputerClassicLight.displayName = "ComputerClassicLight";
+var ComputerClassic_default = ComputerClassicLight;

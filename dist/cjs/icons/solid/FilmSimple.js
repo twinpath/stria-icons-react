@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FilmSimple_exports = {};
+__export(FilmSimple_exports, {
+  default: () => FilmSimple_default
+});
+module.exports = __toCommonJS(FilmSimple_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FilmSimpleSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M464 32V88C464 92.418 460.418 96 456 96H408C403.582 96 400 92.418 400 88V32H112V88C112 92.418 108.418 96 104 96H56C51.582 96 48 92.418 48 88V32C21.492 32 0 53.492 0 80V432C0 458.508 21.492 480 48 480V424C48 419.582 51.582 416 56 416H104C108.418 416 112 419.582 112 424V480H400V424C400 419.582 403.582 416 408 416H456C460.418 416 464 419.582 464 424V480C490.508 480 512 458.508 512 432V80C512 53.492 490.508 32 464 32ZM112 344C112 348.418 108.418 352 104 352H56C51.582 352 48 348.418 48 344V296C48 291.582 51.582 288 56 288H104C108.418 288 112 291.582 112 296V344ZM112 216C112 220.418 108.418 224 104 224H56C51.582 224 48 220.418 48 216V168C48 163.582 51.582 160 56 160H104C108.418 160 112 163.582 112 168V216ZM464 344C464 348.418 460.418 352 456 352H408C403.582 352 400 348.418 400 344V296C400 291.582 403.582 288 408 288H456C460.418 288 464 291.582 464 296V344ZM464 216C464 220.418 460.418 224 456 224H408C403.582 224 400 220.418 400 216V168C400 163.582 403.582 160 408 160H456C460.418 160 464 163.582 464 168V216Z" })
+  }
+));
+FilmSimpleSolid.displayName = "FilmSimpleSolid";
+var FilmSimple_default = FilmSimpleSolid;

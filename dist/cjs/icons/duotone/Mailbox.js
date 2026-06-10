@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Mailbox_exports = {};
+__export(Mailbox_exports, {
+  default: () => Mailbox_default
+});
+module.exports = __toCommonJS(Mailbox_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MailboxDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M432 64.001H144C144.307 64.216 144.592 64.602 144.895 64.845C223.893 65.438 288 128.864 288 208V415.999C288 433.671 273.674 447.999 256 447.999H544C561.625 447.999 576 433.624 576 415.999V208C576 128.501 511.5 64.001 432 64.001ZM512 272C512 280.836 504.838 288 496 288H464C455.164 288 448 280.836 448 272V224H400C391.201 224 384 216.801 384 208C384 199.199 391.201 192 400 192H496C504.838 192 512 199.164 512 208V272Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M496 192H400C391.201 192 384 199.199 384 208C384 216.801 391.201 224 400 224H448V272C448 280.836 455.164 288 464 288H496C504.838 288 512 280.836 512 272V208C512 199.164 504.838 192 496 192ZM129.801 64.68C54.945 71.86 0 139.04 0 214.238V415.999C0 433.601 14.4 447.999 32 447.999H256C273.674 447.999 288 433.671 288 415.999V208C288 123.813 215.676 56.454 129.801 64.68ZM208 224H80C71.164 224 64 216.836 64 208C64 199.164 71.164 192 80 192H208C216.838 192 224 199.164 224 208C224 216.836 216.838 224 208 224Z" })
+    ]
+  }
+));
+MailboxDuotone.displayName = "MailboxDuotone";
+var Mailbox_default = MailboxDuotone;

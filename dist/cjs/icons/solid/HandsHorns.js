@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HandsHorns_exports = {};
+__export(HandsHorns_exports, {
+  default: () => HandsHorns_default
+});
+module.exports = __toCommonJS(HandsHorns_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HandsHornsSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M288.008 320C305.696 320 320.008 305.672 320.008 288V224C320.008 206.328 305.696 192 288.008 192S256.008 206.328 256.008 224V288C256.008 305.672 270.321 320 288.008 320ZM224.008 287.516V192C224.008 174.328 209.696 160 192.008 160S160.008 174.328 160.008 192V248.141C186.994 248.166 211.795 263.471 224.008 287.516ZM384.008 64C366.321 64 352.008 78.328 352.008 96V288C352.008 323.344 323.352 352 288.008 352C268.783 352 251.74 343.346 240.008 329.926C236.717 333.689 232.924 336.959 228.865 339.887C221.815 364.203 202.446 384.174 176.008 390.203L114.867 404.15L96.508 375.516L168.914 359C187.454 354.762 200.017 338.278 200.017 320.033C200.017 299.62 183.759 280.002 160.048 280.002C157.103 280.002 154.106 280.326 151.102 281L31.102 308.375C1.885 315.054 0 343.069 0 347.388C0 352.97 1.167 358.554 3.508 363.766L25.602 412.875C52.664 473.094 112.789 512 178.821 512H240.008C337.039 512 416.008 433.047 416.008 336V96C416.008 78.328 401.696 64 384.008 64ZM128.008 32C128.008 14.328 113.696 0 96.008 0S64.008 14.328 64.008 32V268.047L128.008 253.447V32Z" })
+  }
+));
+HandsHornsSolid.displayName = "HandsHornsSolid";
+var HandsHorns_default = HandsHornsSolid;

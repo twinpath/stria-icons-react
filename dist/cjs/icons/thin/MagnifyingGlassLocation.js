@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var MagnifyingGlassLocation_exports = {};
+__export(MagnifyingGlassLocation_exports, {
+  default: () => MagnifyingGlassLocation_default
+});
+module.exports = __toCommonJS(MagnifyingGlassLocation_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MagnifyingGlassLocationThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M509.656 498.344L360.465 349.152C394.828 312.053 416 262.557 416 208C416 93.125 322.875 0 208 0S0 93.125 0 208S93.125 416 208 416C262.555 416 312.055 394.828 349.152 360.465L498.344 509.656C499.906 511.219 501.938 512 504 512S508.094 511.219 509.656 509.656C512.781 506.531 512.781 501.469 509.656 498.344ZM208 400C102.133 400 16 313.869 16 208S102.133 16 208 16S400 102.131 400 208S313.867 400 208 400ZM207.928 96C160.385 96 121.885 134.5 121.885 182.188C121.885 220.541 178.178 290.688 199.76 316.209C201.803 318.541 204.719 320 207.928 320C211.135 320 214.197 318.541 216.24 316.209C237.822 290.688 294.115 220.541 294.115 182.188C294.115 134.5 255.615 96 207.928 96ZM208.004 301.143C164.635 249.074 137.885 203.785 137.885 182.188C137.885 143.486 169.307 112 207.928 112C246.629 112 278.115 143.486 278.115 182.188C278.115 203.812 251.301 249.188 208.004 301.143ZM208 160C199.166 160 192 167.166 192 176S199.166 192 208 192S224 184.834 224 176S216.834 160 208 160Z" })
+  }
+));
+MagnifyingGlassLocationThin.displayName = "MagnifyingGlassLocationThin";
+var MagnifyingGlassLocation_default = MagnifyingGlassLocationThin;

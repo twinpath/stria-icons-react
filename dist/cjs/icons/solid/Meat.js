@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Meat_exports = {};
+__export(Meat_exports, {
+  default: () => Meat_default
+});
+module.exports = __toCommonJS(Meat_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MeatSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M443.975 68.493C399.471 23.997 345.092 0 299.088 0C275.461 0 254.335 6.749 237.708 19.998C234.958 21.623 232.583 23.622 230.333 25.872C191.58 64.493 128.074 139.61 128.074 209.353V309.717L119.449 318.341C109.823 328.09 95.447 329.465 82.696 324.34C56.069 313.716 25.691 323.34 9.94 347.213C-5.811 371.085 -2.561 402.832 17.691 423.08C32.942 438.328 54.194 442.703 73.82 438.203C69.32 457.701 73.695 478.949 88.946 494.197C109.198 514.57 140.951 517.82 164.952 502.071C188.829 486.323 198.455 455.951 187.704 429.204C182.704 416.58 184.079 402.207 193.705 392.458L202.33 383.959H302.838C372.719 383.959 447.975 320.466 486.603 281.845C489.228 279.095 491.479 276.095 493.354 272.846C530.732 223.351 510.73 135.236 443.975 68.493ZM452.725 247.849C442.975 257.597 428.348 259.722 417.973 259.722C383.22 259.722 340.716 238.849 307.089 205.228C279.837 178.106 260.71 144.86 254.585 114.238C249.834 90.49 253.46 70.617 264.335 59.744C274.086 49.995 288.712 47.995 299.088 47.995C333.841 47.995 376.344 68.868 409.972 102.489C463.851 156.233 476.977 223.601 452.725 247.849ZM331.841 127.236C322.09 136.985 325.965 156.858 340.716 171.607C355.468 186.23 375.344 190.23 385.22 180.481C394.971 170.607 390.97 150.734 376.219 136.11C361.593 121.362 341.717 117.362 331.841 127.236Z" })
+  }
+));
+MeatSolid.displayName = "MeatSolid";
+var Meat_default = MeatSolid;

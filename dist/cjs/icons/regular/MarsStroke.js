@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var MarsStroke_exports = {};
+__export(MarsStroke_exports, {
+  default: () => MarsStroke_default
+});
+module.exports = __toCommonJS(MarsStroke_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MarsStrokeRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M488 0H376C362.75 0 352 10.75 352 24S362.75 48 376 48H430.067L376.004 102.066L344.969 71.031C335.594 61.656 320.407 61.656 311.032 71.031S301.657 95.594 311.032 104.969L342.069 136.006L313.78 164.297C282.477 140.568 245.428 128 208 128C162.958 128 117.917 145.182 83.549 179.549C14.817 248.281 14.817 359.719 83.549 428.451C117.917 462.818 162.958 480 208 480S298.084 462.818 332.452 428.451C395.37 365.533 399.987 267.209 347.715 198.236L376.006 169.943L407.032 200.969C411.719 205.656 417.86 208 424 208S436.282 205.656 440.969 200.969C450.344 191.594 450.344 176.406 440.969 167.031L409.942 136.004L464 81.941V136C464 149.25 474.75 160 488 160S512 149.25 512 136V24C512 10.75 501.25 0 488 0ZM298.51 394.51C274.334 418.686 242.19 432 208 432S141.668 418.686 117.491 394.51C67.584 344.604 67.584 263.396 117.491 213.49C141.667 189.314 173.811 176 208 176S274.333 189.312 298.508 213.488C298.512 213.492 298.512 213.496 298.516 213.5C298.518 213.502 298.518 213.502 298.52 213.504C348.417 263.41 348.415 344.607 298.51 394.51Z" })
+  }
+));
+MarsStrokeRegular.displayName = "MarsStrokeRegular";
+var MarsStroke_default = MarsStrokeRegular;

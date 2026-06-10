@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ComputerSpeaker_exports = {};
+__export(ComputerSpeaker_exports, {
+  default: () => ComputerSpeaker_default
+});
+module.exports = __toCommonJS(ComputerSpeaker_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ComputerSpeakerRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M576 32H384C348.654 32 320 60.654 320 96V416C320 451.346 348.654 480 384 480H576C611.346 480 640 451.346 640 416V96C640 60.654 611.346 32 576 32ZM592 416C592 424.822 584.822 432 576 432H384C375.178 432 368 424.822 368 416V96C368 87.178 375.178 80 384 80H576C584.822 80 592 87.178 592 96V416ZM0 96V320C0 355.346 28.654 384 64 384H288V336H64C55.178 336 48 328.822 48 320V96C48 87.178 55.178 80 64 80H289.617C292.721 61.674 301.025 45.244 312.969 32H64C28.654 32 0 60.654 0 96ZM120 432C106.746 432 96 442.744 96 456C96 469.254 106.746 480 120 480H312.969C301.025 466.756 292.721 450.326 289.617 432H120ZM480 240C435.818 240 400 275.816 400 320C400 364.182 435.818 400 480 400C524.184 400 560 364.182 560 320C560 275.816 524.184 240 480 240ZM480 352C462.355 352 448 337.645 448 320S462.355 288 480 288S512 302.355 512 320S497.645 352 480 352ZM480 176C497.674 176 512 161.674 512 144S497.674 112 480 112C462.328 112 448 126.326 448 144S462.328 176 480 176Z" })
+  }
+));
+ComputerSpeakerRegular.displayName = "ComputerSpeakerRegular";
+var ComputerSpeaker_default = ComputerSpeakerRegular;

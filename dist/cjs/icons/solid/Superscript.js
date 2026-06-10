@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Superscript_exports = {};
+__export(Superscript_exports, {
+  default: () => Superscript_default
+});
+module.exports = __toCommonJS(Superscript_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const SuperscriptSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M312 144C334.094 144 352 126.094 352 104S334.094 64 312 64H281.781C268.688 64 256.422 70.406 248.953 81.156L176 185.984L103.047 81.156C95.578 70.406 83.312 64 70.219 64H40C17.906 64 0 81.906 0 104S17.906 144 40 144H49.328L127.273 256L49.328 368H40C17.906 368 0 385.906 0 408S17.906 448 40 448H70.219C83.312 448 95.578 441.594 103.047 430.844L176 326.016L248.953 430.844C256.422 441.594 268.688 448 281.781 448H312C334.094 448 352 430.094 352 408S334.094 368 312 368H302.672L224.727 256L302.672 144H312ZM480.281 160.057V32C480.281 20.281 473.875 9.5 463.578 3.906C453.266 -1.75 440.781 -1.25 430.906 5.125L398.906 25.812C384.062 35.406 379.812 55.219 389.406 70.062C395.531 79.531 405.797 84.687 416.281 84.687V160H416C398.328 160 384 174.312 384 192S398.328 224 416 224H480C497.672 224 512 209.688 512 192C512 174.412 497.814 160.217 480.281 160.057Z" })
+  }
+));
+SuperscriptSolid.displayName = "SuperscriptSolid";
+var Superscript_default = SuperscriptSolid;

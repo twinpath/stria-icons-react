@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BracketSquareRightLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 192 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M160 80V432C160 440.822 152.822 448 144 448H48C39.178 448 32 455.178 32 464S39.178 480 48 480H144C170.467 480 192 458.467 192 432V80C192 53.533 170.467 32 144 32H48C39.178 32 32 39.178 32 48S39.178 64 48 64H144C152.822 64 160 71.178 160 80Z" })
+  }
+));
+BracketSquareRightLight.displayName = "BracketSquareRightLight";
+var BracketSquareRight_default = BracketSquareRightLight;
+export {
+  BracketSquareRight_default as default
+};

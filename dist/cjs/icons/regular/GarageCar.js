@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var GarageCar_exports = {};
+__export(GarageCar_exports, {
+  default: () => GarageCar_default
+});
+module.exports = __toCommonJS(GarageCar_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const GarageCarRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M503.999 192H135.999C113.909 192 95.999 209.908 95.999 232V488C95.999 501.254 106.745 512 119.999 512C133.255 512 143.999 501.254 143.999 488V240H495.999V488C495.999 501.254 506.745 512 519.999 512C533.255 512 543.999 501.254 543.999 488V232C543.999 209.908 526.091 192 503.999 192ZM430.43 351.396L414.061 302.281C406.421 279.375 385.077 264 360.936 264H279.061C254.921 264 233.577 279.375 225.936 302.281L209.567 351.396C189.716 361.855 175.999 382.457 175.999 406.406V422.406C175.999 436.756 182.221 449.596 191.999 458.66V488C191.999 501.254 202.745 512 215.999 512S239.999 501.254 239.999 488V472H399.999V488C399.999 501.254 410.745 512 423.999 512S447.999 501.254 447.999 488V458.66C457.776 449.596 463.999 436.756 463.999 422.406V406.406C463.999 382.457 450.282 361.855 430.43 351.396ZM271.467 317.469C272.561 314.203 275.608 312 279.061 312H360.936C364.389 312 367.436 314.203 368.53 317.469L377.372 344H262.626L271.467 317.469ZM415.999 422.406C415.999 423.266 415.264 424 414.405 424L223.999 422.406V406.406C223.999 398.469 230.467 392 238.405 392H401.592C409.53 392 415.999 398.469 415.999 406.406V422.406ZM597.874 110.125L346.249 5.25C329.499 -1.75 310.499 -1.75 293.749 5.25L42.126 110.125C16.501 120.625 -0.124 145.625 0.001 173.25V488C0.001 501.254 10.745 512 24.001 512C37.255 512 48.001 501.254 48.001 488V173.25C48.001 165 52.876 157.5 60.501 154.375L312.249 49.625C317.249 47.5 322.874 47.5 327.874 49.625L579.499 154.375C587.124 157.625 591.999 165 591.999 173.25V488C591.999 501.254 602.745 512 615.999 512C629.255 512 639.999 501.254 639.999 488V173.25C640.124 145.625 623.499 120.625 597.874 110.125Z" })
+  }
+));
+GarageCarRegular.displayName = "GarageCarRegular";
+var GarageCar_default = GarageCarRegular;

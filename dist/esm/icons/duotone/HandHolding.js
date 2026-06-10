@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const HandHoldingDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M559.729 392.208L424.676 491.722C406.896 504.814 385.007 512 362.977 512H15.999C7.249 512 0 504.751 0 496.003V400.02C0 391.271 7.25 384.022 15.999 384.022H71.37L117.867 346.279C138.865 329.282 164.989 320.034 191.987 320.034H351.976C371.474 320.034 386.848 337.406 383.599 357.402C380.974 373.149 366.225 384.022 350.226 384.022H271.981C263.232 384.022 255.982 391.271 255.982 400.02S263.232 416.017 271.981 416.017H392.592L512.264 327.845C530.059 314.66 555.073 318.503 568.197 336.312C581.306 354.09 577.509 379.117 559.729 392.208Z", className: "stria-secondary", style: { opacity: 0.4 } })
+  }
+));
+HandHoldingDuotone.displayName = "HandHoldingDuotone";
+var HandHolding_default = HandHoldingDuotone;
+export {
+  HandHolding_default as default
+};

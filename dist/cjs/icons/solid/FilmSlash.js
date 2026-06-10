@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FilmSlash_exports = {};
+__export(FilmSlash_exports, {
+  default: () => FilmSlash_default
+});
+module.exports = __toCommonJS(FilmSlash_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FilmSlashSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M630.812 469.109L575.999 426.148V80C575.999 53.49 554.509 32 527.999 32H111.999C101.697 32 92.206 35.312 84.388 40.836L38.812 5.113C28.343 -3.059 13.312 -1.246 5.109 9.191C-3.063 19.629 -1.235 34.723 9.187 42.895L601.187 506.891C605.593 510.328 610.796 512 615.984 512C623.109 512 630.156 508.844 634.89 502.812C643.062 492.375 641.234 477.281 630.812 469.109ZM415.999 208C415.999 216.836 408.835 224 399.999 224H318.083L223.999 150.26V112C223.999 103.162 231.163 96 239.999 96H399.999C408.835 96 415.999 103.162 415.999 112V208ZM527.999 388.527L481.396 352H519.999C524.417 352 527.999 355.582 527.999 360V388.527ZM527.999 280C527.999 284.418 524.417 288 519.999 288H471.999C467.581 288 463.999 284.418 463.999 280V232C463.999 227.582 467.581 224 471.999 224H519.999C524.417 224 527.999 227.582 527.999 232V280ZM527.999 152C527.999 156.418 524.417 160 519.999 160H471.999C467.581 160 463.999 156.418 463.999 152V104C463.999 99.582 467.581 96 471.999 96H519.999C524.417 96 527.999 99.582 527.999 104V152ZM399.999 416H239.999C231.163 416 223.999 408.836 223.999 400V304C223.999 295.162 231.163 288 239.999 288H244.081L175.999 234.639V280C175.999 284.418 172.417 288 167.999 288H119.999C115.581 288 111.999 284.418 111.999 280V232C111.999 227.582 115.581 224 119.999 224H162.425L63.999 146.855V432C63.999 458.51 85.49 480 111.999 480H489.048L405.878 414.812C404.052 415.539 402.085 416 399.999 416ZM175.999 408C175.999 412.418 172.417 416 167.999 416H119.999C115.581 416 111.999 412.418 111.999 408V360C111.999 355.582 115.581 352 119.999 352H167.999C172.417 352 175.999 355.582 175.999 360V408Z" })
+  }
+));
+FilmSlashSolid.displayName = "FilmSlashSolid";
+var FilmSlash_default = FilmSlashSolid;

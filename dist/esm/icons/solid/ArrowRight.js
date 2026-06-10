@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ArrowRightSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M437 283.562L285 443.562C277.141 451.812 266.578 456 256 456C246.094 456 236.188 452.344 228.453 445C212.438 429.781 211.781 404.469 227 388.438L314.824 296H40C17.906 296 0 278.094 0 256S17.906 216 40 216H314.824L227 123.562C211.781 107.531 212.438 82.219 228.453 67C244.453 51.812 269.781 52.469 285 68.438L437 228.438C451.672 243.875 451.672 268.125 437 283.562Z" })
+  }
+));
+ArrowRightSolid.displayName = "ArrowRightSolid";
+var ArrowRight_default = ArrowRightSolid;
+export {
+  ArrowRight_default as default
+};

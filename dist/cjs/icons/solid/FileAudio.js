@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FileAudio_exports = {};
+__export(FileAudio_exports, {
+  default: () => FileAudio_default
+});
+module.exports = __toCommonJS(FileAudio_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FileAudioSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M224 128V0H48C21.49 0 0 21.492 0 48V464C0 490.508 21.49 512 48 512H336C362.51 512 384 490.508 384 464V160H256C238.326 160 224 145.672 224 128ZM176 404C176 414.75 163.125 420 155.5 412.5L120 376H76C69.375 376 64 370.625 64 364V308C64 301.375 69.375 296 76 296H120L155.5 259.5C163.125 251.875 176 257.25 176 268V404ZM224 387.781C219.609 387.781 215.25 386.001 212.094 382.469C206.188 375.875 206.734 365.781 213.312 359.875C220.203 353.688 224 345.219 224 336S220.203 318.312 213.312 312.125C206.734 306.219 206.188 296.125 212.094 289.531C218.016 282.937 228.141 282.437 234.688 288.312C248.234 300.469 256 317.844 256 336S248.234 371.531 234.688 383.688C231.625 386.438 227.812 387.781 224 387.781ZM320 336C320 377.812 299.5 417.094 265.156 441.062C262.375 443 259.172 443.938 256.016 443.938C250.969 443.938 245.984 441.562 242.875 437.094C237.828 429.844 239.594 419.875 246.844 414.812C272.609 396.844 288 367.375 288 336S272.625 275.188 246.859 257.219C239.609 252.156 237.828 242.187 242.875 234.937C247.922 227.656 257.859 225.875 265.141 230.969C299.5 254.906 320 294.156 320 336ZM256 0V128H384L256 0Z" })
+  }
+));
+FileAudioSolid.displayName = "FileAudioSolid";
+var FileAudio_default = FileAudioSolid;

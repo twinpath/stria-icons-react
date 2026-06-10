@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const Tally2Thin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M160 32C155.578 32 152 35.578 152 40V472C152 476.422 155.578 480 160 480S168 476.422 168 472V40C168 35.578 164.422 32 160 32ZM32 32C27.578 32 24 35.578 24 40V472C24 476.422 27.578 480 32 480S40 476.422 40 472V40C40 35.578 36.422 32 32 32Z" })
+  }
+));
+Tally2Thin.displayName = "Tally2Thin";
+var Tally2_default = Tally2Thin;
+export {
+  Tally2_default as default
+};

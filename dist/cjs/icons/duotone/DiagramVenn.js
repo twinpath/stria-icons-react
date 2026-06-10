@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var DiagramVenn_exports = {};
+__export(DiagramVenn_exports, {
+  default: () => DiagramVenn_default
+});
+module.exports = __toCommonJS(DiagramVenn_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DiagramVennDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 256C256 203.934 281.375 158.051 320 128.814C301.336 114.688 279.863 104.107 256.119 99.248C216.5 139.652 192 194.941 192 256S216.502 372.346 256.121 412.752C279.865 407.895 301.336 397.312 320 383.186C281.375 353.949 256 308.066 256 256ZM416 32C381.594 32 349.129 39.984 320 53.846C343.832 65.186 365.389 80.467 383.678 99.07C423.42 139.48 448 194.84 448 256C448 318.977 421.697 375.545 379.828 416.207C372.029 423.781 363.875 430.988 355.031 437.346C354.623 437.641 354.268 437.998 353.857 438.291C353.861 438.291 353.863 438.293 353.867 438.293C343.225 445.838 331.898 452.492 320 458.154C349.129 472.016 381.594 480 416 480C539.713 480 640 379.711 640 256S539.713 32 416 32Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M224 32C100.289 32 0 132.289 0 256S100.289 480 224 480C347.713 480 448 379.711 448 256S347.713 32 224 32ZM257.617 272H382.383C380.678 288.857 376.984 305.09 370.439 320H269.561C274.621 331.533 281.303 342.074 288.814 352H351.186C321.949 390.625 276.066 416 224 416C135.775 416 64 344.225 64 256S135.775 96 224 96C276.066 96 321.949 121.375 351.186 160H288.814C281.303 169.926 274.621 180.467 269.561 192H370.439C376.984 206.91 380.678 223.143 382.383 240H257.617C257.076 245.338 256 250.521 256 256S257.076 266.662 257.617 272Z" })
+    ]
+  }
+));
+DiagramVennDuotone.displayName = "DiagramVennDuotone";
+var DiagramVenn_default = DiagramVennDuotone;

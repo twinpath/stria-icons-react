@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Route_exports = {};
+__export(Route_exports, {
+  default: () => Route_default
+});
+module.exports = __toCommonJS(Route_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const RouteRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M424 336H328C305.875 336 288 318.125 288 296S305.875 256 328 256H416C416 256 512 149 512 96S469 0 416 0S320 43 320 96C320 125.75 350.25 172.75 376.875 208H328C279.5 208 240 247.5 240 296S279.5 384 328 384H424C446.125 384 464 401.875 464 424S446.125 464 424 464H135.125C161.75 428.75 192 381.75 192 352C192 299 149 256 96 256S0 299 0 352S96 512 96 512H424C472.5 512 512 472.5 512 424S472.5 336 424 336ZM368 96C368 69.5 389.5 48 416 48S464 69.5 464 95.875C463.5 109.25 443.25 144.125 416 180.25C388.75 144.125 368.5 109.375 368 96ZM96 436.25C68.75 400.125 48.5 365.375 48 352C48 325.5 69.5 304 96 304S144 325.5 144 351.875C143.5 365.25 123.25 400.125 96 436.25Z" })
+  }
+));
+RouteRegular.displayName = "RouteRegular";
+var Route_default = RouteRegular;

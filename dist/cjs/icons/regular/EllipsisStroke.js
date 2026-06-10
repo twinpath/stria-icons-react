@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var EllipsisStroke_exports = {};
+__export(EllipsisStroke_exports, {
+  default: () => EllipsisStroke_default
+});
+module.exports = __toCommonJS(EllipsisStroke_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const EllipsisStrokeRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 176C211.818 176 176 211.816 176 256S211.818 336 256 336C300.184 336 336 300.184 336 256S300.184 176 256 176ZM256 288C238.355 288 224 273.645 224 256S238.355 224 256 224S288 238.355 288 256S273.645 288 256 288ZM432 176C387.818 176 352 211.816 352 256S387.818 336 432 336C476.184 336 512 300.184 512 256S476.184 176 432 176ZM432 288C414.355 288 400 273.645 400 256S414.355 224 432 224S464 238.355 464 256S449.645 288 432 288ZM80 176C35.818 176 0 211.816 0 256S35.818 336 80 336C124.184 336 160 300.184 160 256S124.184 176 80 176ZM80 288C62.355 288 48 273.645 48 256S62.355 224 80 224S112 238.355 112 256S97.645 288 80 288Z" })
+  }
+));
+EllipsisStrokeRegular.displayName = "EllipsisStrokeRegular";
+var EllipsisStroke_default = EllipsisStrokeRegular;

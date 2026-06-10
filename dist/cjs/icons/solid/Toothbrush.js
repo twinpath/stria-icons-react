@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Toothbrush_exports = {};
+__export(Toothbrush_exports, {
+  default: () => Toothbrush_default
+});
+module.exports = __toCommonJS(Toothbrush_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ToothbrushSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M64 224H416C451.375 224 480 195.375 480 160C480 89.25 422.75 32 352 32C375.625 55.625 358.875 96 325.5 96H64C28.625 96 0 124.625 0 160S28.625 224 64 224ZM560 416H448V264C448 259.625 444.375 256 440 256H424C419.625 256 416 259.625 416 264V416H384V264C384 259.625 380.375 256 376 256H360C355.625 256 352 259.625 352 264V416H320V264C320 259.625 316.375 256 312 256H296C291.625 256 288 259.625 288 264V416H256V264C256 259.625 252.375 256 248 256H232C227.625 256 224 259.625 224 264V416H192V264C192 259.625 188.375 256 184 256H168C163.625 256 160 259.625 160 264V416H128V264C128 259.625 124.375 256 120 256H104C99.625 256 96 259.625 96 264V416H64V264C64 259.625 60.375 256 56 256H40C35.625 256 32 259.625 32 264V416H16C7.125 416 0 423.125 0 432V464C0 472.875 7.125 480 16 480H560C568.875 480 576 472.875 576 464V432C576 423.125 568.875 416 560 416Z" })
+  }
+));
+ToothbrushSolid.displayName = "ToothbrushSolid";
+var Toothbrush_default = ToothbrushSolid;

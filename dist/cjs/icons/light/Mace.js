@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Mace_exports = {};
+__export(Mace_exports, {
+  default: () => Mace_default
+});
+module.exports = __toCommonJS(Mace_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MaceLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M148.688 340.688L4.688 484.688C-1.563 490.938 -1.563 501.063 4.688 507.312C7.812 510.438 11.906 512 16 512S24.187 510.438 27.312 507.312L171.312 363.312C177.562 357.062 177.562 346.937 171.312 340.688S154.938 334.438 148.688 340.688ZM496 208H430.387C422.928 141.426 370.574 89.07 304 81.613V16C304 7.156 296.844 0 288 0S272 7.156 272 16V81.613C205.426 89.07 153.072 141.426 145.613 208H80C71.156 208 64 215.156 64 224S71.156 240 80 240H145.613C153.072 306.574 205.426 358.93 272 366.387V432C272 440.844 279.156 448 288 448S304 440.844 304 432V366.387C370.574 358.93 422.928 306.574 430.387 240H496C504.844 240 512 232.844 512 224S504.844 208 496 208ZM288 336C226.242 336 176 285.758 176 224S226.242 112 288 112S400 162.242 400 224S349.758 336 288 336ZM288 176C261.531 176 240 197.531 240 224S261.531 272 288 272S336 250.469 336 224S314.469 176 288 176ZM288 240C279.188 240 272 232.812 272 224S279.188 208 288 208S304 215.188 304 224S296.812 240 288 240Z" })
+  }
+));
+MaceLight.displayName = "MaceLight";
+var Mace_default = MaceLight;

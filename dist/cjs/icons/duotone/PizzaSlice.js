@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PizzaSlice_exports = {};
+__export(PizzaSlice_exports, {
+  default: () => PizzaSlice_default
+});
+module.exports = __toCommonJS(PizzaSlice_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PizzaSliceDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M108.739 80.52L0.479 491.629C-0.896 497.254 0.729 503.254 4.854 507.254C8.981 511.379 14.981 513.004 20.481 511.379L431.264 397.508C423.264 211.141 296.377 86.02 108.739 80.52ZM127.989 416.008C110.364 416.008 95.987 401.633 95.987 384.008C95.987 366.385 110.364 352.01 127.989 352.01C145.616 352.01 159.993 366.385 159.993 384.008C159.993 401.633 145.616 416.008 127.989 416.008ZM175.998 271.998C158.371 271.998 143.994 257.623 143.994 239.998C143.994 222.375 158.371 208 175.998 208C193.623 208 208 222.375 208 239.998C208 257.623 193.623 271.998 175.998 271.998ZM272.002 368C254.377 368 240 353.625 240 336.002C240 318.377 254.377 304.002 272.002 304.002C289.629 304.002 304.006 318.377 304.006 336.002C304.006 353.625 289.629 368 272.002 368Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M158.881 0.148C142.754 -1.352 127.627 8.648 123.502 24.271L108.752 80.52C296.391 86.02 423.277 211.141 431.277 397.508L488.156 381.758C503.908 377.383 513.658 362.135 511.783 345.885C490.906 165.143 340.77 17.398 158.881 0.148ZM128.002 352.01C110.377 352.01 96 366.385 96 384.008C96 401.633 110.377 416.008 128.002 416.008C145.629 416.008 160.006 401.633 160.006 384.008C160.006 366.385 145.629 352.01 128.002 352.01ZM176.012 208C158.385 208 144.008 222.375 144.008 239.998C144.008 257.623 158.385 271.998 176.012 271.998C193.637 271.998 208.014 257.623 208.014 239.998C208.014 222.375 193.637 208 176.012 208ZM272.016 304.002C254.391 304.002 240.014 318.377 240.014 336.002C240.014 353.625 254.391 368 272.016 368C289.643 368 304.02 353.625 304.02 336.002C304.02 318.377 289.643 304.002 272.016 304.002Z" })
+    ]
+  }
+));
+PizzaSliceDuotone.displayName = "PizzaSliceDuotone";
+var PizzaSlice_default = PizzaSliceDuotone;

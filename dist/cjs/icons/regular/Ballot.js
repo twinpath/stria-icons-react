@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Ballot_exports = {};
+__export(Ballot_exports, {
+  default: () => Ballot_default
+});
+module.exports = __toCommonJS(Ballot_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BallotRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M128 352H96C87.164 352 80 359.164 80 368V400C80 408.836 87.164 416 96 416H128C136.836 416 144 408.836 144 400V368C144 359.164 136.836 352 128 352ZM128 224H96C87.164 224 80 231.164 80 240V272C80 280.836 87.164 288 96 288H128C136.836 288 144 280.836 144 272V240C144 231.164 136.836 224 128 224ZM128 96H96C87.164 96 80 103.164 80 112V144C80 152.836 87.164 160 96 160H128C136.836 160 144 152.836 144 144V112C144 103.164 136.836 96 128 96ZM384 0H64C28.654 0 0 28.652 0 64V448C0 483.348 28.654 512 64 512H384C419.346 512 448 483.348 448 448V64C448 28.652 419.346 0 384 0ZM400 448C400 456.824 392.822 464 384 464H64C55.178 464 48 456.824 48 448V64C48 55.176 55.178 48 64 48H384C392.822 48 400 55.176 400 64V448ZM344 104H200C186.75 104 176 114.75 176 128S186.75 152 200 152H344C357.25 152 368 141.25 368 128S357.25 104 344 104ZM344 232H200C186.75 232 176 242.75 176 256S186.75 280 200 280H344C357.25 280 368 269.25 368 256S357.25 232 344 232ZM344 360H200C186.75 360 176 370.75 176 384S186.75 408 200 408H344C357.25 408 368 397.25 368 384S357.25 360 344 360Z" })
+  }
+));
+BallotRegular.displayName = "BallotRegular";
+var Ballot_default = BallotRegular;

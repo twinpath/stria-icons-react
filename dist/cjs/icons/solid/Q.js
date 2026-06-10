@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Q_exports = {};
+__export(Q_exports, {
+  default: () => Q_default
+});
+module.exports = __toCommonJS(Q_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const QSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M402.685 390.508C430.992 352.996 447.995 306.5 447.995 256C447.995 132.5 347.512 32 223.998 32S0 132.5 0 256S100.483 480 223.998 480C262.302 480 298.374 470.301 329.938 453.281L362.512 494C371.996 505.844 385.949 512 400.027 512C410.543 512 421.136 508.562 429.98 501.469C450.683 484.906 454.042 454.719 437.48 434L402.685 390.508ZM223.998 384C153.42 384 95.999 326.594 95.999 256S153.42 128 223.998 128S351.996 185.406 351.996 256C351.996 275.766 347.117 294.273 339.084 311.004L309.481 274C292.919 253.312 262.7 249.938 242.013 266.531C221.31 283.094 217.951 313.281 234.513 334L267.913 375.75C254.158 380.812 239.49 384 223.998 384Z" })
+  }
+));
+QSolid.displayName = "QSolid";
+var Q_default = QSolid;

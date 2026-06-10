@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Router_exports = {};
+__export(Router_exports, {
+  default: () => Router_default
+});
+module.exports = __toCommonJS(Router_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const RouterDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M96 384C78.326 384 64 398.326 64 416S78.326 448 96 448S128 433.674 128 416S113.674 384 96 384ZM536.25 70.141C434.658 -23.381 269.348 -23.381 167.754 70.141C157.973 79.104 157.379 94.324 166.348 104.1C175.316 113.861 190.504 114.502 200.254 105.523C283.941 28.471 420.064 28.471 503.75 105.523C513.5 114.502 528.688 113.861 537.656 104.1C541.906 99.486 544 93.65 544 87.834C544 81.357 541.406 74.881 536.25 70.141ZM248.16 149.867C238.191 158.596 237.223 173.77 245.973 183.779C254.723 193.744 269.879 194.729 279.848 185.969C319.627 150.994 384.377 150.994 424.158 185.969C434.127 194.729 449.283 193.744 458.033 183.779C462.031 179.211 464 173.564 464 167.934C464 161.256 461.25 154.607 455.846 149.867C398.596 99.533 305.408 99.533 248.16 149.867Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M528.004 320.012H376V248.017C376 234.762 365.255 224.018 352.001 224.018H352.001C338.746 224.018 328 234.763 328 248.019V320.012H48C21.49 320.012 0 341.502 0 368.012V464.002C0 490.511 21.489 512 47.998 512H528C554.51 512 576 490.51 576 464V368.008C576 341.5 554.511 320.012 528.004 320.012ZM96 448.004C78.375 448.004 64 433.629 64 416.006C64 398.381 78.375 384.008 96 384.008S128 398.381 128 416.006C128 433.629 113.625 448.004 96 448.004ZM192 448.004C174.375 448.004 160 433.629 160 416.006C160 398.381 174.375 384.008 192 384.008S224 398.381 224 416.006C224 433.629 209.625 448.004 192 448.004Z" })
+    ]
+  }
+));
+RouterDuotone.displayName = "RouterDuotone";
+var Router_default = RouterDuotone;

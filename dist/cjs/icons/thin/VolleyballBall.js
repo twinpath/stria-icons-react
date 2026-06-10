@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var VolleyballBall_exports = {};
+__export(VolleyballBall_exports, {
+  default: () => VolleyballBall_default
+});
+module.exports = __toCommonJS(VolleyballBall_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const VolleyballBallThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 16C123.451 16 16 123.449 16 256C16 388.547 123.451 496 256 496C388.547 496 496 388.547 496 256C496 123.449 388.547 16 256 16ZM256 32C263.555 32 271.018 32.398 278.383 33.133C390.613 134.859 375.129 257.785 370.311 283.754C314.537 278.676 275.326 258.152 264.07 251.543C264.246 229.051 259.529 129.473 173.637 47.891C199.166 37.75 226.902 32 256 32ZM32 256C32 167.832 83.334 91.621 157.568 55.094C183.6 78.781 202.539 104.141 215.727 128.723C186.082 139.715 80.875 188.004 42.176 322.777C35.572 301.676 32 279.25 32 256ZM51.861 347.73C83.951 199.949 197.999 151.934 222.885 143.129C246.387 193.965 248.211 238.168 248.107 251.219C228.568 262.309 144.996 316.434 117.232 431.504C89.242 409.328 66.717 380.652 51.861 347.73ZM256 480C209.879 480 166.984 465.969 131.318 441.98C138.793 407.488 151.189 378.207 165.922 354.453C184.953 370.324 249.594 417.715 346.023 417.715C368.934 417.715 393.74 414.605 419.967 408.105C379.031 452.199 320.771 480 256 480ZM437.365 386.938C293.393 433.074 194.857 358.266 174.785 341.105C207.074 295.32 244.465 271.637 255.809 265.215C270.186 273.668 322.367 301.059 394.898 301.059C420.139 301.059 448.061 296.887 477.422 288.145C472.137 324.668 458.092 358.309 437.365 386.938ZM386.359 284.762C391.662 253.645 402.441 138.543 305.283 37.641C405.135 60.176 480 149.434 480 256C480 261.137 479.572 266.164 479.23 271.215C445.697 281.918 414.256 285.637 386.359 284.762Z" })
+  }
+));
+VolleyballBallThin.displayName = "VolleyballBallThin";
+var VolleyballBall_default = VolleyballBallThin;

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const GripLinesVerticalThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 192 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M152 40V472C152 476.406 155.594 480 160 480S168 476.406 168 472V40C168 35.594 164.406 32 160 32S152 35.594 152 40ZM40 472V40C40 35.594 36.406 32 32 32S24 35.594 24 40V472C24 476.406 27.594 480 32 480S40 476.406 40 472Z" })
+  }
+));
+GripLinesVerticalThin.displayName = "GripLinesVerticalThin";
+var GripLinesVertical_default = GripLinesVerticalThin;
+export {
+  GripLinesVertical_default as default
+};

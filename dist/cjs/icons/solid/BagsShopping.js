@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BagsShopping_exports = {};
+__export(BagsShopping_exports, {
+  default: () => BagsShopping_default
+});
+module.exports = __toCommonJS(BagsShopping_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BagsShoppingSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M448 224V192C448 174.4 433.6 160 416 160H320V99.605C320 53.18 288.627 10.602 243.037 1.834C181.695 -9.965 128 36.773 128 96V160H32C14.4 160 0 174.4 0 192V448C0 465.6 14.4 480 32 480H160V272C160 245.6 181.6 224 208 224H448ZM176 96C176 69.5 197.5 48 224 48S272 69.5 272 96V160H176V96ZM544 256H224C206.375 256 192 270.375 192 288V480C192 497.625 206.375 512 224 512H544C561.625 512 576 497.625 576 480V288C576 270.375 561.625 256 544 256ZM480 351.992C480 379.611 468 405.98 447.25 424.1C426.375 442.346 398.75 450.719 371.375 447.221C323 440.971 288 397.482 288 348.619V336C288 327.164 295.164 320 304 320C312.838 320 320 327.164 320 336V349.117C320 382.609 344.375 412.479 377.625 415.727C395.625 417.477 413.5 411.604 426.875 399.355C440.375 387.234 448 370.113 448 351.992V335.998C448 327.162 455.164 320 464 320C472.838 320 480 327.162 480 335.998V351.992Z" })
+  }
+));
+BagsShoppingSolid.displayName = "BagsShoppingSolid";
+var BagsShopping_default = BagsShoppingSolid;

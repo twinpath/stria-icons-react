@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const LambdaDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M408 480H327.75L135.75 112H40C17.906 112 0 94.094 0 72S17.906 32 40 32H184.25L376.25 400H408C430.094 400 448 417.906 448 440S430.094 480 408 480Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M55.99 480C50.49 480 44.896 478.875 39.553 476.469C19.428 467.375 10.459 443.656 19.553 423.531L149.615 135.531C158.74 115.406 182.396 106.469 202.553 115.531C222.678 124.625 231.646 148.344 222.553 168.469L92.49 456.469C85.803 471.25 71.24 480 55.99 480Z" })
+    ]
+  }
+));
+LambdaDuotone.displayName = "LambdaDuotone";
+var Lambda_default = LambdaDuotone;
+export {
+  Lambda_default as default
+};

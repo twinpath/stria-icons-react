@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HandSpock_exports = {};
+__export(HandSpock_exports, {
+  default: () => HandSpock_default
+});
+module.exports = __toCommonJS(HandSpock_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HandSpockSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M511.72 128.59C511.72 119.592 505.605 96.013 480.041 96.013C465.94 96.013 453.025 105.337 449.119 119.576L414.756 245.564C413.074 251.725 407.481 255.998 401.096 255.998C393.114 255.998 386.932 249.48 386.932 241.869C386.932 240.885 387.036 239.882 387.252 238.873L422.963 72.229C423.486 69.787 423.741 67.317 423.741 64.866C423.741 50.973 414.046 32.002 392.037 32.002C377.248 32.002 363.92 42.262 360.697 57.295L322.932 233.543C320.125 246.641 308.551 255.998 295.158 255.998C282.123 255.998 270.762 247.127 267.602 234.48L215.49 26.027C211.783 11.197 198.641 -0.001 183.772 -0.001C157.065 -0.001 151.99 25.712 151.99 31.978C151.99 34.547 152.301 37.158 152.951 39.764L203.502 241.961C203.735 242.891 203.845 243.817 203.845 244.725C203.845 250.776 198.934 255.998 192.543 255.998C187.647 255.998 183.309 252.844 181.799 248.186L135 103.863C130.504 89.996 117.665 80.019 103.619 80.019C87.941 80.019 71.991 92.851 71.991 111.989C71.991 115.262 72.497 118.591 73.561 121.873L143.492 337.537C143.783 338.432 143.916 339.303 143.916 340.135C143.916 344.657 139.977 348.05 135.797 348.05C133.87 348.05 131.891 347.328 130.225 345.662L69.881 285.316C61.545 276.98 50.246 272.445 39.074 272.445C15.509 272.445 0 292.13 0 311.997C0 322.232 3.906 332.467 11.719 340.279L134.233 462.797C165.735 494.301 208.463 512 253.016 512H303.996C327.493 512 412.422 497.425 436.526 409L510.49 137.795C511.318 134.762 511.72 131.662 511.72 128.59Z" })
+  }
+));
+HandSpockSolid.displayName = "HandSpockSolid";
+var HandSpock_default = HandSpockSolid;

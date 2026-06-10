@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const RectangleWideThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M576 80C602.467 80 624 101.533 624 128V384C624 410.467 602.467 432 576 432H64C37.533 432 16 410.467 16 384V128C16 101.533 37.533 80 64 80H576M576 64H64C28.654 64 0 92.654 0 128V384C0 419.346 28.654 448 64 448H576C611.346 448 640 419.346 640 384V128C640 92.654 611.346 64 576 64L576 64Z" })
+  }
+));
+RectangleWideThin.displayName = "RectangleWideThin";
+var RectangleWide_default = RectangleWideThin;
+export {
+  RectangleWide_default as default
+};

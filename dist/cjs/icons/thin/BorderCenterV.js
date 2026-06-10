@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BorderCenterV_exports = {};
+__export(BorderCenterV_exports, {
+  default: () => BorderCenterV_default
+});
+module.exports = __toCommonJS(BorderCenterV_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BorderCenterVThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M32 144C23.178 144 16 151.18 16 160S23.178 176 32 176S48 168.82 48 160S40.822 144 32 144ZM128 432C119.178 432 112 439.18 112 448S119.178 464 128 464S144 456.82 144 448S136.822 432 128 432ZM32 240C23.178 240 16 247.18 16 256S23.178 272 32 272S48 264.82 48 256S40.822 240 32 240ZM128 240C119.178 240 112 247.18 112 256S119.178 272 128 272S144 264.82 144 256S136.822 240 128 240ZM32 48C23.178 48 16 55.18 16 64S23.178 80 32 80S48 72.82 48 64S40.822 48 32 48ZM32 336C23.178 336 16 343.18 16 352S23.178 368 32 368S48 360.82 48 352S40.822 336 32 336ZM416 80C424.822 80 432 72.82 432 64S424.822 48 416 48S400 55.18 400 64S407.178 80 416 80ZM32 432C23.178 432 16 439.18 16 448S23.178 464 32 464S48 456.82 48 448S40.822 432 32 432ZM416 432C407.178 432 400 439.18 400 448S407.178 464 416 464S432 456.82 432 448S424.822 432 416 432ZM416 240C407.178 240 400 247.18 400 256S407.178 272 416 272S432 264.82 432 256S424.822 240 416 240ZM128 48C119.178 48 112 55.18 112 64S119.178 80 128 80S144 72.82 144 64S136.822 48 128 48ZM416 144C407.178 144 400 151.18 400 160S407.178 176 416 176S432 168.82 432 160S424.822 144 416 144ZM320 48C311.178 48 304 55.18 304 64S311.178 80 320 80S336 72.82 336 64S328.822 48 320 48ZM416 336C407.178 336 400 343.18 400 352S407.178 368 416 368S432 360.82 432 352S424.822 336 416 336ZM320 432C311.178 432 304 439.18 304 448S311.178 464 320 464S336 456.82 336 448S328.822 432 320 432ZM320 240C311.178 240 304 247.18 304 256S311.178 272 320 272S336 264.82 336 256S328.822 240 320 240ZM224 32C219.594 32 216 35.578 216 40V472C216 476.422 219.594 480 224 480S232 476.422 232 472V40C232 35.578 228.406 32 224 32Z" })
+  }
+));
+BorderCenterVThin.displayName = "BorderCenterVThin";
+var BorderCenterV_default = BorderCenterVThin;

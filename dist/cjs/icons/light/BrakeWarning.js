@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BrakeWarning_exports = {};
+__export(BrakeWarning_exports, {
+  default: () => BrakeWarning_default
+});
+module.exports = __toCommonJS(BrakeWarning_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BrakeWarningLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M320 32C196.289 32 96 132.289 96 256S196.289 480 320 480C443.713 480 544 379.711 544 256S443.713 32 320 32ZM320 448C214.131 448 128 361.869 128 256S214.131 64 320 64S512 150.131 512 256S425.869 448 320 448ZM320 328C306.746 328 296 338.746 296 352S306.746 376 320 376C333.256 376 344 365.254 344 352S333.256 328 320 328ZM320 288C328.844 288 336 280.844 336 272V144C336 135.156 328.844 128 320 128S304 135.156 304 144V272C304 280.844 311.156 288 320 288ZM90.25 67.703C83.5 62.094 73.406 62.953 67.719 69.75C24.031 122.141 0 188.281 0 256S24.031 389.859 67.719 442.25C70.875 446.047 75.438 448 80 448C83.625 448 87.25 446.781 90.25 444.297C97.031 438.625 97.938 428.547 92.281 421.75C53.406 375.109 32 316.25 32 256S53.406 136.891 92.281 90.25C97.938 83.453 97.031 73.375 90.25 67.703ZM572.281 69.75C566.625 62.922 556.5 62.094 549.75 67.703C542.969 73.375 542.062 83.453 547.719 90.25C586.594 136.891 608 195.75 608 256S586.594 375.109 547.719 421.75C542.062 428.547 542.969 438.625 549.75 444.297C552.75 446.781 556.375 448 560 448C564.562 448 569.125 446.047 572.281 442.25C615.969 389.859 640 323.719 640 256S615.969 122.141 572.281 69.75Z" })
+  }
+));
+BrakeWarningLight.displayName = "BrakeWarningLight";
+var BrakeWarning_default = BrakeWarningLight;

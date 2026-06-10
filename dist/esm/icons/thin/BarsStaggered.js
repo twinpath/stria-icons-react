@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BarsStaggeredThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M8 104H440C444.422 104 448 100.406 448 96S444.422 88 440 88H8C3.578 88 0 91.594 0 96S3.578 104 8 104ZM440 408H8C3.578 408 0 411.594 0 416S3.578 424 8 424H440C444.422 424 448 420.406 448 416S444.422 408 440 408ZM504 248H72C67.578 248 64 251.594 64 256S67.578 264 72 264H504C508.422 264 512 260.406 512 256S508.422 248 504 248Z" })
+  }
+));
+BarsStaggeredThin.displayName = "BarsStaggeredThin";
+var BarsStaggered_default = BarsStaggeredThin;
+export {
+  BarsStaggered_default as default
+};

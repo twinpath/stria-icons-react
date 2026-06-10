@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var MapLocation_exports = {};
+__export(MapLocation_exports, {
+  default: () => MapLocation_default
+});
+module.exports = __toCommonJS(MapLocation_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MapLocationLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M568.984 130.762C564.578 127.793 559.031 127.199 554.078 129.137L436.521 175.934C430.387 191.434 416.404 218.398 416.594 218.322L544 167.605V425.471L416 473.27V304C416 295.162 408.836 288 400 288S384 295.162 384 304V474.51L192 419.555V304C192 295.162 184.836 288 176 288S160 295.162 160 304V419.047L32 472.062V214.541L138.898 174.627C134.699 163.832 131.893 153.566 130.113 143.73L10.41 188.445C4.15 190.783 0 196.764 0 203.447V496C0 501.344 2.672 506.344 7.109 509.312S17.203 512.812 22.125 510.781L174.297 447.752L396.484 511.375C397.922 511.781 399.406 512 400.891 512C402.797 512 404.687 511.656 406.484 511L565.59 451.564C571.85 449.227 576 443.246 576 436.564V144.012C576 138.699 573.375 133.762 568.984 130.762ZM288 320C297.551 320 306.604 315.734 312.682 308.367C343.746 270.721 416 177.596 416 126.029C416 56.537 358.58 0 288 0S160 56.537 160 126.029C160 177.596 232.254 270.721 263.318 308.367C269.398 315.734 278.449 320 288 320ZM288 32C340.875 32 384 74.107 384 126.029C384 153.93 345.875 217.865 288 288C230.125 217.865 192 153.93 192 126.029C192 74.107 235.125 32 288 32Z" })
+  }
+));
+MapLocationLight.displayName = "MapLocationLight";
+var MapLocation_default = MapLocationLight;

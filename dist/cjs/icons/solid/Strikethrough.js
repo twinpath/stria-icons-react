@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Strikethrough_exports = {};
+__export(Strikethrough_exports, {
+  default: () => Strikethrough_default
+});
+module.exports = __toCommonJS(Strikethrough_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const StrikethroughSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M313.848 319.902C333.83 331.184 338.188 342.965 335.002 362.029C331.91 380.342 323.291 387.248 316.107 391.186C285.877 407.936 219.668 399.936 151.49 371.529C131.066 362.904 107.705 372.654 99.211 393.029C90.717 413.436 100.336 436.842 120.697 445.342C151.086 458.031 212.422 480 272.479 480C301.398 480 330.037 474.906 354.74 461.219C386.939 443.436 407.396 413.717 413.83 375.279C417.416 353.898 416.371 335.674 412.066 319.902H313.848ZM488 240H331.488C309.783 230.455 287.084 223.467 267.326 217.65C186.781 193.9 171.604 182.525 177.037 149.994C178.975 138.525 184.877 129.557 194.59 123.338C208.955 114.119 245.746 102.086 331.256 125.275C352.492 130.963 374.479 118.432 380.287 97.086C386.033 75.773 373.447 53.805 352.117 48.023C264.266 24.273 196.744 26.93 151.428 55.961C122.76 74.367 103.865 103.055 98.211 136.744C90.166 184.682 105.033 216.986 129.572 240H24C10.75 240 0 250.75 0 264S10.75 288 24 288H488C501.25 288 512 277.25 512 264S501.25 240 488 240Z" })
+  }
+));
+StrikethroughSolid.displayName = "StrikethroughSolid";
+var Strikethrough_default = StrikethroughSolid;

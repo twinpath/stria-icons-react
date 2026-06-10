@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FireHydrant_exports = {};
+__export(FireHydrant_exports, {
+  default: () => FireHydrant_default
+});
+module.exports = __toCommonJS(FireHydrant_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FireHydrantLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M120 328C120 367.764 152.236 400 192 400C231.766 400 264 367.764 264 328C264 288.234 231.766 256 192 256C152.236 256 120 288.234 120 328ZM232 328C232 350.055 214.057 368 192 368S152 350.055 152 328C152 305.943 169.943 288 192 288S232 305.943 232 328ZM320 240V224C320 215.162 312.836 208 304 208S288 215.162 288 224V480H96V224C96 215.162 88.836 208 80 208S64 215.162 64 224V240C37.531 240 16 261.531 16 288V352C16 378.469 37.531 400 64 400V480H48C39.164 480 32 487.162 32 496C32 504.836 39.164 512 48 512H336C344.836 512 352 504.836 352 496C352 487.162 344.836 480 336 480H320V400C346.469 400 368 378.469 368 352V288C368 261.531 346.469 240 320 240ZM64 368C55.172 368 48 360.812 48 352V288C48 279.172 55.172 272 64 272V368ZM336 352C336 360.812 328.828 368 320 368V272C328.828 272 336 279.172 336 288V352ZM48 176H336C344.836 176 352 168.836 352 160C352 151.162 344.836 144 336 144H318.387C311.1 86.244 265.756 40.9 208 33.613V16C208 7.156 200.844 0 192 0S176 7.156 176 16V33.613C118.244 40.9 72.9 86.244 65.613 144H48C39.164 144 32 151.162 32 160C32 168.836 39.164 176 48 176ZM192 64C239.484 64 279.027 98.654 286.666 144H97.334C104.973 98.654 144.516 64 192 64Z" })
+  }
+));
+FireHydrantLight.displayName = "FireHydrantLight";
+var FireHydrant_default = FireHydrantLight;

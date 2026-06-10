@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PersonSeat_exports = {};
+__export(PersonSeat_exports, {
+  default: () => PersonSeat_default
+});
+module.exports = __toCommonJS(PersonSeat_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PersonSeatThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M216 416H129.594C66.953 416 16 365.031 16 302.406V136C16 131.594 12.422 128 8 128S0 131.594 0 136V302.406C0 373.875 58.141 432 129.594 432H216C220.422 432 224 428.406 224 424S220.422 416 216 416ZM138.729 104C167.432 104 190.729 80.719 190.729 52S167.463 0 138.729 0S86.729 23.281 86.729 52S110.025 104 138.729 104ZM138.729 16C158.572 16 174.729 32.156 174.729 52S158.572 88 138.729 88S102.729 71.844 102.729 52S118.885 16 138.729 16ZM352 416H331.752L319.682 331.479C317.445 315.812 303.826 304 288 304H176V240H240C257.645 240 272 225.645 272 208S257.645 176 240 176H176C176 149.533 154.467 128 128 128S80 149.533 80 176V320C80 346.467 101.533 368 128 368H260.248L272.318 452.521C274.555 468.186 288.176 480 304 480H352C369.645 480 384 465.645 384 448S369.645 416 352 416ZM352 464H304C296.035 464 289.283 458.143 288.158 450.26L274.125 352H128C110.326 352 96 337.672 96 320V176C96 158.312 110.328 144 128 144S160 158.312 160 176V192H240C248.836 192 256 199.162 256 208C256 216.836 248.836 224 240 224H160V320H288C295.965 320 302.717 325.855 303.842 333.74L317.875 432H352C360.844 432 368 439.156 368 448S360.844 464 352 464Z" })
+  }
+));
+PersonSeatThin.displayName = "PersonSeatThin";
+var PersonSeat_default = PersonSeatThin;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PhoneOffice_exports = {};
+__export(PhoneOffice_exports, {
+  default: () => PhoneOffice_default
+});
+module.exports = __toCommonJS(PhoneOffice_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PhoneOfficeSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M128 416H192C209.625 416 224 401.625 224 384V32C224 14.375 209.625 0 192 0H128C110.375 0 96 14.375 96 32V384C96 401.625 110.375 416 128 416ZM528 32H256V384C256 419.25 227.25 448 192 448H128C92.75 448 64 419.25 64 384V32H48C21.5 32 0 53.5 0 80V464C0 490.5 21.5 512 48 512H528C554.5 512 576 490.5 576 464V80C576 53.5 554.5 32 528 32ZM384 432C384 440.875 376.875 448 368 448H336C327.125 448 320 440.875 320 432V400C320 391.125 327.125 384 336 384H368C376.875 384 384 391.125 384 400V432ZM384 304C384 312.875 376.875 320 368 320H336C327.125 320 320 312.875 320 304V272C320 263.125 327.125 256 336 256H368C376.875 256 384 263.125 384 272V304ZM512 432C512 440.875 504.875 448 496 448H464C455.125 448 448 440.875 448 432V400C448 391.125 455.125 384 464 384H496C504.875 384 512 391.125 512 400V432ZM512 304C512 312.875 504.875 320 496 320H464C455.125 320 448 312.875 448 304V272C448 263.125 455.125 256 464 256H496C504.875 256 512 263.125 512 272V304ZM512 192H320V96H512V192Z" })
+  }
+));
+PhoneOfficeSolid.displayName = "PhoneOfficeSolid";
+var PhoneOffice_default = PhoneOfficeSolid;

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const InfoLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 192 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M96 96C113.674 96 128 81.674 128 64S113.674 32 96 32S64 46.326 64 64S78.326 96 96 96ZM176 448H112V176C112 167.156 104.844 160 96 160H48C39.156 160 32 167.156 32 176S39.156 192 48 192H80V448H16C7.156 448 0 455.156 0 464S7.156 480 16 480H176C184.844 480 192 472.844 192 464S184.844 448 176 448Z" })
+  }
+));
+InfoLight.displayName = "InfoLight";
+var Info_default = InfoLight;
+export {
+  Info_default as default
+};

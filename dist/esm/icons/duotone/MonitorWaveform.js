@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const MonitorWaveformDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M512 96V416H64V288H182.125L209.75 343.125C215.625 355 232.375 355 238.25 343.125L288 243.75L310.125 288H400C408.875 288 416 280.875 416 272S408.875 256 400 256H329.875L302.25 200.875C296.375 189 279.625 189 273.75 200.875L224 300.25L204.125 260.375C202.75 257.75 200 256 197 256H64V96H512Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M528 32H48C21.5 32 0 53.5 0 80V432C0 458.5 21.5 480 48 480H528C554.5 480 576 458.5 576 432V80C576 53.5 554.5 32 528 32ZM512 416H64V96H512V416Z" })
+    ]
+  }
+));
+MonitorWaveformDuotone.displayName = "MonitorWaveformDuotone";
+var MonitorWaveform_default = MonitorWaveformDuotone;
+export {
+  MonitorWaveform_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BoltLightning_exports = {};
+__export(BoltLightning_exports, {
+  default: () => BoltLightning_default
+});
+module.exports = __toCommonJS(BoltLightning_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BoltLightningRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M381.22 172.812C377.063 164.938 368.907 160 360.001 160H203.438L254.282 32.906C257.251 25.531 256.345 17.125 251.876 10.531S239.97 0 232.001 0H56.001C43.97 0 33.813 8.906 32.22 20.844L0.22 260.844C-0.718 267.688 1.376 274.594 5.938 279.812C10.501 285 17.095 288 24.001 288H170.313L128.532 482.969C126.126 494.187 132.001 505.531 142.532 510.062C145.595 511.375 148.813 512 152.001 512C159.72 512 167.22 508.25 171.813 501.562L379.813 197.562C384.845 190.219 385.376 180.688 381.22 172.812ZM201.001 373.875L223.47 269.031C225.001 261.938 223.22 254.563 218.657 248.906C214.095 243.281 207.251 240 200.001 240H51.407L77.001 48H196.563L145.72 175.094C142.751 182.469 143.657 190.875 148.126 197.469S160.032 208 168.001 208H314.501L201.001 373.875Z" })
+  }
+));
+BoltLightningRegular.displayName = "BoltLightningRegular";
+var BoltLightning_default = BoltLightningRegular;

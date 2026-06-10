@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const CompactDiscSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M256 16C123.461 16 16 123.419 16 256S123.461 496 256 496S496 388.581 496 256S388.539 16 256 16ZM80.715 256H79.627C70.549 256 63.229 247.99 64.065 238.658C72.364 146.017 146.49 72.06 239.274 64.055C248.291 63.278 256 70.791 256 80.132V80.132C256 88.482 249.786 95.363 241.727 96.077C164.745 102.898 103.148 164.347 96.153 241.354C95.401 249.634 88.771 256 80.715 256ZM256 352C202.976 352 160 309 160 256S202.976 160 256 160S352 203 352 256S309.024 352 256 352ZM256 224C238.303 224 224 238.25 224 256S238.303 288 256 288C273.697 288 288 273.75 288 256S273.697 224 256 224Z" })
+  }
+));
+CompactDiscSolid.displayName = "CompactDiscSolid";
+var CompactDisc_default = CompactDiscSolid;
+export {
+  CompactDisc_default as default
+};

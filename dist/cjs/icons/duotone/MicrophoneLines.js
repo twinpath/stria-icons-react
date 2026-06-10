@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var MicrophoneLines_exports = {};
+__export(MicrophoneLines_exports, {
+  default: () => MicrophoneLines_default
+});
+module.exports = __toCommonJS(MicrophoneLines_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MicrophoneLinesDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M208 128H288V96H208C199.164 96 192 103.164 192 112S199.164 128 208 128ZM208 192H288V160H208C199.164 160 192 167.164 192 176S199.164 192 208 192ZM344 192H344C330.745 192 320 202.745 320 216V256C320 329.329 258.034 388.423 183.746 383.738C117.664 379.57 64 317.147 64 250.934V216C64 202.745 53.255 192 40 192H40C26.745 192 16 202.745 16 216V248.156C16 337.812 79.969 417.719 168 429.844V464H128C109.807 464 95.158 479.186 96.038 497.572C96.431 505.785 103.778 512 112 512H272C280.222 512 287.569 505.784 287.962 497.572C288.842 479.186 274.195 464 256 464H216V430.219C301.719 418.469 368 344.906 368 256V216C368 202.745 357.255 192 344 192ZM208 256H288V224H208C199.164 224 192 231.164 192 240S199.164 256 208 256Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M192 352C245.031 352 288 309.031 288 256H208C199.164 256 192 248.836 192 240S199.164 224 208 224H288V192H208C199.164 192 192 184.836 192 176S199.164 160 208 160H288V128H208C199.164 128 192 120.836 192 112S199.164 96 208 96H288C288 42.969 245.031 0 192 0S96 42.969 96 96V256C96 309.031 138.969 352 192 352Z" })
+    ]
+  }
+));
+MicrophoneLinesDuotone.displayName = "MicrophoneLinesDuotone";
+var MicrophoneLines_default = MicrophoneLinesDuotone;

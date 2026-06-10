@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Mitten_exports = {};
+__export(Mitten_exports, {
+  default: () => Mitten_default
+});
+module.exports = __toCommonJS(Mitten_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const MittenRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M416.72 184.75C401.22 171.75 381.472 164.625 361.222 164.625C346.349 164.625 332.099 168.25 319.474 175.25L306.851 120.5C290.476 49.625 228.23 0 155.484 0C143.734 0 131.984 1.375 120.361 4C36.99 23.25 -15.258 106.875 3.992 190.375L54.613 384H104.236L50.738 179.625C37.49 121.875 73.613 64.125 131.234 50.75C139.234 49 147.359 48 155.484 48C205.73 48 248.728 82.25 260.103 131.25L292.726 272.75L331.224 226.625C338.724 217.75 349.597 212.625 361.222 212.625C370.222 212.625 379.097 215.75 385.97 221.625C402.47 235.25 404.72 259.875 390.97 276.25L301.226 384H363.722L427.843 307.125C458.593 270.25 453.593 215.375 416.72 184.75ZM351.972 416H63.988C46.388 416 31.99 430.4 31.99 448V480C31.99 497.6 46.388 512 63.988 512H351.972C369.572 512 383.972 497.6 383.972 480V448C383.972 430.4 369.572 416 351.972 416Z" })
+  }
+));
+MittenRegular.displayName = "MittenRegular";
+var Mitten_default = MittenRegular;

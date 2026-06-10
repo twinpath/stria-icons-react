@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ArrowUpLeftFromCircleDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M288 512C164.5 512 64 411.5 64 288C64 270.312 78.312 256 96 256S128 270.312 128 288C128 376.219 199.781 448 288 448S448 376.219 448 288S376.219 128 288 128C270.312 128 256 113.688 256 96S270.312 64 288 64C411.5 64 512 164.5 512 288S411.5 512 288 512Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M9.371 9.367C15.16 3.578 23.156 0 32 0L192 0C209.672 0 223.996 14.324 223.996 31.996C223.996 49.664 209.672 63.992 192.002 63.992H109.25L333.258 290.738C345.756 303.234 345.756 323.5 333.258 336C320.76 348.496 300.498 348.492 288 336L63.992 109.246V192C63.992 209.672 49.666 223.996 31.996 223.996H31.994C14.324 223.996 0 209.672 0 192V31.996C0 23.156 3.578 15.156 9.371 9.367Z" })
+    ]
+  }
+));
+ArrowUpLeftFromCircleDuotone.displayName = "ArrowUpLeftFromCircleDuotone";
+var ArrowUpLeftFromCircle_default = ArrowUpLeftFromCircleDuotone;
+export {
+  ArrowUpLeftFromCircle_default as default
+};

@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const EnvelopeDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M511.08 120H512V400C512 426.51 490.51 448 464 448H48C21.49 448 0 426.51 0 400V120H0.92C2.846 129.936 8.156 138.98 16.287 145.305L228.469 310.359C244.662 322.955 267.338 322.955 283.531 310.359L495.713 145.305C503.844 138.98 509.154 129.936 511.08 120Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M16.287 145.305L228.469 310.359C244.662 322.955 267.338 322.955 283.531 310.359L495.713 145.305C505.99 137.311 512 125.02 512 112C512 85.49 490.51 64 464 64H48C21.49 64 0 85.49 0 112C0 125.02 6.01 137.311 16.287 145.305Z" })
+    ]
+  }
+));
+EnvelopeDuotone.displayName = "EnvelopeDuotone";
+var Envelope_default = EnvelopeDuotone;
+export {
+  Envelope_default as default
+};

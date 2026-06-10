@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const CommentTextDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M256 32C114.625 32 0 125.125 0 240C0 289.625 21.375 335 57 370.75C44.5 421.125 2.75 466 2.25 466.5C0 468.75 -0.625 472.25 0.75 475.25C2 478.25 4.75 480 8 480C74.25 480 124 448.25 148.625 428.625C181.25 440.875 217.625 448 256 448C397.375 448 512 354.875 512 240S397.375 32 256 32ZM328 208H280V312C280 325.25 269.25 336 256 336S232 325.25 232 312V208H184C170.75 208 160 197.25 160 184S170.75 160 184 160H328C341.25 160 352 170.75 352 184S341.25 208 328 208Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M328 160H184C170.75 160 160 170.75 160 184S170.75 208 184 208H232V312C232 325.25 242.75 336 256 336S280 325.25 280 312V208H328C341.25 208 352 197.25 352 184S341.25 160 328 160Z" })
+    ]
+  }
+));
+CommentTextDuotone.displayName = "CommentTextDuotone";
+var CommentText_default = CommentTextDuotone;
+export {
+  CommentText_default as default
+};

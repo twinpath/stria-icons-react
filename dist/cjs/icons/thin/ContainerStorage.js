@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ContainerStorage_exports = {};
+__export(ContainerStorage_exports, {
+  default: () => ContainerStorage_default
+});
+module.exports = __toCommonJS(ContainerStorage_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ContainerStorageThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M416 416C420.422 416 424 412.422 424 408V104C424 99.578 420.422 96 416 96S408 99.578 408 104V408C408 412.422 411.578 416 416 416ZM512 416C516.422 416 520 412.422 520 408V104C520 99.578 516.422 96 512 96S504 99.578 504 104V408C504 412.422 507.578 416 512 416ZM320 416C324.422 416 328 412.422 328 408V104C328 99.578 324.422 96 320 96S312 99.578 312 104V408C312 412.422 315.578 416 320 416ZM128 416C132.422 416 136 412.422 136 408V104C136 99.578 132.422 96 128 96S120 99.578 120 104V408C120 412.422 123.578 416 128 416ZM224 416C228.422 416 232 412.422 232 408V104C232 99.578 228.422 96 224 96S216 99.578 216 104V408C216 412.422 219.578 416 224 416ZM632 464H624V48H632C636.422 48 640 44.422 640 40S636.422 32 632 32H8C3.578 32 0 35.578 0 40S3.578 48 8 48H16V464H8C3.578 464 0 467.578 0 472S3.578 480 8 480H632C636.422 480 640 476.422 640 472S636.422 464 632 464ZM608 464H32V48H608V464Z" })
+  }
+));
+ContainerStorageThin.displayName = "ContainerStorageThin";
+var ContainerStorage_default = ContainerStorageThin;

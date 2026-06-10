@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var UserCowboy_exports = {};
+__export(UserCowboy_exports, {
+  default: () => UserCowboy_default
+});
+module.exports = __toCommonJS(UserCowboy_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const UserCowboyDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M352 224C352 294.691 294.693 352 224 352S96 294.691 96 224C96 223.023 96.266 222.123 96.287 221.152C132.947 242.225 176.57 256 224 256S315.053 242.225 351.713 221.152C351.734 222.123 352 223.023 352 224Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M224.023 132.625C277.261 132.625 315.004 124 341.125 114.125C330.002 64.5 309.506 0 276.636 0C266.265 0 257.017 4.5 249.267 10.5C241.847 16.279 232.939 19.133 224 19.287C215.06 19.133 206.152 16.279 198.732 10.5C190.982 4.5 181.734 0 171.363 0C138.494 0 117.998 64.5 106.875 114.125C132.996 124 170.738 132.625 223.976 132.625H224.023ZM224 256C330.716 256 420.343 188.572 447.101 117.125C449.851 109.5 446.101 101.125 438.353 97.625C430.73 94.125 421.607 96.375 416.484 103C415.609 104.25 370.867 164.625 224.023 164.625H223.976C77.132 164.625 32.39 104.25 31.515 103C26.392 96.375 17.269 94.125 9.646 97.625C1.896 101.125 -1.852 109.5 0.898 117.125C27.656 188.572 117.283 256 224 256ZM333.992 384H114.007C60.564 384 13.978 420.379 1.017 472.238C-4.032 492.438 11.242 512 32.054 512H415.945C436.757 512 452.031 492.438 446.982 472.238C434.021 420.379 387.435 384 333.992 384Z" })
+    ]
+  }
+));
+UserCowboyDuotone.displayName = "UserCowboyDuotone";
+var UserCowboy_default = UserCowboyDuotone;

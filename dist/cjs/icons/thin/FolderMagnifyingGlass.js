@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FolderMagnifyingGlass_exports = {};
+__export(FolderMagnifyingGlass_exports, {
+  default: () => FolderMagnifyingGlass_default
+});
+module.exports = __toCommonJS(FolderMagnifyingGlass_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FolderMagnifyingGlassThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M496 96H304L249.373 41.375C243.371 35.371 235.232 32 226.746 32H80C53.49 32 32 53.492 32 80V432C32 458.508 53.49 480 80 480H496C522.51 480 544 458.508 544 432V144C544 117.492 522.51 96 496 96ZM528 432C528 449.672 513.674 464 496 464H80C62.326 464 48 449.672 48 432V80C48 62.328 62.326 48 80 48H220.117C228.604 48 236.742 51.371 242.744 57.371L297.371 112H496C513.674 112 528 126.328 528 144V432ZM344.996 333.684C359.143 316.961 368 295.617 368 272C368 218.98 325.02 176 272 176S176 218.98 176 272S218.98 368 272 368C295.619 368 316.963 359.141 333.684 344.996L402.344 413.656C403.906 415.219 405.938 416 408 416S412.094 415.219 413.656 413.656C416.781 410.531 416.781 405.469 413.656 402.344L344.996 333.684ZM272 352C227.889 352 192 316.113 192 272S227.889 192 272 192S352 227.887 352 272S316.111 352 272 352Z" })
+  }
+));
+FolderMagnifyingGlassThin.displayName = "FolderMagnifyingGlassThin";
+var FolderMagnifyingGlass_default = FolderMagnifyingGlassThin;

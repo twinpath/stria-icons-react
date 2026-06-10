@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var CameraMovie_exports = {};
+__export(CameraMovie_exports, {
+  default: () => CameraMovie_default
+});
+module.exports = __toCommonJS(CameraMovie_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CameraMovieSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M368 288H32C14.327 288 0 302.327 0 320V320C0 337.673 14.327 352 32 352H64V464C64 490.51 85.49 512 112 512H368C394.51 512 416 490.51 416 464V336C416 309.49 394.51 288 368 288ZM352 0C303.375 0 261.75 27.375 240 67.25C218.25 27.375 176.625 0 128 0C57.25 0 0 57.25 0 128S57.25 256 128 256H352C422.75 256 480 198.75 480 128S422.75 0 352 0ZM128 192C92.625 192 64 163.375 64 128S92.625 64 128 64S192 92.625 192 128S163.375 192 128 192ZM352 192C316.625 192 288 163.375 288 128S316.625 64 352 64S416 92.625 416 128S387.375 192 352 192ZM524.801 262.455L448 320V448L524.76 505.539C545.871 521.367 576 506.309 576 479.928V288.047C576 261.688 545.896 246.641 524.801 262.455Z" })
+  }
+));
+CameraMovieSolid.displayName = "CameraMovieSolid";
+var CameraMovie_default = CameraMovieSolid;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HousePersonLeave_exports = {};
+__export(HousePersonLeave_exports, {
+  default: () => HousePersonLeave_default
+});
+module.exports = __toCommonJS(HousePersonLeave_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HousePersonLeaveSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M356.737 384.734C359.864 381.605 362.182 378.119 363.809 373.898L384.561 322.389L396.344 293.141C395.868 290.139 395.536 287.115 395.348 284.074C392.37 285.637 389.237 286.988 385.969 288.111C379.51 290.23 372.786 291.307 365.981 291.307C356.102 291.307 346.227 288.979 337.153 284.439C306.128 268.553 293.397 230.201 308.811 198.869L315.548 185.271C329.366 157.297 352.93 135.381 382.071 123.488L384.997 122.299L261.702 8.486C249.446 -2.83 230.553 -2.83 218.296 8.486L10.294 200.492C0.606 209.43 -2.597 223.367 2.2 235.65C6.997 247.932 18.825 255.994 31.997 255.994H63.995V367.998C63.995 394.398 85.592 416 111.995 416H325.553L356.737 384.734ZM224.003 271.994C224.003 280.869 216.878 287.994 208.001 287.994H144.001C135.126 287.994 128.001 280.869 128.001 271.994V207.992C128.001 199.117 135.126 191.992 144.001 191.992H208.001C216.878 191.992 224.003 199.117 224.003 207.992V271.994ZM393.491 385.85C390.366 393.977 385.491 401.229 379.364 407.354L329.362 457.492C317.485 469.996 317.735 489.75 329.987 502.004C342.237 514.258 361.989 514.633 374.489 502.754L433.993 443.363C440.12 437.236 444.87 429.859 448.12 421.857L461.622 388.1C406.366 327.709 422.993 346.213 414.243 334.336L393.491 385.85ZM528.001 96.023C554.503 96.023 576.005 74.52 576.005 48.012C576.005 21.506 554.503 0 528.001 0S479.997 21.506 479.997 48.012C479.997 74.52 501.499 96.023 528.001 96.023ZM622.382 245.062L599.132 233.311L589.38 203.928C574.755 159.291 533.751 128.158 487.247 128.033C451.245 127.908 431.368 138.16 393.991 153.164C372.239 162.041 354.614 178.42 344.237 199.426L337.487 213.055C329.737 228.809 336.112 247.938 351.737 255.941C359.239 259.691 367.989 260.316 375.989 257.691C383.991 254.939 390.491 249.189 394.241 241.688L400.991 228.059C404.366 221.057 410.243 215.555 417.493 212.68L444.245 201.801L429.118 262.566C423.868 283.447 429.493 305.453 443.995 321.332L503.874 386.725C511.124 394.602 516.251 404.104 518.751 414.48L537.001 487.75C541.251 504.879 558.628 515.383 575.755 511.006C593.005 506.756 603.382 489.375 599.132 472.246L576.88 383.223C574.38 372.846 569.255 363.344 562.003 355.467L516.501 305.828L533.751 237.061L539.251 253.564C544.503 269.693 555.878 282.947 570.88 290.574L594.255 302.453C601.757 306.203 610.507 306.828 618.382 304.078C626.383 301.453 633.008 295.701 636.758 288.074C644.383 272.32 638.133 253.189 622.382 245.062Z" })
+  }
+));
+HousePersonLeaveSolid.displayName = "HousePersonLeaveSolid";
+var HousePersonLeave_default = HousePersonLeaveSolid;

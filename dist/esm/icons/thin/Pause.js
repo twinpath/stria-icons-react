@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const PauseThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M64 64C59.578 64 56 67.578 56 72V440C56 444.422 59.578 448 64 448S72 444.422 72 440V72C72 67.578 68.422 64 64 64ZM256 64C251.578 64 248 67.578 248 72V440C248 444.422 251.578 448 256 448S264 444.422 264 440V72C264 67.578 260.422 64 256 64Z" })
+  }
+));
+PauseThin.displayName = "PauseThin";
+var Pause_default = PauseThin;
+export {
+  Pause_default as default
+};

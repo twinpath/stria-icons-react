@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var RotateLeft_exports = {};
+__export(RotateLeft_exports, {
+  default: () => RotateLeft_default
+});
+module.exports = __toCommonJS(RotateLeft_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const RotateLeftDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M98 75.796C141.785 37.262 197.264 16.001 256.107 16.001C320.203 16.001 380.487 40.969 425.802 86.313C471.148 131.626 496.117 191.907 496.117 256.001S471.148 380.376 425.802 425.688C380.487 471.032 320.203 496.001 256.107 496.001C211.966 496.001 169.634 484.159 132.754 461.977C106.445 446.154 102.989 409.111 124.698 387.403L124.699 387.403C139.842 372.26 163.532 368.379 181.863 379.453C204.041 392.852 229.522 400.001 256.107 400.001C294.577 400.001 330.735 385.032 357.924 357.813C385.144 330.626 400.113 294.469 400.113 256.001S385.144 181.376 357.924 154.188C330.735 126.969 294.577 112.001 256.107 112.001C222.935 112.001 191.86 123.715 166.394 144.231L98 75.796Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M62.07 39.962L200.028 178.003C217.034 195.02 204.981 224.104 180.921 224.104H35.175C24.584 224.104 16 215.52 16 204.93V59.036C16 34.991 45.074 22.956 62.07 39.962Z" })
+    ]
+  }
+));
+RotateLeftDuotone.displayName = "RotateLeftDuotone";
+var RotateLeft_default = RotateLeftDuotone;

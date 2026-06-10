@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const RefrigeratorSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M0 160V64C0 28.654 28.654 0 64 0H320C355.346 0 384 28.654 384 64V160H320V80C320 71.2 312.8 64 304 64H304C295.2 64 288 71.2 288 80V160H0ZM320 192V368C320 376.8 312.8 384 304 384H304C295.2 384 288 376.8 288 368V192H0V480C0 497.673 14.327 512 32 512H352C369.673 512 384 497.673 384 480V192H320Z" })
+  }
+));
+RefrigeratorSolid.displayName = "RefrigeratorSolid";
+var Refrigerator_default = RefrigeratorSolid;
+export {
+  Refrigerator_default as default
+};

@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const MoneyBillSimpleRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M512 64H64C28.654 64 0 92.652 0 128V384C0 419.346 28.654 448 64 448H512C547.348 448 576 419.346 576 384V128C576 92.652 547.348 64 512 64ZM528 384C528 392.822 520.822 400 512 400H64C55.178 400 48 392.822 48 384V128C48 119.178 55.178 112 64 112H512C520.822 112 528 119.178 528 128V384ZM368 256C368 309.018 332.184 352 288 352S208 309.018 208 256C208 202.98 243.816 160 288 160S368 202.98 368 256Z" })
+  }
+));
+MoneyBillSimpleRegular.displayName = "MoneyBillSimpleRegular";
+var MoneyBillSimple_default = MoneyBillSimpleRegular;
+export {
+  MoneyBillSimple_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Transporter2_exports = {};
+__export(Transporter2_exports, {
+  default: () => Transporter2_default
+});
+module.exports = __toCommonJS(Transporter2_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const Transporter2Light = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M112 288H400C409 288 416 281 416 272S409 256 400 256H112C103 256 96 263 96 272S103 288 112 288ZM176 221C191 202 213 192 237 192H275C299 192 321 202 336 221C340 225 344 227 349 227C352 227 356 225 359 223C366 217 367 207 361 200C340 175 308 160 275 160H237C204 160 172 175 151 200C145 207 146 217 153 223C160 229 170 228 176 221ZM256 128C291 128 320 99 320 64C320 29 291 0 256 0C221 0 192 29 192 64C192 99 221 128 256 128ZM256 32C274 32 288 46 288 64S274 96 256 96S224 82 224 64S238 32 256 32ZM336 320H176C167 320 160 327 160 336S167 352 176 352H336C345 352 352 345 352 336S345 320 336 320ZM80 32H64V16C64 7 57 0 48 0S32 7 32 16V32H16C7 32 0 39 0 48S7 64 16 64H32V80C32 89 39 96 48 96S64 89 64 80V64H80C89 64 96 57 96 48S89 32 80 32ZM496 352H480V336C480 327 473 320 464 320S448 327 448 336V352H432C423 352 416 359 416 368S423 384 432 384H448V400C448 409 455 416 464 416S480 409 480 400V384H496C505 384 512 377 512 368S505 352 496 352ZM368 448H144C118 448 96 470 96 496C96 505 103 512 112 512S128 505 128 496C128 487 135 480 144 480H368C377 480 384 487 384 496C384 505 391 512 400 512S416 505 416 496C416 470 394 448 368 448ZM336 384H176C167 384 160 391 160 400S167 416 176 416H336C345 416 352 409 352 400S345 384 336 384Z" })
+  }
+));
+Transporter2Light.displayName = "Transporter2Light";
+var Transporter2_default = Transporter2Light;

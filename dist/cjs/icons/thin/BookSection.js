@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BookSection_exports = {};
+__export(BookSection_exports, {
+  default: () => BookSection_default
+});
+module.exports = __toCommonJS(BookSection_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BookSectionThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M286 257C304 250 316 238 319 222C328 178 282 166 242 157L232 154C192 144 172 134 177 110C181 87 214 76 257 82C266 83 277 85 292 89C296 91 300 88 302 84C303 80 300 75 296 74C281 70 269 67 259 66C206 58 168 75 161 107C155 135 173 150 194 159C176 166 164 178 161 194C152 238 200 250 228 257L238 259C282 270 309 279 303 306C299 329 266 340 223 334C208 333 192 328 178 323L170 321C166 320 162 322 160 326C159 331 162 335 166 336L173 338C188 343 205 348 221 350C229 351 237 352 245 352C285 352 313 336 319 309C324 282 309 267 286 257ZM242 244L232 242C192 231 172 222 177 197C181 177 202 171 221 168C223 168 226 169 228 170L238 172C282 183 309 191 303 219C299 239 278 245 259 248C253 247 248 245 242 244ZM448 384V32C448 14 434 0 416 0H64C29 0 0 29 0 64V456C0 487 25 512 56 512L440 512C444 512 448 508 448 504C448 500 444 496 440 496H416V416C434 416 448 402 448 384ZM400 496H56C33 496 14 476 16 452C18 431 37 416 58 416L400 416V496ZM56 400C40 400 26 407 16 417V64C16 38 38 16 64 16H416C425 16 432 23 432 32V384C432 393 425 400 416 400L56 400Z" })
+  }
+));
+BookSectionThin.displayName = "BookSectionThin";
+var BookSection_default = BookSectionThin;

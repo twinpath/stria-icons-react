@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Tshirt_exports = {};
+__export(Tshirt_exports, {
+  default: () => Tshirt_default
+});
+module.exports = __toCommonJS(Tshirt_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const TshirtRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M637.226 122.651C632.726 109.213 623.289 98.353 610.915 92.228L435.804 2.633C425.242 -2.726 412.399 0.289 405.431 9.915C393.682 26.149 362.684 42.524 319.969 42.524C277.284 42.524 246.318 26.149 234.569 9.915C227.601 0.289 214.727 -2.726 204.196 2.633L29.366 92.088C16.711 98.353 7.274 109.213 2.774 122.651C-1.726 136.073 -0.726 150.417 5.586 163.042L44.333 240.402C57.239 266.231 88.83 276.918 113.859 264.653L160.106 244.434L160.012 459.202C160.012 488.312 183.698 512 212.789 512H427.211C456.302 512 479.988 488.312 479.988 459.187L479.894 244.418L525.234 264.231C551.17 276.918 582.761 266.262 595.667 240.434L634.414 163.042C640.726 150.417 641.726 136.073 637.226 122.651ZM591.479 141.541L552.732 218.964C551.514 221.308 548.576 222.23 545.389 220.683L465.52 185.745C458.052 182.511 449.521 183.198 442.741 187.652C435.991 192.089 431.898 199.636 431.898 207.746L431.991 459.202C431.991 461.843 429.835 463.999 427.211 463.999H212.789C210.165 463.999 208.009 461.843 208.009 459.218L208.102 207.746C208.102 199.636 204.009 192.089 197.259 187.652C193.291 185.058 188.697 183.73 184.104 183.73C180.854 183.73 177.573 184.401 174.48 185.745L93.705 221.105C91.299 222.215 88.424 221.277 87.268 218.933L48.521 141.541C47.802 140.104 47.989 138.76 48.271 137.885C48.583 137.01 49.239 135.807 50.958 134.948L209.852 53.65C235.694 76.744 275.941 90.525 320.031 90.525C364.09 90.525 404.306 76.744 430.148 53.65L589.323 135.088C590.761 135.807 591.417 137.01 591.729 137.885C592.011 138.76 592.198 140.104 591.479 141.541Z" })
+  }
+));
+TshirtRegular.displayName = "TshirtRegular";
+var Tshirt_default = TshirtRegular;

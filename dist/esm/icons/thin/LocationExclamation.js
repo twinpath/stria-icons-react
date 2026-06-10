@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const LocationExclamationThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M192 288.002C183.178 288.002 176 295.182 176 304.002S183.178 320.002 192 320.002S208 312.822 208 304.002S200.822 288.002 192 288.002ZM191.938 256.002C196.344 256.002 199.938 252.408 199.938 248.002V104C199.938 99.594 196.344 96 191.938 96S183.938 99.594 183.938 104V248.002C183.938 252.408 187.531 256.002 191.938 256.002ZM192 0C85.969 0 0 85.969 0 192.002C0 269.408 26.969 291.033 172.281 501.676C177.047 508.559 184.523 512 192 512S206.953 508.559 211.719 501.676C357.031 291.033 384 269.408 384 192.002C384 85.969 298.031 0 192 0ZM198.564 492.566C196.496 495.553 193.564 496 192 496S187.504 495.553 185.451 492.59C159.52 455 137.352 423.42 118.432 396.467C31.639 272.832 16 250.553 16 192.002C16 94.953 94.953 16 192 16S368 94.953 368 192.002C368 250.553 352.361 272.832 265.568 396.467C246.648 423.42 224.48 455 198.564 492.566Z" })
+  }
+));
+LocationExclamationThin.displayName = "LocationExclamationThin";
+var LocationExclamation_default = LocationExclamationThin;
+export {
+  LocationExclamation_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Avocado_exports = {};
+__export(Avocado_exports, {
+  default: () => Avocado_default
+});
+module.exports = __toCommonJS(Avocado_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const AvocadoLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M512 142.318C512 70.266 455.555 0 371.464 0C332.255 0 292.751 15.734 263.405 45.174L263.239 45.342C232.202 76.479 192.976 97.303 150.634 108.908C115.364 118.576 0 170.828 0 306.706C0 420.521 92.755 512 205.062 512C257.433 512 309.796 491.959 349.755 451.871C417.401 384.006 392.311 321.853 465.735 248.189L470.093 243.818C498.031 215.79 512 179.054 512 142.318ZM479.998 142.253C479.998 171.765 468.293 200.296 447.429 221.229L443.071 225.6C410.247 258.531 385.911 302.096 370.737 355.086C356.565 404.58 304.317 480 205.062 480C129.703 480 32.03 419.497 32.03 306.704C32.03 225.754 87.252 159.461 159.093 139.77C287.761 104.504 283.43 32 371.464 32C439.44 32 479.998 89.857 479.998 142.253ZM247.03 176H246.999C177.999 176 112.081 241.295 112.081 311.412C112.081 370.562 157.05 400 200.405 400C200.437 400 200.437 400 200.437 400C269.437 400 335.332 334.697 335.332 264.578C335.332 205.428 290.386 176 247.03 176ZM303.598 264.71C303.598 315.215 254.031 367.393 199.899 367.393C156.111 367.393 143.809 333.499 143.809 311.293C143.809 260.175 194.803 208 247.03 208C281.484 208 303.598 231.717 303.598 264.71Z" })
+  }
+));
+AvocadoLight.displayName = "AvocadoLight";
+var Avocado_default = AvocadoLight;

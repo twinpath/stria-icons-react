@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BowlingPins_exports = {};
+__export(BowlingPins_exports, {
+  default: () => BowlingPins_default
+});
+module.exports = __toCommonJS(BowlingPins_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BowlingPinsSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M170.068 160.043C175.742 135.066 192 111.762 192 72.055C192 24.059 160 0.062 128.006 0C96 -0.062 64 24.059 64 72.055C64 111.762 80.258 135.066 85.932 160.043H170.068ZM426.068 160.043C431.742 135.066 448 111.762 448 72.055C448 24.059 416 0.062 384.006 0C352 -0.062 320 24.059 320 72.055C320 111.762 336.258 135.066 341.932 160.043H426.068ZM86.396 192.039C78.555 250.695 32 309.359 32 368.016C32 421.414 54.285 463.68 70.422 494.797C75.932 505.422 86.82 512 98.789 512H157.301C169.297 512 180.205 505.391 185.703 494.727C201.748 463.617 224 421.375 224 368.016C224 309.359 177.445 250.695 169.604 192.039H86.396ZM425.604 192.039H342.396C334.555 250.695 288 309.359 288 368.016C288 421.414 310.285 463.68 326.422 494.797C331.932 505.422 342.82 512 354.789 512H413.301C425.297 512 436.205 505.391 441.703 494.727C457.748 463.617 480 421.375 480 368.016C480 309.359 433.445 250.695 425.604 192.039Z" })
+  }
+));
+BowlingPinsSolid.displayName = "BowlingPinsSolid";
+var BowlingPins_default = BowlingPinsSolid;

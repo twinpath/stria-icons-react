@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var UtilityPoleDouble_exports = {};
+__export(UtilityPoleDouble_exports, {
+  default: () => UtilityPoleDouble_default
+});
+module.exports = __toCommonJS(UtilityPoleDouble_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const UtilityPoleDoubleRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M443.266 128H480C497.674 128 512 113.672 512 96V48C512 39.162 504.836 32 496 32H480C471.164 32 464 39.162 464 48V80H432V48C432 39.162 424.836 32 416 32H400C391.164 32 384 39.162 384 48V80H280V16C280 7.162 272.836 0 264 0H248C239.164 0 232 7.162 232 16V80H128V48C128 39.162 120.836 32 112 32H96C87.164 32 80 39.162 80 48V80H48V48C48 39.162 40.836 32 32 32H16C7.164 32 0 39.162 0 48V96C0 113.672 14.326 128 32 128H68.734L232 236.844V272H128V240C128 231.162 120.836 224 112 224H96C87.164 224 80 231.162 80 240V272H48V240C48 231.162 40.836 224 32 224H16C7.164 224 0 231.162 0 240V288C0 305.672 14.326 320 32 320H232V512H280V320H480C497.674 320 512 305.672 512 288V240C512 231.162 504.836 224 496 224H480C471.164 224 464 231.162 464 240V272H432V240C432 231.162 424.836 224 416 224H400C391.164 224 384 231.162 384 240V272H280V236.844L443.266 128ZM280 128H356.734L280 179.156V128ZM155.268 128H232V179.156L155.268 128Z" })
+  }
+));
+UtilityPoleDoubleRegular.displayName = "UtilityPoleDoubleRegular";
+var UtilityPoleDouble_default = UtilityPoleDoubleRegular;

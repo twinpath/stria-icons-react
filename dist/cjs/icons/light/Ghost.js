@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Ghost_exports = {};
+__export(Ghost_exports, {
+  default: () => Ghost_default
+});
+module.exports = __toCommonJS(Ghost_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const GhostLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M128 168C114.781 168 104 178.781 104 192S114.781 216 128 216S152 205.219 152 192S141.219 168 128 168ZM256 168C242.781 168 232 178.781 232 192S242.781 216 256 216S280 205.219 280 192S269.219 168 256 168ZM192 0C190 0 188.125 0 186.125 0.125C81 3.25 0 94.875 0 200V464C0 473.625 7.875 480 16.125 480C20 480 24 478.5 27.375 475.25L52.25 456.75C55.125 454.625 58.5 453.625 61.75 453.625C66.25 453.625 70.625 455.375 73.75 459L116.75 507.375C119.875 510.5 123.875 512 128 512S136.25 510.5 139.375 507.375L180 461.5C183.25 457.875 187.625 456.125 192 456.125S200.75 457.875 204 461.5L244.625 507.375C247.75 510.5 251.875 512 256 512S264.125 510.5 267.25 507.375L310.25 459C315.75 452.75 325.125 451.75 331.75 456.75L356.625 475.25C360 478.5 364 480 367.875 480C376.125 480 384 473.625 384 464V192C384 86 298 0 192 0ZM352 431.875L350.875 431.125C342.5 424.875 332.625 421.625 322.25 421.625C308.5 421.625 295.5 427.5 286.375 437.75L256 471.875L227.875 440.25C218.75 430 205.75 424.125 192 424.125S165.25 430 156.125 440.25L128 471.875L97.625 437.75C88.5 427.5 75.5 421.625 61.75 421.625C51.375 421.625 41.5 424.875 33.125 431.125L32 431.875V200C32 110 101.5 34.625 187 32.125L192 32C280.25 32 352 103.75 352 192V431.875Z" })
+  }
+));
+GhostLight.displayName = "GhostLight";
+var Ghost_default = GhostLight;

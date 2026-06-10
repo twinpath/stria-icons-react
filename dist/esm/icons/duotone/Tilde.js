@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const TildeDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M335.906 384C304.406 384 274.188 370.625 252.969 347.344L135.875 218.5C129.812 211.844 121.125 208 112.094 208C94.406 208 80 222.406 80 240.094V312C80 334.094 62.094 352 40 352S0 334.094 0 312V240.094C0 178.281 50.281 128 112.094 128C143.594 128 173.812 141.375 195.031 164.656L312.125 293.5C318.188 300.156 326.875 304 335.906 304C353.594 304 368 289.594 368 271.906V200C368 177.906 385.906 160 408 160S448 177.906 448 200V271.906C448 333.719 397.719 384 335.906 384Z", className: "stria-secondary", style: { opacity: 0.4 } })
+  }
+));
+TildeDuotone.displayName = "TildeDuotone";
+var Tilde_default = TildeDuotone;
+export {
+  Tilde_default as default
+};

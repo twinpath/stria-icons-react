@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FilterCircleXmark_exports = {};
+__export(FilterCircleXmark_exports, {
+  default: () => FilterCircleXmark_default
+});
+module.exports = __toCommonJS(FilterCircleXmark_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FilterCircleXmarkLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M432 224C352.471 224 288 288.471 288 368S352.471 512 432 512S576 447.529 576 368S511.53 224 432 224ZM432 480C370.242 480 320 429.758 320 368S370.242 256 432 256S544 306.242 544 368S493.758 480 432 480ZM488.518 311.486C482.276 305.244 472.155 305.244 465.912 311.486L432.002 345.396L398.09 311.482C391.848 305.24 381.725 305.24 375.483 311.482S369.24 327.846 375.483 334.088L409.397 368.002L375.487 401.912C369.244 408.154 369.244 418.275 375.487 424.518S391.85 430.76 398.092 424.518L432.002 390.607L465.908 424.514C472.151 430.756 482.274 430.756 488.514 424.514C494.756 418.271 494.756 408.15 488.514 401.908L454.608 368.002L488.518 334.092C494.76 327.85 494.76 317.729 488.518 311.486ZM224 363.82V263.279L216.633 254.395L32.701 32H479.299L479.992 31.758L358.631 178.105C353.358 184.465 353.793 193.791 359.633 199.633H359.635C366.297 206.297 377.248 205.787 383.264 198.533L504.625 52.186C521.965 31.275 506.787 0 479.299 0H32.701C5.213 0 -9.965 31.275 7.375 52.186L192 274.822V368C192 375.828 195.813 383.172 202.25 387.656L230.826 407.654C241.432 415.074 256 407.488 256 394.545C256 389.322 253.451 384.43 249.174 381.436L224 363.82Z" })
+  }
+));
+FilterCircleXmarkLight.displayName = "FilterCircleXmarkLight";
+var FilterCircleXmark_default = FilterCircleXmarkLight;

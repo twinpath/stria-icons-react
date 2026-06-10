@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const BringForwardDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M512 224V448C512 483.346 483.346 512 448 512H224C188.654 512 160 483.346 160 448V352H224V432C224 440.836 231.164 448 240 448H432C440.836 448 448 440.836 448 432V240C448 231.162 440.836 224 432 224H352V160H448C483.346 160 512 188.652 512 224Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M352 288V64C352 28.652 323.346 0 288 0H64C28.654 0 0 28.652 0 64V288C0 323.346 28.654 352 64 352H288C323.346 352 352 323.346 352 288Z" })
+    ]
+  }
+));
+BringForwardDuotone.displayName = "BringForwardDuotone";
+var BringForward_default = BringForwardDuotone;
+export {
+  BringForward_default as default
+};

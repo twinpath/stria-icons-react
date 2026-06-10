@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PoliceBox_exports = {};
+__export(PoliceBox_exports, {
+  default: () => PoliceBox_default
+});
+module.exports = __toCommonJS(PoliceBox_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PoliceBoxRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M216 200V180H180V216H200C208.8 216 216 208.8 216 200ZM172 136H152C143.2 136 136 143.2 136 152V172H172V136ZM152 216H172V180H136V200C136 208.8 143.2 216 152 216ZM216 152C216 143.2 208.8 136 200 136H180V172H216V152ZM152 320H200C208.8 320 216 312.8 216 304V256C216 247.2 208.8 240 200 240H152C143.2 240 136 247.2 136 256V304C136 312.8 143.2 320 152 320ZM312 200V180H276V216H296C304.8 216 312 208.8 312 200ZM312 152C312 143.2 304.8 136 296 136H276V172H312V152ZM248 216H268V180H232V200C232 208.8 239.2 216 248 216ZM268 136H248C239.2 136 232 143.2 232 152V172H268V136ZM392 464H384V88C384 74.745 373.255 64 360 64H352V48C352 39.163 344.837 32 336 32H248V24C248 10.745 237.255 0 224 0H224C210.745 0 200 10.745 200 24V32H112C103.163 32 96 39.163 96 48V64H88C74.745 64 64 74.745 64 88V464H56C42.745 464 32 474.745 32 488V488C32 501.255 42.745 512 56 512H392C405.255 512 416 501.255 416 488V488C416 474.745 405.255 464 392 464ZM336 464H112V112H336V464Z" })
+  }
+));
+PoliceBoxRegular.displayName = "PoliceBoxRegular";
+var PoliceBox_default = PoliceBoxRegular;

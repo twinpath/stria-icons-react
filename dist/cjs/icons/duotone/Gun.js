@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Gun_exports = {};
+__export(Gun_exports, {
+  default: () => Gun_default
+});
+module.exports = __toCommonJS(Gun_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const GunDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M328.5 298.562C327.438 301.812 324.375 304 320.938 304H239.062L226.361 352H320.938C345.094 352 366.438 336.594 374.062 313.719L398.643 240H348.021L328.5 298.562ZM64 128V160H480V128H64Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M544 64H528V56C528 42.742 517.254 32 504 32S480 42.742 480 56V64H48H43.172C19.328 64 0 83.328 0 107.172V196.828C0 220.672 19.328 240 43.172 240C64.432 240 79.781 260.348 73.941 280.789L33.25 439.211C27.41 459.648 42.76 480 64.02 480H167.863C182.15 480 194.705 470.531 198.629 456.793L256 240H434.746C443.232 240 451.371 236.629 457.373 230.625L480 208H544C561.674 208 576 193.672 576 176V96C576 78.328 561.674 64 544 64ZM480 160H64V128H480V160Z" })
+    ]
+  }
+));
+GunDuotone.displayName = "GunDuotone";
+var Gun_default = GunDuotone;

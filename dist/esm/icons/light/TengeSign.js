@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const TengeSignLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M16 64H368C376.844 64 384 56.844 384 48S376.844 32 368 32H16C7.156 32 0 39.156 0 48S7.156 64 16 64ZM368 160H16C7.156 160 0 167.156 0 176S7.156 192 16 192H176V464C176 472.844 183.156 480 192 480S208 472.844 208 464V192H368C376.844 192 384 184.844 384 176S376.844 160 368 160Z" })
+  }
+));
+TengeSignLight.displayName = "TengeSignLight";
+var TengeSign_default = TengeSignLight;
+export {
+  TengeSign_default as default
+};

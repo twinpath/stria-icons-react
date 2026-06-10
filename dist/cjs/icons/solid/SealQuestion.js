@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var SealQuestion_exports = {};
+__export(SealQuestion_exports, {
+  default: () => SealQuestion_default
+});
+module.exports = __toCommonJS(SealQuestion_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const SealQuestionSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M493.235 222.059L447.647 176.471V112C447.647 85.49 426.157 64 399.647 64H335.177L289.589 18.412C270.843 -0.334 240.452 -0.334 221.706 18.412L176.118 64H111.647C85.138 64 63.647 85.49 63.647 112V176.471L18.06 222.059C-0.687 240.803 -0.687 271.195 18.06 289.941L63.647 335.529V400C63.647 426.51 85.138 448 111.647 448H176.118L221.706 493.588C240.452 512.332 270.843 512.332 289.589 493.588L335.177 448H399.647C426.157 448 447.647 426.51 447.647 400V335.529L493.235 289.941C511.981 271.195 511.981 240.803 493.235 222.059ZM247.647 400C229.647 400 215.647 386 215.647 368S229.647 336 247.647 336C265.647 336 279.647 350 279.647 368S265.647 400 247.647 400ZM317.647 258L271.647 286V288C271.647 301 260.647 312 247.647 312S223.647 301 223.647 288V272C223.647 264 227.647 256 235.647 251L292.647 217C299.647 213 303.647 206 303.647 198C303.647 186 293.647 176 281.647 176H229.647C217.647 176 207.647 186 207.647 198C207.647 211 196.647 222 183.647 222S159.647 211 159.647 198C159.647 159 190.647 128 229.647 128H281.647C320.647 128 351.647 159 351.647 198C351.647 222 338.647 245 317.647 258Z" })
+  }
+));
+SealQuestionSolid.displayName = "SealQuestionSolid";
+var SealQuestion_default = SealQuestionSolid;

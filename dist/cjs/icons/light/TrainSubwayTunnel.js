@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var TrainSubwayTunnel_exports = {};
+__export(TrainSubwayTunnel_exports, {
+  default: () => TrainSubwayTunnel_default
+});
+module.exports = __toCommonJS(TrainSubwayTunnel_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const TrainSubwayTunnelLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M320 128H192C147.818 128 112 163.816 112 208V368C112 400.82 131.809 428.955 160.084 441.291L116.688 484.687C110.438 490.937 110.438 501.062 116.688 507.312C119.812 510.438 123.906 512 128 512S136.188 510.438 139.312 507.312L198.625 448H313.375L372.687 507.312C375.812 510.438 379.906 512 384 512S392.188 510.438 395.312 507.312C401.562 501.062 401.562 490.937 395.312 484.688L351.916 441.291C380.193 428.955 400 400.82 400 368V208C400 163.816 364.184 128 320 128ZM368 368C368 394.467 346.467 416 320 416H192C165.533 416 144 394.467 144 368V288H368V368ZM368 256H144V208C144 181.533 165.533 160 192 160H320C346.467 160 368 181.533 368 208V256ZM200 384C213.256 384 224 373.254 224 360C224 346.744 213.256 336 200 336C186.746 336 176 346.744 176 360C176 373.254 186.746 384 200 384ZM312 384C325.256 384 336 373.254 336 360C336 346.744 325.256 336 312 336C298.746 336 288 346.744 288 360C288 373.254 298.746 384 312 384ZM256 0C114.844 0 0 114.844 0 256V496C0 504.844 7.156 512 16 512S32 504.844 32 496V256C32 132.484 132.5 32 256 32S480 132.484 480 256V496C480 504.844 487.156 512 496 512S512 504.844 512 496V256C512 114.844 397.156 0 256 0Z" })
+  }
+));
+TrainSubwayTunnelLight.displayName = "TrainSubwayTunnelLight";
+var TrainSubwayTunnel_default = TrainSubwayTunnelLight;

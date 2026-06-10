@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ChessBishop_exports = {};
+__export(ChessBishop_exports, {
+  default: () => ChessBishop_default
+});
+module.exports = __toCommonJS(ChessBishop_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ChessBishopLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 320 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M64 372V400C64 408.836 71.164 416 80 416S96 408.836 96 400V359.99C96 352.875 91.301 346.615 84.469 344.627L72.937 341.273C53.148 335.516 32 317.447 32 284C32 231.381 86.322 136.926 130.797 96H189.203C209.352 114.541 231.314 144.191 249.539 175.836L164.687 260.687C158.437 266.937 158.437 277.062 164.687 283.312C167.812 286.438 171.906 288 176 288S184.188 286.438 187.312 283.312L265.141 205.484C278.783 234.295 288 262.609 288 284C288 317.447 266.852 335.516 247.062 341.273L235.531 344.627C228.699 346.615 224 352.875 224 359.99V400C224 408.836 231.164 416 240 416S256 408.836 256 400V372C289.875 362.146 320 331.322 320 284C320 217.428 253.625 105.594 201 64H119C66.375 105.594 0 217.428 0 284C0 331.322 30.125 362.146 64 372ZM112 32H208C216.875 32 224 24.875 224 16S216.875 0 208 0H112C103.125 0 96 7.125 96 16S103.125 32 112 32ZM272 448H48C21.531 448 0 469.531 0 496C0 504.844 7.156 512 16 512S32 504.844 32 496C32 487.188 39.172 480 48 480H272C280.828 480 288 487.188 288 496C288 504.844 295.156 512 304 512S320 504.844 320 496C320 469.531 298.469 448 272 448Z" })
+  }
+));
+ChessBishopLight.displayName = "ChessBishopLight";
+var ChessBishop_default = ChessBishopLight;

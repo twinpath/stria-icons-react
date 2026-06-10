@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BadgeCheck_exports = {};
+__export(BadgeCheck_exports, {
+  default: () => BadgeCheck_default
+});
+module.exports = __toCommonJS(BadgeCheck_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BadgeCheckDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M544 256C544 219.5 525.25 187.625 497.25 169.25C504.125 136.375 494.625 100.625 469 75C443.375 49.25 407.5 39.875 374.75 46.75C356.25 18.75 324.25 0 288 0S219.75 18.75 201.25 46.75C168.375 39.875 132.625 49.375 107 75C81.25 100.625 71.875 136.5 78.75 169.25C50.625 187.75 32 219.75 32 256S50.75 324.25 78.75 342.75C71.875 375.625 81.375 411.375 107 437C132.625 462.75 168.25 472.125 201.25 465.25C219.75 493.375 251.75 512 288 512C324.375 512 356.25 493.25 374.75 465.25C407.75 472.125 443.375 462.625 469 437C494.75 411.375 504.125 375.5 497.25 342.75C525.375 324.25 544 292.25 544 256ZM385.238 216.969L273.238 328.969C268.551 333.656 262.41 336 256.27 336S243.988 333.656 239.301 328.969L191.301 280.969C181.926 271.594 181.926 256.406 191.301 247.031S215.863 237.656 225.238 247.031L256.27 278.062L351.301 183.031C360.676 173.656 375.863 173.656 385.238 183.031S394.613 207.594 385.238 216.969Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M384.969 216.969L272.969 328.969C268.281 333.656 262.141 336 256 336S243.719 333.656 239.031 328.969L191.031 280.969C181.656 271.594 181.656 256.406 191.031 247.031S215.594 237.656 224.969 247.031L256 278.062L351.031 183.031C360.406 173.656 375.594 173.656 384.969 183.031S394.344 207.594 384.969 216.969Z" })
+    ]
+  }
+));
+BadgeCheckDuotone.displayName = "BadgeCheckDuotone";
+var BadgeCheck_default = BadgeCheckDuotone;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var BellOn_exports = {};
+__export(BellOn_exports, {
+  default: () => BellOn_default
+});
+module.exports = __toCommonJS(BellOn_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BellOnLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M40.875 30.25L104.875 62.25C107.125 63.375 109.5 64 112 64C119.375 64 125.875 58.875 127.625 51.625C129.25 44.5 125.75 37 119.125 33.75L55.125 1.75C47.25 -2.25 37.625 0.875 33.75 8.875C29.75 16.75 32.875 26.375 40.875 30.25ZM528 64C530.5 64 532.875 63.375 535.125 62.25L599.125 30.25C607.125 26.375 610.25 16.75 606.25 8.875C602.375 0.875 592.75 -2.25 584.875 1.75L520.875 33.75C514.25 37 510.75 44.5 512.375 51.625C514.125 58.875 520.625 64 528 64ZM80 160H16C7.125 160 0 167.125 0 176S7.125 192 16 192H80C88.875 192 96 184.875 96 176S88.875 160 80 160ZM624 160H560C551.125 160 544 167.125 544 176S551.125 192 560 192H624C632.875 192 640 184.875 640 176S632.875 160 624 160ZM368.295 448C360.857 448 353.783 452.146 351.244 458.879C346.604 471.176 334.334 480 319.994 480S293.385 471.176 288.744 458.879C286.205 452.146 279.129 448 271.693 448H271.691C261.078 448 253.48 457.998 256.766 467.717C265.432 493.371 290.525 512 319.994 512C349.461 512 374.555 493.371 383.223 467.717C386.506 457.998 378.91 448 368.295 448ZM480.004 185.875C480.004 106.25 416.627 41.375 336 33.5V16C336 7.125 328.875 0 320 0S304 7.125 304 16V33.5C223.373 41.375 159.996 106.25 159.996 185.875C159.996 280.375 138.619 308.25 110.619 334.75C96.619 348.125 92.244 368.25 99.369 386C106.619 404.25 124.119 416 143.994 416H496.006C515.881 416 533.381 404.25 540.631 386C547.756 368.25 543.381 348.125 529.381 334.75C501.381 308.25 480.004 280.375 480.004 185.875ZM496.006 384H143.994C129.744 384 122.619 367.5 132.619 358C167.496 324.75 191.996 287.625 191.996 185.875C191.996 118.5 249.248 64 320 64S448.004 118.5 448.004 185.875C448.004 287.25 472.254 324.625 507.381 358C517.381 367.625 510.131 384 496.006 384Z" })
+  }
+));
+BellOnLight.displayName = "BellOnLight";
+var BellOn_default = BellOnLight;

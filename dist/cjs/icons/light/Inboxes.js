@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Inboxes_exports = {};
+__export(Inboxes_exports, {
+  default: () => Inboxes_default
+});
+module.exports = __toCommonJS(Inboxes_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const InboxesLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M507.713 180.883L445.719 20.125C440.844 7.969 429.094 0 416 0H96C82.906 0 71.156 7.969 66.281 20.125L4.287 180.883C1.453 188.23 0 196.039 0 203.914V272C0 298.508 21.49 320 48 320H464C490.51 320 512 298.508 512 272V203.914C512 196.039 510.547 188.23 507.713 180.883ZM96 32H416L415.861 31.639L465.363 160H384C377.938 160 372.406 163.438 369.688 168.844L342.109 224H169.891L142.312 168.844C139.594 163.438 134.062 160 128 160H46.639L96 32ZM480 272C480 280.822 472.822 288 464 288H48C39.178 288 32 280.822 32 272V203.914C32 199.959 32.721 196.086 34.145 192.396L34.297 192H118.109L145.688 247.156C148.406 252.562 153.938 256 160 256H352C358.062 256 363.594 252.562 366.312 247.156L393.891 192H477.703L477.857 192.398C479.279 196.086 480 199.959 480 203.914V272ZM464 352H383.998C377.938 352 372.398 355.424 369.688 360.844L342.109 416H169.891L142.314 360.846C139.604 355.424 134.062 352 128 352H48C21.49 352 0 373.49 0 400V464C0 490.51 21.49 512 48 512H464C490.51 512 512 490.51 512 464V400C512 373.49 490.51 352 464 352ZM480 464C480 472.836 472.838 480 464 480H48C39.164 480 32 472.836 32 464V400C32 391.164 39.164 384 48 384H118.109L145.688 439.156C148.398 444.576 153.938 448 159.998 448H352C358.062 448 363.604 444.576 366.314 439.154L393.891 384H464C472.838 384 480 391.164 480 400V464Z" })
+  }
+));
+InboxesLight.displayName = "InboxesLight";
+var Inboxes_default = InboxesLight;

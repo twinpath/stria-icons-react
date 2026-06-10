@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HockeySticks_exports = {};
+__export(HockeySticks_exports, {
+  default: () => HockeySticks_default
+});
+module.exports = __toCommonJS(HockeySticks_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HockeySticksSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M0 367.977V495.965C0 504.715 7.25 511.965 16 511.965H64V351.977H16C7.25 351.977 0 359.227 0 367.977ZM493.432 45.594C493.836 39.379 490.531 33.215 484.625 30.215L427.375 1.715C419.5 -2.285 409.875 0.965 405.875 8.84L238.75 343.215C236.125 348.59 230.625 351.965 224.5 351.965H96V512H222.125C246.25 512 268.5 498.25 279.25 476.625L491.75 51.719C492.75 49.75 493.297 47.668 493.432 45.594ZM624 351.977H576V511.965H624C632.75 511.965 640 504.715 640 495.965V367.977C640 359.227 632.75 351.977 624 351.977ZM248.494 252.141L302.113 144.867L234.125 8.84C230.125 0.965 220.5 -2.285 212.625 1.715L155.375 30.215C147.5 34.215 144.25 43.84 148.25 51.715L248.494 252.141ZM401.25 343.215L391.496 323.699L337.889 430.883L360.75 476.59C371.5 498.215 393.75 511.965 417.875 511.965H544V351.965H415.5C409.375 351.965 403.875 348.59 401.25 343.215Z" })
+  }
+));
+HockeySticksSolid.displayName = "HockeySticksSolid";
+var HockeySticks_default = HockeySticksSolid;

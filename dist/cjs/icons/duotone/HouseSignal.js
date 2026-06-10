@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HouseSignal_exports = {};
+__export(HouseSignal_exports, {
+  default: () => HouseSignal_default
+});
+module.exports = __toCommonJS(HouseSignal_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HouseSignalDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M640 223.992C640 215.235 636.403 206.669 629.707 200.49L575.996 150.91V47.984C575.996 39.146 568.832 31.984 559.996 31.984H527.996C519.16 31.984 511.998 39.146 511.998 47.982V91.834L421.703 8.484C415.576 2.828 407.791 -0.002 400.004 -0.002C400.001 -0.002 399.999 -0.002 399.996 -0.002C392.211 -0.002 384.424 2.826 378.297 8.484L170.293 200.49C163.598 206.668 160 215.234 160 223.991C160 232.304 162.801 236.557 163.088 237.188C172.721 242.926 181.998 249.146 190.947 255.832C191.309 255.844 191.635 255.992 191.998 255.992L194.488 258.482C245.967 298.068 285.277 352.693 305.232 415.998H527.996C554.395 415.998 575.996 394.396 575.996 367.996V255.992H608.002C625.775 255.992 640 241.554 640 223.992ZM447.996 271.992C447.996 280.867 440.871 287.994 431.996 287.994H367.996C359.121 287.994 351.996 280.867 351.996 271.992V207.99C351.996 199.115 359.121 191.99 367.996 191.99H431.996C440.871 191.99 447.996 199.115 447.996 207.99V271.992Z ", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M0 319.998V383.873C70.748 383.998 128 441.248 128.125 511.998H192C192 405.996 106 319.998 0 319.998ZM0 415.998V511.998H96C96 458.996 52.998 415.998 0 415.998ZM0 223.998V287.873C123.75 287.873 224.125 388.248 224.125 511.998H288C288 352.998 159 223.998 0 223.998Z " })
+    ]
+  }
+));
+HouseSignalDuotone.displayName = "HouseSignalDuotone";
+var HouseSignal_default = HouseSignalDuotone;

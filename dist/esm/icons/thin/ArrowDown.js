@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ArrowDownThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M399.712 307.148L229.216 477.644C226.076 480.784 220.99 480.784 217.851 477.644L47.355 307.148C44.215 304.009 44.215 298.923 47.355 295.783C50.494 292.644 55.58 292.644 58.72 295.783L215.496 452.56V40.037C215.496 35.61 219.091 32 223.533 32S231.57 35.61 231.57 40.037V452.56L388.347 295.783C391.486 292.644 396.572 292.644 399.712 295.783C402.853 298.925 402.853 304.007 399.712 307.148Z" })
+  }
+));
+ArrowDownThin.displayName = "ArrowDownThin";
+var ArrowDown_default = ArrowDownThin;
+export {
+  ArrowDown_default as default
+};

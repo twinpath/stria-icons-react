@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M160 480H16C7.156 480 0 472.844 0 464V48C0 39.156 7.156 32 16 32H160C283.516 32 384 132.5 384 256S283.516 480 160 480ZM32 448H160C265.875 448 352 361.875 352 256S265.875 64 160 64H32V448Z" })
+  }
+));
+DLight.displayName = "DLight";
+var D_default = DLight;
+export {
+  D_default as default
+};

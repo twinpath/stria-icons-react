@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HatWizard_exports = {};
+__export(HatWizard_exports, {
+  default: () => HatWizard_default
+});
+module.exports = __toCommonJS(HatWizard_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HatWizardSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M200 376L150.766 359.59C143.477 357.156 143.477 346.844 150.766 344.41L200 328L216.41 278.766C218.844 271.477 229.156 271.477 231.59 278.766L248 328L297.234 344.41C304.523 346.844 304.523 357.156 297.234 359.59L248 376L240 416H448L361.625 214.375C355.375 200 354.75 183.75 359.75 168.875L416 0L228.375 107.25C204.75 120.75 186 141.375 175 166.375L64 416H208L200 376ZM231.156 172.422L256 160L268.422 135.156C269.898 132.207 274.102 132.207 275.578 135.156L288 160L312.844 172.422C315.793 173.898 315.793 178.102 312.844 179.578L288 192L275.578 216.844C274.102 219.793 269.898 219.793 268.422 216.844L256 192L231.156 179.578C228.207 178.102 228.207 173.898 231.156 172.422ZM496 448H16C7.164 448 0 455.164 0 464C0 490.508 21.492 512 48 512H464C490.508 512 512 490.508 512 464C512 455.164 504.836 448 496 448Z" })
+  }
+));
+HatWizardSolid.displayName = "HatWizardSolid";
+var HatWizard_default = HatWizardSolid;

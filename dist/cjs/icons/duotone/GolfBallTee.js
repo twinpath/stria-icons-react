@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var GolfBallTee_exports = {};
+__export(GolfBallTee_exports, {
+  default: () => GolfBallTee_default
+});
+module.exports = __toCommonJS(GolfBallTee_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const GolfBallTeeDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M192 0C85.961 0 0 86.676 0 193.6C0 259.377 32.822 317.066 82.523 352H301.479C351.18 317.066 384 259.377 384 193.6C384 86.676 298.039 0 192 0ZM179.035 205.07C183.012 206.879 187.354 208 192 208C209.527 208 223.736 193.672 223.736 176C223.736 171.313 222.625 166.938 220.832 162.93C231.857 167.945 239.604 179.012 239.604 192C239.604 209.672 225.396 224 207.867 224C194.986 224 184.01 216.188 179.035 205.07ZM223.736 304C210.855 304 199.877 296.187 194.904 285.07C198.881 286.879 203.221 288 207.867 288C225.396 288 239.604 273.672 239.604 256C239.604 251.312 238.494 246.938 236.699 242.93C247.725 247.945 255.471 259.012 255.471 272C255.471 289.672 241.264 304 223.736 304ZM287.207 240C274.326 240 263.35 232.188 258.375 221.07C262.352 222.879 266.691 224 271.34 224C288.867 224 303.074 209.672 303.074 192C303.074 187.313 301.965 182.938 300.172 178.93C311.197 183.945 318.943 195.012 318.943 208C318.943 225.672 304.734 240 287.207 240Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M96 400C96 417.672 110.326 432 128 432S160 446.328 160 464V512H224V464C224 446.328 238.326 432 256 432S288 417.672 288 400V384H96V400ZM239.604 256C239.604 273.672 225.396 288 207.867 288C203.221 288 198.881 286.879 194.904 285.07C199.877 296.187 210.855 304 223.736 304C241.264 304 255.471 289.672 255.471 272C255.471 259.012 247.725 247.945 236.699 242.93C238.494 246.938 239.604 251.312 239.604 256ZM207.867 224C225.396 224 239.604 209.672 239.604 192C239.604 179.012 231.857 167.945 220.832 162.93C222.625 166.938 223.736 171.313 223.736 176C223.736 193.672 209.527 208 192 208C187.354 208 183.012 206.879 179.035 205.07C184.01 216.188 194.986 224 207.867 224ZM300.172 178.93C301.965 182.938 303.074 187.313 303.074 192C303.074 209.672 288.867 224 271.34 224C266.691 224 262.352 222.879 258.375 221.07C263.35 232.188 274.326 240 287.207 240C304.734 240 318.943 225.672 318.943 208C318.943 195.012 311.197 183.945 300.172 178.93Z" })
+    ]
+  }
+));
+GolfBallTeeDuotone.displayName = "GolfBallTeeDuotone";
+var GolfBallTee_default = GolfBallTeeDuotone;

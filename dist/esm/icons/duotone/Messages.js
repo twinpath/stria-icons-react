@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const MessagesDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M416 63.994V256.004C416 291.25 387.25 320 352 319.875L194.25 320.018L111.5 382.139C105.125 386.887 96 382.262 96 374.264V320.018L64 320C28.75 320 0 291.25 0 256.004V63.994C0 28.748 28.75 0 64 0H352C387.25 0 416 28.748 416 63.994Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M640 191.994V383.969C640 419.215 611.25 447.963 576 447.963H544V502.209C544 510.207 534.875 514.832 528.5 510.082L445.75 447.963H320C284.75 447.963 256 419.215 256 383.969V351.992H352C404.875 351.992 448 308.871 448 256V128H576C611.25 128 640 156.748 640 191.994Z" })
+    ]
+  }
+));
+MessagesDuotone.displayName = "MessagesDuotone";
+var Messages_default = MessagesDuotone;
+export {
+  Messages_default as default
+};

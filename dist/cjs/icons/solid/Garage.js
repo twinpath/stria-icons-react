@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Garage_exports = {};
+__export(Garage_exports, {
+  default: () => Garage_default
+});
+module.exports = __toCommonJS(Garage_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const GarageSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M128 512H512V352H128.125L128 512ZM272 416H368C376.875 416 384 423.125 384 432S376.875 448 368 448H272C263.125 448 256 440.875 256 432S263.125 416 272 416ZM128 320H511.5L512 224H128V320ZM610.5 117L338.375 3.625C332.5 1.5 326.25 0.25 320 0C313.625 0.25 307.375 1.375 301.5 3.625L29.5 117C11.625 124.5 0 141.875 0 161.25V496C0 504.875 7.125 512 16 512H80C88.875 512 96 504.875 96 496V224C96 206.375 110.625 192 128.625 192H511.375C529.375 192 544 206.375 544 224V496C544 504.875 551.125 512 560 512H624C632.875 512 640 504.875 640 496V161.25C640 141.875 628.375 124.5 610.5 117Z" })
+  }
+));
+GarageSolid.displayName = "GarageSolid";
+var Garage_default = GarageSolid;

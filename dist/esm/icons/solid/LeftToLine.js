@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const LeftToLineSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M32 64H32C14.327 64 0 78.327 0 96V416C0 433.673 14.327 448 32 448H32C49.673 448 64 433.673 64 416V96C64 78.327 49.673 64 32 64ZM103.268 273.453L247.372 409.453C254.346 416.031 264.571 417.828 273.375 414.047C282.178 410.25 287.885 401.578 287.885 392V320H415.977C433.663 320 448 305.672 448 288V224C448 206.326 433.663 192 415.977 192H287.885V120C287.885 110.422 282.178 101.75 273.375 97.953C264.571 94.172 254.346 95.969 247.372 102.547L103.268 238.547C93.668 247.609 93.668 264.391 103.268 273.453Z" })
+  }
+));
+LeftToLineSolid.displayName = "LeftToLineSolid";
+var LeftToLine_default = LeftToLineSolid;
+export {
+  LeftToLine_default as default
+};

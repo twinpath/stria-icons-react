@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var HandBackPointDown_exports = {};
+__export(HandBackPointDown_exports, {
+  default: () => HandBackPointDown_default
+});
+module.exports = __toCommonJS(HandBackPointDown_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const HandBackPointDownRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M63.426 241.047L96 270.279V440C96 479.701 128.299 512 168 512S240 479.701 240 440V358H253.531C269.441 358 284.607 352.795 297.082 343.186C300.586 343.727 304.131 344 307.688 344H321.219C343.332 344 364.324 333.449 377.957 315.953C416.811 314.562 448 281.922 448 242V144C448 64.598 385.055 0 307.688 0H199.812C176.373 0 153.084 6.104 132.463 17.648L76.633 49.002C49.102 64.471 32 94.021 32 126.125V173.094C32 199.758 43.455 224.527 63.426 241.047ZM80 126.125C80 111.359 87.719 97.844 100.156 90.859L155.938 59.516C169.406 51.984 184.562 48 199.812 48H307.688C358.594 48 400 91.062 400 144V242C400 256.344 388.969 268 375.375 268L360.344 267.781C360.188 267.776 360.032 267.773 359.876 267.773C339.454 267.773 346.809 296 321.219 296H307.687C297.699 296 295.984 290.417 287.805 290.417C271.441 290.417 274.481 310 253.531 310H240C228.312 310 223.344 299.156 222.875 298.125C220.453 291.976 214.579 287.96 208.146 287.96C200.027 287.96 192 294.384 192 304V440C192 453.234 181.219 464 168 464S144 453.234 144 440V176C144 167.156 136.844 160 128 160S112 167.156 112 176V220.172L94.5 204.484C85.281 196.859 80 185.406 80 173.094V126.125Z" })
+  }
+));
+HandBackPointDownRegular.displayName = "HandBackPointDownRegular";
+var HandBackPointDown_default = HandBackPointDownRegular;

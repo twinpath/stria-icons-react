@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var TaxiBus_exports = {};
+__export(TaxiBus_exports, {
+  default: () => TaxiBus_default
+});
+module.exports = __toCommonJS(TaxiBus_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const TaxiBusRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M336 336C322.746 336 312 346.744 312 360C312 373.254 322.746 384 336 384S360 373.254 360 360C360 346.744 349.254 336 336 336ZM48 328.408V224.062H251.24L263.656 193.023C266.074 186.99 269.154 181.414 272.533 176.076H216V48.701C284.527 52.689 336 73.305 336 99.098V128H338.41C344.074 106.363 360.588 89.244 381.959 82.908C367.727 22.188 273.697 0 192 0C103.375 0 0 25.992 0 99.098V328.408C0.125 359.273 25.125 384.268 56 384.268H64V416.133C64 433.754 78.375 448 96 448S128 433.754 128 416.133V384.268H192V352.4C192 347.027 192.375 341.654 193.125 336.406H56C51.625 336.406 48 332.781 48 328.408ZM48 99.098C48 73.305 99.473 52.689 168 48.701V176.076H48V99.098ZM528 336C514.746 336 504 346.744 504 360C504 373.254 514.746 384 528 384S552 373.254 552 360C552 346.744 541.254 336 528 336ZM80 280.047C80 293.297 90.746 304.039 104 304.039S128 293.297 128 280.047C128 266.795 117.254 256.053 104 256.053S80 266.795 80 280.047ZM602.441 284.383L570.625 204.84C559.721 177.596 533.725 160 504.393 160H496V144C496 126.326 481.674 112 464 112H400C382.326 112 368 126.326 368 144V160H359.609C330.277 160 304.281 177.596 293.381 204.828L261.561 284.383C238.879 301.957 224 329.152 224 360V480C224 497.672 238.326 512 256 512S288 497.672 288 480V448H576V480C576 497.672 590.326 512 608 512S640 497.672 640 480V360C640 329.152 625.121 301.957 602.441 284.383ZM337.943 222.664C341.508 213.76 350.012 208 359.609 208H504.393C513.99 208 522.494 213.76 526.059 222.664L542.592 264H321.41L337.943 222.664ZM592 400H272V360C272 333.533 293.533 312 320 312H544C570.467 312 592 333.533 592 360V400Z" })
+  }
+));
+TaxiBusRegular.displayName = "TaxiBusRegular";
+var TaxiBus_default = TaxiBusRegular;

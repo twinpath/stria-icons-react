@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Fill_exports = {};
+__export(Fill_exports, {
+  default: () => Fill_default
+});
+module.exports = __toCommonJS(Fill_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FillLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M502.625 217L295 9.375C288.75 3.125 280.5 0 272.25 0C264.125 0 255.875 3.125 249.75 9.375L156.875 102.25L62.625 8C56.403 1.778 46.222 1.778 40 8L40 8C33.778 14.222 33.778 24.403 40 30.625L134.25 124.875L28.125 231C-9.375 268.375 -9.375 329.25 28.125 366.75L145.25 483.875C164 502.625 188.625 512 213.125 512C237.75 512 262.25 502.625 281 483.875L502.625 262.25C515.125 249.875 515.125 229.5 502.625 217ZM258.375 461.25C246.375 473.375 230.25 480 213.125 480C196.125 480 180 473.375 168 461.25L50.75 344C43.875 337.125 39 328.875 35.875 320H399.625L258.375 461.25ZM431.625 288H33C35.25 275 41.25 263 50.75 253.625L156.875 147.5L244.75 235.25C251 241.5 261.125 241.5 267.25 235.25C273.5 229 273.5 218.875 267.25 212.75L179.5 124.875L272.25 32L480 239.625L431.625 288Z" })
+  }
+));
+FillLight.displayName = "FillLight";
+var Fill_default = FillLight;

@@ -1,0 +1,53 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PlanetMoon_exports = {};
+__export(PlanetMoon_exports, {
+  default: () => PlanetMoon_default
+});
+module.exports = __toCommonJS(PlanetMoon_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PlanetMoonDuotone = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M448 288C448 411.75 347.75 512 224 512S0 411.75 0 288C0 256.059 6.783 225.744 18.82 198.254C41.254 225.576 76.705 256 89.75 256H114.75C123.25 256 131.375 259.375 137.375 265.375L192 320V352C192 369.625 206.375 384 224 384C224 384 224 423.625 224 447.125C224 451.625 225.875 455.875 229.25 459C232.625 462.001 237.125 463.5 241.625 463C245.125 462.625 248.625 462.25 252 461.625C261 460.125 268.875 454.375 272.875 446.125L313.25 365.5C317.625 356.625 320 346.875 320 336.875V320C320 302.375 305.625 288 288 288H223.5C213.5 288 204.125 284.125 197.125 277.125C185.25 265.25 184.5 246.125 195.5 233.5L245.25 176.125C267.838 142.242 242.834 95.205 220.021 64.201C221.359 64.178 222.656 64 224 64C347.75 64 448 164.25 448 288Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M512.18 0C476.805 0 448.18 28.625 448.18 64S476.805 128 512.18 128S576.18 99.375 576.18 64S547.555 0 512.18 0ZM89.93 256H114.93C123.43 256 131.555 259.375 137.555 265.375L192.18 320V352C192.18 369.625 206.555 384 224.18 384C224.18 384 224.18 423.625 224.18 447.125C224.18 451.625 226.055 455.875 229.43 459C232.805 462.001 237.305 463.5 241.805 463C245.305 462.625 248.805 462.25 252.18 461.625C261.18 460.125 269.055 454.375 273.055 446.125L313.43 365.5C317.805 356.625 320.18 346.875 320.18 336.875V320C320.18 302.375 305.805 288 288.18 288H223.68C213.68 288 204.305 284.125 197.305 277.125C185.43 265.25 184.68 246.125 195.68 233.5L245.43 176.125C268.018 142.242 243.014 95.205 220.201 64.201C130.115 65.787 53.096 120.395 19 198.254C41.434 225.576 76.885 256 89.93 256Z" })
+    ]
+  }
+));
+PlanetMoonDuotone.displayName = "PlanetMoonDuotone";
+var PlanetMoon_default = PlanetMoonDuotone;

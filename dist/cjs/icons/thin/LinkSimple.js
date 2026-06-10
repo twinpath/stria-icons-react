@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var LinkSimple_exports = {};
+__export(LinkSimple_exports, {
+  default: () => LinkSimple_default
+});
+module.exports = __toCommonJS(LinkSimple_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const LinkSimpleThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M256 400H160C80.594 400 16 335.406 16 256S80.594 112 160 112H256C260.406 112 264 108.422 264 104S260.406 96 256 96H160C71.781 96 0 167.781 0 256S71.781 416 160 416H256C260.406 416 264 412.422 264 408S260.406 400 256 400ZM480 96H384C379.594 96 376 99.578 376 104S379.594 112 384 112H480C559.406 112 624 176.594 624 256S559.406 400 480 400H384C379.594 400 376 403.578 376 408S379.594 416 384 416H480C568.219 416 640 344.219 640 256S568.219 96 480 96ZM184 256C184 260.422 187.594 264 192 264H448C452.406 264 456 260.422 456 256S452.406 248 448 248H192C187.594 248 184 251.578 184 256Z" })
+  }
+));
+LinkSimpleThin.displayName = "LinkSimpleThin";
+var LinkSimple_default = LinkSimpleThin;

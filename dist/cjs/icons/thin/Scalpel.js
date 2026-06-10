@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Scalpel_exports = {};
+__export(Scalpel_exports, {
+  default: () => Scalpel_default
+});
+module.exports = __toCommonJS(Scalpel_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ScalpelThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M288.009 311.988C283.603 311.988 280.009 315.582 280.009 319.988C280.009 358.334 262.603 397.086 235.697 418.682V418.713C235.478 418.869 235.259 418.994 235.103 419.15C177.288 465.061 104.037 491.842 27.035 495.561L188.195 325.488C191.226 322.27 191.101 317.207 187.882 314.176C184.695 311.113 179.632 311.27 176.57 314.488L2.191 498.5C0.003 500.812 -0.622 504.219 0.66 507.156C1.972 510.25 4.816 511.969 8.566 512C95.38 512 178.913 483.779 244.728 431.84C245.072 431.652 245.384 431.434 245.697 431.184C276.259 406.619 296.011 362.99 296.011 319.988C296.011 315.582 292.417 311.988 288.009 311.988ZM511.421 65.223C508.796 43.941 497.765 25.377 480.328 12.971C449.484 -9.062 405.013 -2.375 379.044 28.096L183.976 256.109C177.913 263.203 176.57 272.861 180.445 281.299S192.507 294.986 201.788 294.986H329.605C340.98 294.986 351.792 289.986 359.292 281.268L493.859 123.945C507.64 107.82 514.046 86.412 511.421 65.223ZM481.671 113.57L347.136 270.861C342.699 276.018 336.292 278.986 329.605 278.986H201.788C197.351 278.986 195.445 275.643 194.976 274.611S193.195 269.955 196.163 266.484L391.232 38.471C403.763 23.752 421.607 15.971 439.107 15.971C450.39 15.971 461.578 19.221 471.046 26.002C484.765 35.783 493.484 50.41 495.546 67.191C497.609 83.912 492.546 100.818 481.671 113.57Z" })
+  }
+));
+ScalpelThin.displayName = "ScalpelThin";
+var Scalpel_default = ScalpelThin;

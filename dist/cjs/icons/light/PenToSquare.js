@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PenToSquare_exports = {};
+__export(PenToSquare_exports, {
+  default: () => PenToSquare_default
+});
+module.exports = __toCommonJS(PenToSquare_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PenToSquareLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M432 320C423.164 320 416 327.164 416 336V448C416 465.674 401.674 480 384 480H64C46.328 480 32 465.674 32 448V128C32 110.326 46.328 96 64 96H176C184.838 96 192 88.836 192 80S184.838 64 176 64H64C28.654 64 0 92.654 0 128V448C0 483.346 28.654 512 64 512H384C419.348 512 448 483.346 448 448V336C448 327.164 440.838 320 432 320ZM497.941 42.195L469.809 14.059C460.436 4.686 448.152 -0.002 435.867 -0.002S411.299 4.686 401.926 14.059L162.402 253.584C153.467 262.52 147.377 273.9 144.898 286.291L128.234 369.637C126.719 377.221 132.613 383.996 139.957 383.996C140.742 383.996 141.543 383.918 142.355 383.756L225.705 367.084C238.094 364.605 249.471 358.518 258.404 349.584L497.939 110.078C516.686 91.334 516.688 60.941 497.941 42.195ZM235.777 326.957C231.297 331.437 225.643 334.463 219.43 335.705L165.496 346.494L176.277 292.568C177.521 286.35 180.547 280.693 185.031 276.211L363.307 97.932L414.066 148.691L235.777 326.957ZM475.314 87.449L436.691 126.066L385.932 75.307L424.555 36.684C428.631 32.607 433.393 31.998 435.867 31.998S443.104 32.607 447.18 36.684L475.314 64.822C479.393 68.9 480 73.66 480 76.137C480 78.611 479.391 83.373 475.314 87.449Z" })
+  }
+));
+PenToSquareLight.displayName = "PenToSquareLight";
+var PenToSquare_default = PenToSquareLight;

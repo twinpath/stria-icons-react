@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const TabletScreenButtonDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M384 0.001H64C28.654 0.001 0 28.653 0 64.001V448.001C0 483.346 28.654 512.001 64 512.001H384C419.346 512.001 448 483.346 448 448.001V64.001C448 28.653 419.346 0.001 384 0.001ZM224 480.001C206.25 480.001 192 465.751 192 448.001S206.25 416.001 224 416.001S256 430.251 256 448.001S241.75 480.001 224 480.001ZM384 384.001H64V64.001H384V384.001Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M384 384.001H64V64.001H384V384.001Z" })
+    ]
+  }
+));
+TabletScreenButtonDuotone.displayName = "TabletScreenButtonDuotone";
+var TabletScreenButton_default = TabletScreenButtonDuotone;
+export {
+  TabletScreenButton_default as default
+};

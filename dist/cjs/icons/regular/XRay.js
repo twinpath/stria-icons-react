@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var XRay_exports = {};
+__export(XRay_exports, {
+  default: () => XRay_default
+});
+module.exports = __toCommonJS(XRay_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const XRayRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M128 192H240V224H160C151.199 224 144 231.199 144 240C144 248.799 151.199 256 160 256H240V288H170.666C145.107 288 129.863 316.484 144.041 337.75L165.375 369.75C171.311 378.652 181.303 384 192.002 384H319.998C330.697 384 340.689 378.652 346.625 369.75L367.959 337.75C382.137 316.484 366.893 288 341.334 288H272V256H352C360.801 256 368 248.799 368 240C368 231.199 360.801 224 352 224H272V192H384C392.801 192 400 184.799 400 176C400 167.199 392.801 160 384 160H272V128C272 119.199 264.801 112 256 112S240 119.199 240 128V160H128C119.199 160 112 167.199 112 176C112 184.799 119.199 192 128 192ZM200 352C191.164 352 184 344.836 184 336C184 327.162 191.164 320 200 320S216 327.162 216 336C216 344.836 208.836 352 200 352ZM312 320C320.836 320 328 327.162 328 336C328 344.836 320.836 352 312 352S296 344.836 296 336C296 327.162 303.164 320 312 320ZM488 432H480V80H488C501.256 80 512 69.254 512 56S501.256 32 488 32H24C10.746 32 0 42.746 0 56S10.746 80 24 80H32V432H24C10.746 432 0 442.746 0 456S10.746 480 24 480H488C501.256 480 512 469.254 512 456S501.256 432 488 432ZM432 432H80V80H432V432Z" })
+  }
+));
+XRayRegular.displayName = "XRayRegular";
+var XRay_default = XRayRegular;

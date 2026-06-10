@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Dice_exports = {};
+__export(Dice_exports, {
+  default: () => Dice_default
+});
+module.exports = __toCommonJS(Dice_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DiceLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M224 296C210.75 296 200 306.75 200 320S210.75 344 224 344S248 333.25 248 320S237.25 296 224 296ZM128 200C114.75 200 104 210.75 104 224S114.75 248 128 248S152 237.25 152 224S141.25 200 128 200ZM224 200C210.75 200 200 210.75 200 224S210.75 248 224 248S248 237.25 248 224S237.25 200 224 200ZM480 376C493.25 376 504 365.25 504 352S493.25 328 480 328S456 338.75 456 352S466.75 376 480 376ZM224 104C210.75 104 200 114.75 200 128S210.75 152 224 152S248 141.25 248 128S237.25 104 224 104ZM576 192H473.33C476.92 202.207 479.125 212.922 479.125 224H576C593.625 224 608 238.375 608 256V448C608 465.625 593.625 480 576 480H384C366.375 480 352 465.625 352 448V391.258L320 423.256V448C320 483.375 348.625 512 384 512H576C611.375 512 640 483.375 640 448V256C640 220.625 611.375 192 576 192ZM320 200C306.75 200 296 210.75 296 224S306.75 248 320 248S344 237.25 344 224S333.25 200 320 200ZM448 224C448 206.848 441.309 190.572 429.156 178.174L270.057 19.072C257.428 6.691 241.152 0 224 0S190.572 6.691 178.174 18.842L19.072 177.943C6.693 190.572 0 206.846 0 224C0 241.152 6.693 257.428 18.846 269.826L177.943 428.928C190.572 441.307 206.848 448 224 448S257.428 441.307 269.826 429.154L428.928 270.057C441.309 257.428 448 241.15 448 224ZM406.211 247.34L247.342 406.211C241.066 412.359 232.785 415.873 224 415.873S206.934 412.359 200.658 406.211L41.789 247.34C35.641 241.066 32.125 232.783 32.125 224C32.125 215.215 35.641 206.934 41.789 200.658L200.658 41.787C206.934 35.639 215.215 32.125 224 32.125S241.066 35.639 247.342 41.787L406.211 200.658C412.361 206.934 415.875 215.215 415.875 224C415.875 232.783 412.361 241.066 406.211 247.34Z " })
+  }
+));
+DiceLight.displayName = "DiceLight";
+var Dice_default = DiceLight;

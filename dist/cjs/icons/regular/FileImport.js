@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var FileImport_exports = {};
+__export(FileImport_exports, {
+  default: () => FileImport_default
+});
+module.exports = __toCommonJS(FileImport_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const FileImportRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M263.031 383.031C258.344 387.719 256 393.844 256 400S258.344 412.281 263.031 416.969C272.406 426.344 287.594 426.344 296.969 416.969L376.969 336.969C386.344 327.594 386.344 312.406 376.969 303.031L296.969 223.031C287.594 213.656 272.406 213.656 263.031 223.031S253.656 247.594 263.031 256.969L302.062 296H24C10.75 296 0 306.75 0 320S10.75 344 24 344H302.062L263.031 383.031ZM493.254 93.383L418.627 18.746C406.625 6.742 390.348 0 373.373 0H192C156.652 0 127.998 28.656 128 64L128.008 232C128.01 245.258 138.754 256 152.008 256S176.008 245.254 176.006 232L176 64.125C176 55.289 183.162 48.125 192 48.125H352.008V128C352.008 145.672 366.334 160 384.008 160H464.002V448C464.002 456.836 456.838 464 448.002 464H192.02C183.182 464 176.018 456.836 176.018 448L176.016 407.996C176.014 394.742 165.27 384 152.016 384S128.016 394.746 128.018 408L128.02 448C128.021 483.344 156.676 512 192.023 512H448C483.199 512 512 483.199 512 448V138.641C512 121.664 505.258 105.383 493.254 93.383Z" })
+  }
+));
+FileImportRegular.displayName = "FileImportRegular";
+var FileImport_default = FileImportRegular;

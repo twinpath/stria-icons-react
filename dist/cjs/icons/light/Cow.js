@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Cow_exports = {};
+__export(Cow_exports, {
+  default: () => Cow_default
+});
+module.exports = __toCommonJS(Cow_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CowLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M633.999 279.625L624 265.5V210.625C624 191.25 608.25 175.5 588.875 175.5C579.875 175.5 574.625 178.375 565.25 183.125L508.75 103.625C490.625 78.75 461.75 64 431 64H112C67.875 64 32 99.875 32 144V232.875C13 244 0 264.375 0 288V320C35.375 320 64 291.375 64 256V144C64 120.125 81.625 100.375 104.5 96.75C99.25 106 96 116.625 96 128V416C96 433.625 110.375 448 128 448H176C193.625 448 208 433.625 208 416V364.375C215.25 367.375 223.625 369.375 232 371.25V392C232 400.875 239.25 408 248 408C256.875 408 264 400.875 264 392V375.25C266.75 375.375 269.25 376 272 376S277.25 375.375 280 375.25V392C280 400.875 287.25 408 296 408C304.875 408 312 400.875 312 392V371.25C320.375 369.375 328.75 367.375 336 364.375V416C336 433.625 350.375 448 368 448H416C433.625 448 448 433.625 448 416V272L480 288V330C480 342.25 483.5 354.375 490.25 364.75L525.625 419.625C537.125 437.25 556.75 448 577.75 448H577.875C612.25 448 640 420.25 640 385.875V298.25C640 291.625 637.875 285.125 633.999 279.625ZM212.75 96H331.25C348.75 96 358.375 115.75 347.125 128.75C307 175.25 289.25 176 272 176H271C253.75 176 237.125 175.625 196.875 128.75C185.625 115.75 195.25 96 212.75 96ZM208.625 330.25C211.625 297.625 238.75 272 272 272S332.375 297.625 335.375 330.25C321.25 335.875 277.999 357.875 208.625 330.25ZM608 385.875C608 402.5 594.5 416 577.75 416C567.5 416 558.125 410.875 552.5 402.25L517.125 347.375C513.779 342.185 512 336.141 512 329.966V278.139C512 272.078 508.576 266.538 503.155 263.828L439.155 231.828C428.517 226.508 416 234.244 416 246.139V416H368V336C368 305.125 342.5 240 272 240C201.125 240 176 304.5 176 336V416H128V128C128 110.375 142.375 96 160 96H164.25C156.625 114.125 159.625 134.625 172.625 149.75C214.875 198.75 239.75 208 271 208C303.875 208 329.125 198.75 371.375 149.75C384.375 134.625 387.375 114.125 379.75 96H431C451.375 96 470.75 105.875 482.625 122.25L561.25 232.625C565.75 215.5 580.25 208 584 208C588.25 208 592 211.375 592 216.125V275.75L608 298.25V385.875ZM568 304C559.125 304 552 311.125 552 320S559.125 336 568 336S584 328.875 584 320S576.875 304 568 304Z" })
+  }
+));
+CowLight.displayName = "CowLight";
+var Cow_default = CowLight;

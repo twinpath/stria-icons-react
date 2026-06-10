@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var CoffeeBean_exports = {};
+__export(CoffeeBean_exports, {
+  default: () => CoffeeBean_default
+});
+module.exports = __toCommonJS(CoffeeBean_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CoffeeBeanThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M435.832 130.482C425.932 107.15 370.127 53.215 353.178 45.668C332.133 36.297 309.838 32 287.103 32C219.762 32 148.459 69.664 93.49 124.705C21.139 197.148 -22.627 299.521 12.168 381.518C22.068 404.85 77.871 458.785 94.822 466.332C115.867 475.703 138.164 480 160.896 480C228.24 480 299.541 442.334 354.51 387.295C426.861 314.854 470.627 212.48 435.832 130.482ZM104.812 136.01C159.85 80.9 227.996 48 287.103 48C308.322 48 328.363 52.133 346.67 60.283C352.633 62.939 366.119 74.332 380.049 87.793C355.623 182.109 299.324 240.352 216.66 255.906C131.469 271.939 74.309 323.809 49.686 405.543C38.924 393.779 29.943 382.449 26.896 375.268C-2.273 306.523 28.309 212.611 104.812 136.01ZM343.189 375.988C288.15 431.098 220.004 464 160.896 464C139.68 464 119.639 459.867 101.33 451.715C94.561 448.701 78.133 434.592 62.318 418.766C83.609 338.01 137.768 287.059 219.598 271.656C306.117 255.348 365.512 196.078 392.859 100.693C405.963 114.443 417.557 128.375 421.103 136.732C450.275 205.477 419.691 299.391 343.189 375.988Z" })
+  }
+));
+CoffeeBeanThin.displayName = "CoffeeBeanThin";
+var CoffeeBean_default = CoffeeBeanThin;

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var ClipboardListCheck_exports = {};
+__export(ClipboardListCheck_exports, {
+  default: () => ClipboardListCheck_default
+});
+module.exports = __toCommonJS(ClipboardListCheck_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const ClipboardListCheckThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M96 160H288C305.673 160 320 145.673 320 128V113.613C320 86.213 297.787 64 270.387 64H270.387C262.973 27.484 230.703 0 192 0S121.027 27.484 113.613 64H113.613C86.213 64 64 86.213 64 113.613V128C64 145.673 78.327 160 96 160ZM80 113.613C80 95.049 95.049 80 113.613 80H126.691L128.537 70.909C133.522 46.345 150.808 24.735 175.02 18.257C211.952 8.376 247.579 32.084 254.707 67.184L257.309 80H270.387C288.951 80 304 95.049 304 113.613V128C304 136.837 296.837 144 288 144H96C87.163 144 80 136.837 80 128V113.613ZM192 96C200.836 96 208 88.836 208 80C208 71.162 200.836 64 192 64S176 71.162 176 80C176 88.836 183.164 96 192 96ZM312 248H200C195.594 248 192 251.578 192 256S195.594 264 200 264H312C316.406 264 320 260.422 320 256S316.406 248 312 248ZM80 384C80 392.836 87.164 400 96 400S112 392.836 112 384C112 375.162 104.836 368 96 368S80 375.162 80 384ZM355.188 100C351.094 98.281 346.438 100.062 344.656 104.156C342.906 108.188 344.75 112.906 348.812 114.688C360.469 119.75 368 131.281 368 144V464C368 481.656 353.656 496 336 496H48C30.344 496 16 481.656 16 464V144C16 131.312 23.531 119.812 35.219 114.688C39.25 112.938 41.094 108.219 39.312 104.156C37.562 100.125 32.938 98.219 28.781 100.062C11.312 107.719 0 124.969 0 144V464C0 490.469 21.531 512 48 512H336C362.469 512 384 490.469 384 464V144C384 124.906 372.688 107.625 355.188 100ZM312 376H168C163.594 376 160 379.578 160 384S163.594 392 168 392H312C316.406 392 320 388.422 320 384S316.406 376 312 376ZM90.344 293.656C91.906 295.219 93.938 296 96 296S100.094 295.219 101.656 293.656L165.656 229.656C168.781 226.531 168.781 221.469 165.656 218.344S157.469 215.219 154.344 218.344L96 276.688L69.656 250.344C66.531 247.219 61.469 247.219 58.344 250.344S55.219 258.531 58.344 261.656L90.344 293.656Z" })
+  }
+));
+ClipboardListCheckThin.displayName = "ClipboardListCheckThin";
+var ClipboardListCheck_default = ClipboardListCheckThin;

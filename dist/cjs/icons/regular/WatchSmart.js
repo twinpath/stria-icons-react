@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var WatchSmart_exports = {};
+__export(WatchSmart_exports, {
+  default: () => WatchSmart_default
+});
+module.exports = __toCommonJS(WatchSmart_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const WatchSmartRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M216 244.75V184C216 170.75 205.25 160 192 160S168 170.75 168 184V256C168 263.125 171.156 269.875 176.625 274.438L224.625 314.438C229.125 318.188 234.562 320 240 320C246.875 320 253.688 317.062 258.438 311.375C266.938 301.188 265.562 286.063 255.375 277.563L216 244.75ZM320 73.613V48C320 21.602 298.4 0 272 0H112C85.6 0 64 21.602 64 48V73.613C27.484 81.027 0 113.297 0 152V360C0 398.703 27.484 430.973 64 438.387V464C64 490.398 85.6 512 112 512H272C298.4 512 320 490.398 320 464V438.387C356.516 430.973 384 398.703 384 360V152C384 113.297 356.516 81.027 320 73.613ZM336 360C336 377.645 321.645 392 304 392H80C62.355 392 48 377.645 48 360V152C48 134.355 62.355 120 80 120H304C321.645 120 336 134.355 336 152V360Z" })
+  }
+));
+WatchSmartRegular.displayName = "WatchSmartRegular";
+var WatchSmart_default = WatchSmartRegular;

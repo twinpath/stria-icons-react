@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ComputerMouseThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M224 0H160C71.625 0 0 71.625 0 160V352C0 440.375 71.625 512 160 512H224C312.375 512 384 440.375 384 352V160C384 71.625 312.375 0 224 0ZM16 160C16 80.598 80.598 16 160 16H184V192H16V160ZM368 352C368 431.402 303.402 496 224 496H160C80.598 496 16 431.402 16 352V208H368V352ZM368 192H200V16H224C303.402 16 368 80.598 368 160V192Z" })
+  }
+));
+ComputerMouseThin.displayName = "ComputerMouseThin";
+var ComputerMouse_default = ComputerMouseThin;
+export {
+  ComputerMouse_default as default
+};

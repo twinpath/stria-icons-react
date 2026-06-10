@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const DiceD8Regular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M512 256C512 247.375 508.718 238.75 502.155 232.125L279.878 9.875C273.252 3.25 264.626 0 256 0S238.748 3.25 232.122 9.875L9.845 232.125C3.282 238.75 0 247.406 0 256.047C0 264.688 3.282 273.312 9.845 279.875L232.122 502.125C238.748 508.75 247.374 512 256 512S273.252 508.75 279.878 502.125L502.155 279.875C508.718 273.25 512 264.625 512 256ZM280.003 77.875L446.398 244.25L280.003 315.625V77.875ZM231.997 315.625L65.602 244.25L231.997 77.875V315.625ZM231.997 367.875V434.125L115.983 318.125L231.997 367.875ZM280.003 367.875L396.017 318.125L280.003 434.125V367.875Z " })
+  }
+));
+DiceD8Regular.displayName = "DiceD8Regular";
+var DiceD8_default = DiceD8Regular;
+export {
+  DiceD8_default as default
+};

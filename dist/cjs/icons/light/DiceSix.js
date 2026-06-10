@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var DiceSix_exports = {};
+__export(DiceSix_exports, {
+  default: () => DiceSix_default
+});
+module.exports = __toCommonJS(DiceSix_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const DiceSixLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M384 32H64C28.625 32 0 60.625 0 96V416C0 451.375 28.625 480 64 480H384C419.375 480 448 451.375 448 416V96C448 60.625 419.375 32 384 32ZM416 416C416 433.625 401.625 448 384 448H64C46.375 448 32 433.625 32 416V96C32 78.375 46.375 64 64 64H384C401.625 64 416 78.375 416 96V416ZM128 136C114.75 136 104 146.75 104 160S114.75 184 128 184S152 173.25 152 160S141.25 136 128 136ZM128 232C114.75 232 104 242.75 104 256C104 269.25 114.75 280 128 280S152 269.25 152 256C152 242.75 141.25 232 128 232ZM320 232C306.75 232 296 242.75 296 256C296 269.25 306.75 280 320 280S344 269.25 344 256C344 242.75 333.25 232 320 232ZM128 328C114.75 328 104 338.75 104 352S114.75 376 128 376S152 365.25 152 352S141.25 328 128 328ZM320 136C306.75 136 296 146.75 296 160S306.75 184 320 184S344 173.25 344 160S333.25 136 320 136ZM320 328C306.75 328 296 338.75 296 352S306.75 376 320 376S344 365.25 344 352S333.25 328 320 328Z " })
+  }
+));
+DiceSixLight.displayName = "DiceSixLight";
+var DiceSix_default = DiceSixLight;

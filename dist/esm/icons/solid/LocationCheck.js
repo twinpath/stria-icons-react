@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const LocationCheckSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M192 0C85.969 0 0 85.969 0 192.001C0 269.408 26.969 291.033 172.281 501.676C181.813 515.441 202.188 515.441 211.719 501.676C357.031 291.033 384 269.408 384 192.001C384 85.969 298.031 0 192 0ZM293.922 166.857L176.783 283.283C170.457 289.571 160.205 289.571 153.879 283.283L90.078 219.865C83.752 213.584 83.752 203.388 90.078 197.099L101.52 185.724C107.848 179.435 118.107 179.435 124.434 185.724L165.328 226.375L259.566 132.712C265.895 126.425 276.143 126.425 282.469 132.712L293.922 144.091C300.25 150.38 300.25 160.573 293.922 166.857Z" })
+  }
+));
+LocationCheckSolid.displayName = "LocationCheckSolid";
+var LocationCheck_default = LocationCheckSolid;
+export {
+  LocationCheck_default as default
+};

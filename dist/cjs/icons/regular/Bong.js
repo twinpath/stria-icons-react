@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Bong_exports = {};
+__export(Bong_exports, {
+  default: () => Bong_default
+});
+module.exports = __toCommonJS(Bong_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const BongRegular = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M467.617 211.733L426.267 170.285C416.914 160.909 401.729 160.9 392.365 170.264L392.254 170.376C382.897 179.732 382.897 194.901 392.253 204.258L395.999 208.004L356.625 247.379C345.125 236.004 332.125 226.129 318 217.879V47.754H326.121C339.254 47.754 350 37.009 350 23.875V23.875C350 10.686 339.301 -0.001 326.112 0.013L117.853 0.246C104.675 0.26 94 10.947 94 24.125V24.125C94 37.313 104.691 48.004 117.879 48.004H126V217.879C68.625 251.129 30 313.004 30 384.004C30 427.074 44.295 466.872 68.352 498.868C73.734 506.026 85.295 512.005 94.25 512.005H349.625C358.649 512.005 370.304 505.985 375.723 498.768C399.735 466.79 414 427.029 414 384.004C414 347.879 403.875 314.254 386.5 285.379L430 242.005L433.715 245.72C443.085 255.089 458.373 255.047 467.69 245.626V245.626C476.985 236.228 476.952 221.09 467.617 211.733ZM150 259.379L174 245.504V48.004H270V245.504L294 259.379C318.75 273.754 338 295.129 350.5 320.004H93.5C106 295.129 125.25 273.754 150 259.379Z" })
+  }
+));
+BongRegular.displayName = "BongRegular";
+var Bong_default = BongRegular;

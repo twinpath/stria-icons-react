@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const StairsDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M576 64C576 81.672 561.688 96 544 96H448V192C448 209.672 433.688 224 416 224H320V320C320 337.672 305.688 352 288 352H192V448C192 465.672 177.688 480 160 480H32C14.312 480 0 465.672 0 448S14.312 416 32 416H128V320C128 302.328 142.312 288 160 288H256V192C256 174.328 270.312 160 288 160H384V64C384 46.328 398.312 32 416 32H544C561.688 32 576 46.328 576 64Z", className: "stria-secondary", style: { opacity: 0.4 } })
+  }
+));
+StairsDuotone.displayName = "StairsDuotone";
+var Stairs_default = StairsDuotone;
+export {
+  Stairs_default as default
+};

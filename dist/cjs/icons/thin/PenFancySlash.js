@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var PenFancySlash_exports = {};
+__export(PenFancySlash_exports, {
+  default: () => PenFancySlash_default
+});
+module.exports = __toCommonJS(PenFancySlash_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const PenFancySlashThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M445.245 38.965C458.7 23.727 474.236 16 491.419 16C518.505 16 545.665 35.816 555.999 63.119C561.351 77.258 565.988 104.812 536.663 130.73L416.888 241.029L429.564 251.105L547.501 142.5C612.189 85.34 555.177 0 491.419 0C471.521 0 450.972 8.307 433.251 28.375L313.39 158.762L325.947 168.742L445.245 38.965ZM304.525 347.836L283.238 411.695C278.347 426.369 266.601 437.844 251.818 442.393L94.911 492.4L170.474 416.84C176.779 420.988 183.89 424 192.001 424C214.093 424 232.001 406.092 232.001 384S214.093 344 192.001 344S152.001 361.908 152.001 384C152.001 392.111 155.013 399.223 159.161 405.527L83.599 481.088L133.609 324.184C138.158 309.4 149.634 297.654 164.306 292.764L225.06 272.514L210.109 260.631L159.247 277.584C139.64 284.119 124.394 299.723 118.316 319.479L64.831 487.684C62.784 494.336 64.581 501.574 69.503 506.496H69.505C74.425 511.418 81.665 513.215 88.318 511.168L256.523 457.686C276.279 451.607 291.882 436.361 298.417 416.754L320.001 352L304.525 347.836ZM192.001 360C205.236 360 216.001 370.766 216.001 384S205.236 408 192.001 408C178.769 408 168.001 397.234 168.001 384S178.769 360 192.001 360ZM636.98 497.734L12.988 1.73C11.525 0.566 9.771 0 8.025 0C5.673 0 3.335 1.029 1.738 3.012C-1.012 6.48 -0.434 11.512 3.019 14.262L627.011 510.266C628.495 511.438 630.245 512 631.995 512C634.339 512 636.683 510.969 638.261 508.984C641.011 505.516 640.433 500.484 636.98 497.734Z" })
+  }
+));
+PenFancySlashThin.displayName = "PenFancySlashThin";
+var PenFancySlash_default = PenFancySlashThin;

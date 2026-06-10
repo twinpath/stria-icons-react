@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const MegaphoneLight = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 576 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M16 160C7.164 160 0 167.162 0 176V336C0 344.836 7.164 352 16 352S32 344.836 32 336V176C32 167.162 24.836 160 16 160ZM560 32C551.164 32 544 39.162 544 48V59.375L64 172.227V205.102L544 92.25V419.75L64 306.898V339.752L162.625 362.875C161 369.75 160 376.75 160 384C160 437 203 480 256 480C301.125 480 338.5 448.75 348.625 406.75L544 452.625V464C544 472.836 551.164 480 560 480S576 472.836 576 464V48C576 39.162 568.836 32 560 32ZM256 448C220.75 448 192 419.25 192 384C192 379.25 192.75 374.75 193.75 370.25L317.875 399.5C310.875 427.25 285.875 448 256 448Z" })
+  }
+));
+MegaphoneLight.displayName = "MegaphoneLight";
+var Megaphone_default = MegaphoneLight;
+export {
+  Megaphone_default as default
+};

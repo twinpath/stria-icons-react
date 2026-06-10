@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const CropSimpleThin = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M344 400H112V8C112 3.594 108.406 0 104 0S96 3.594 96 8V96H8C3.594 96 0 99.594 0 104S3.594 112 8 112H96V408C96 412.406 99.594 416 104 416H344C348.406 416 352 412.406 352 408S348.406 400 344 400ZM504 400H416V104C416 99.582 412.418 96 408 96H168C163.594 96 160 99.594 160 104S163.594 112 168 112H400V504C400 508.406 403.594 512 408 512S416 508.406 416 504V416H504C508.406 416 512 412.406 512 408S508.406 400 504 400Z" })
+  }
+));
+CropSimpleThin.displayName = "CropSimpleThin";
+var CropSimple_default = CropSimpleThin;
+export {
+  CropSimple_default as default
+};

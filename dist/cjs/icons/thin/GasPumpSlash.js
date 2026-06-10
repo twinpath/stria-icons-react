@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var GasPumpSlash_exports = {};
+__export(GasPumpSlash_exports, {
+  default: () => GasPumpSlash_default
+});
+module.exports = __toCommonJS(GasPumpSlash_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const GasPumpSlashThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M636.98 497.734L12.988 1.73C11.523 0.566 9.773 0 8.023 0C5.671 0 3.335 1.031 1.738 3.012C-1.012 6.48 -0.434 11.512 3.019 14.262L627.011 510.266C628.495 511.438 630.245 512 631.995 512C634.339 512 636.683 510.969 638.261 508.984C641.011 505.516 640.433 500.484 636.98 497.734ZM407.999 496H383.999V398.812L367.999 386.094V416H111.999V182.609L95.999 169.891V496H71.999C67.593 496 63.999 499.594 63.999 504S67.593 512 71.999 512H407.999C412.406 512 415.999 508.406 415.999 504S412.406 496 407.999 496ZM367.999 496H111.999V432H367.999V496ZM167.999 16H311.999C342.874 16 367.999 41.125 367.999 72V202.129L383.999 214.848V72C383.999 32.312 351.687 0 311.999 0H167.999C153.46 0 139.96 4.406 128.624 11.855L142.163 22.617C149.929 18.531 158.632 16 167.999 16ZM495.999 67.312V168C495.999 190.062 513.937 208 535.999 208H559.999V354.742L575.999 367.461V141.25C575.999 130.719 571.718 120.406 564.281 112.969L477.656 26.344C474.531 23.219 469.468 23.219 466.343 26.344S463.218 34.531 466.343 37.656L495.999 67.312ZM511.999 83.312L552.968 124.281C557.437 128.75 559.999 134.937 559.999 141.25V192H535.999C522.781 192 511.999 181.219 511.999 168V83.312Z" })
+  }
+));
+GasPumpSlashThin.displayName = "GasPumpSlashThin";
+var GasPumpSlash_default = GasPumpSlashThin;

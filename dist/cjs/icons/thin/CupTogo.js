@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var CupTogo_exports = {};
+__export(CupTogo_exports, {
+  default: () => CupTogo_default
+});
+module.exports = __toCommonJS(CupTogo_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const CupTogoThin = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M432 64H416L392.875 17.75C387.375 6.875 376.375 0 364.25 0H83.75C71.625 0 60.625 6.875 55.125 17.75L32 64H16C7.125 64 0 71.125 0 80V112C0 120.875 7.125 128 16 128H432C440.875 128 448 120.875 448 112V80C448 71.125 440.875 64 432 64ZM432 112H16V80H41.889L46.311 71.156L69.402 24.971C72.201 19.438 77.699 16 83.75 16H364.25C370.301 16 375.799 19.438 378.564 24.906L406.111 80H432V112ZM392.656 160.031C388.219 159.75 384.375 162.938 384.031 167.328L377.977 240H70.023L63.969 167.328C63.594 162.938 59.687 159.797 55.344 160.031C50.938 160.391 47.656 164.266 48.031 168.672L73.688 476.609C75.312 496.453 92.188 512 112.094 512H335.906C355.812 512 372.688 496.453 374.312 476.625L399.969 168.672C400.344 164.266 397.062 160.391 392.656 160.031ZM358.375 475.297C357.406 486.906 347.531 496 335.906 496H112.094C100.469 496 90.594 486.906 89.625 475.281L84.686 416H363.314L358.375 475.297ZM364.648 400H83.354L71.355 256H376.645L364.648 400Z" })
+  }
+));
+CupTogoThin.displayName = "CupTogoThin";
+var CupTogo_default = CupTogoThin;

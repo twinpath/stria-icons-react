@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const NoteSolid = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 448 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M320 480L448 352H320V480ZM400 32H48C21.49 32 0 53.492 0 80V432C0 458.508 21.49 480 48 480H288V352C288 334.328 302.326 320 320 320H448V80C448 53.492 426.51 32 400 32Z" })
+  }
+));
+NoteSolid.displayName = "NoteSolid";
+var Note_default = NoteSolid;
+export {
+  Note_default as default
+};

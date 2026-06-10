@@ -1,0 +1,21 @@
+import { jsx } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ArrowDownRightRegular = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsx(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 384 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ jsx("path", { d: "M352 152V392C352 405.25 341.25 416 328 416H88C74.75 416 64 405.25 64 392S74.75 368 88 368H270.062L39.031 136.969C29.656 127.594 29.656 112.406 39.031 103.031S63.594 93.656 72.969 103.031L304 334.062V152C304 138.75 314.75 128 328 128S352 138.75 352 152Z" })
+  }
+));
+ArrowDownRightRegular.displayName = "ArrowDownRightRegular";
+var ArrowDownRight_default = ArrowDownRightRegular;
+export {
+  ArrowDownRight_default as default
+};

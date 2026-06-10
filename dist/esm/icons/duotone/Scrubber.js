@@ -1,0 +1,24 @@
+import { jsx, jsxs } from "react/jsx-runtime";
+import React, { forwardRef } from "react";
+const ScrubberDuotone = forwardRef(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ jsxs(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: [
+      /* @__PURE__ */ jsx("path", { d: "M256 320C220.674 320 192 291.25 192 256S220.674 192 256 192S320 220.75 320 256S291.326 320 256 320Z", className: "stria-secondary", style: { opacity: 0.4 } }),
+      /* @__PURE__ */ jsx("path", { d: "M256 16C123.461 16 16 123.42 16 256S123.461 496 256 496S496 388.58 496 256S388.539 16 256 16ZM256 320C220.674 320 192 291.25 192 256S220.674 192 256 192S320 220.75 320 256S291.326 320 256 320Z" })
+    ]
+  }
+));
+ScrubberDuotone.displayName = "ScrubberDuotone";
+var Scrubber_default = ScrubberDuotone;
+export {
+  Scrubber_default as default
+};

@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var Speakers_exports = {};
+__export(Speakers_exports, {
+  default: () => Speakers_default
+});
+module.exports = __toCommonJS(Speakers_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const SpeakersSolid = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 640 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M112 336C112 371.328 140.688 400 176 400S240 371.328 240 336S211.312 272 176 272S112 300.672 112 336ZM256 48C256.062 33.219 263.406 11.719 272.406 0H48C21.5 0 0 21.5 0 48V464C0 490.5 21.5 512 48 512H272.406C263.406 500.281 256.062 478.781 256 464V414.219C237.812 432.859 201.906 448 175.844 448C113.999 448 63.844 397.828 63.844 336S113.999 224 175.844 224C201.906 224 237.812 239.141 256 257.781V48ZM176 160C149.5 160 128 138.5 128 112S149.5 64 176 64S224 85.5 224 112S202.5 160 176 160ZM592 0H336C309.5 0 288 21.5 288 48V464C288 490.5 309.5 512 336 512H592C618.5 512 640 490.5 640 464V48C640 21.5 618.5 0 592 0ZM464 64C490.5 64 512 85.5 512 112S490.5 160 464 160S416 138.5 416 112S437.5 64 464 64ZM464 448C402.188 448 352 397.828 352 336S402.188 224 464 224S576 274.172 576 336S525.812 448 464 448ZM464 272C428.688 272 400 300.672 400 336S428.688 400 464 400S528 371.328 528 336S499.312 272 464 272Z" })
+  }
+));
+SpeakersSolid.displayName = "SpeakersSolid";
+var Speakers_default = SpeakersSolid;

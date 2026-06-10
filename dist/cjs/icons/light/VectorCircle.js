@@ -1,0 +1,50 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var VectorCircle_exports = {};
+__export(VectorCircle_exports, {
+  default: () => VectorCircle_default
+});
+module.exports = __toCommonJS(VectorCircle_exports);
+var import_jsx_runtime = require("react/jsx-runtime");
+var import_react = __toESM(require("react"), 1);
+const VectorCircleLight = (0, import_react.forwardRef)(({ size = 24, color = "currentColor", className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+  "svg",
+  {
+    ref,
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "0 0 512 512",
+    fill: color,
+    className,
+    ...props,
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M480 192H453.82C433.295 128.734 383.266 78.705 320 58.18V32C320 14.326 305.674 0 288 0H224C206.326 0 192 14.326 192 32V58.18C128.734 78.705 78.705 128.734 58.18 192H32C14.326 192 0 206.326 0 224V288C0 305.672 14.326 320 32 320H58.18C78.705 383.266 128.734 433.295 192 453.82V480C192 497.672 206.326 512 224 512H288C305.674 512 320 497.672 320 480V453.82C383.266 433.295 433.295 383.266 453.82 320H480C497.674 320 512 305.672 512 288V224C512 206.326 497.674 192 480 192ZM224 32H288V96H224V32ZM32 288V224H96V288H32ZM288 480H224V416H288V480ZM320 419.775V416C320 398.326 305.674 384 288 384H224C206.326 384 192 398.326 192 416V419.775C146.408 401.891 110.109 365.592 92.225 320H96C113.674 320 128 305.672 128 288V224C128 206.326 113.674 192 96 192H92.225C110.109 146.408 146.408 110.109 192 92.225V96C192 113.672 206.326 128 224 128H288C305.674 128 320 113.672 320 96V92.225C365.592 110.109 401.891 146.408 419.775 192H416C398.326 192 384 206.326 384 224V288C384 305.672 398.326 320 416 320H419.775C401.891 365.592 365.592 401.891 320 419.775ZM480 288H416V224H480V288Z" })
+  }
+));
+VectorCircleLight.displayName = "VectorCircleLight";
+var VectorCircle_default = VectorCircleLight;
