@@ -1,6 +1,6 @@
 {
   "name": "@stria-icons/react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Stria Icons for React",
   "license": "MIT",
   "type": "module",
@@ -44,6 +44,6 @@
     "access": "public"
   },
   "dependencies": {
-    "stria-icons": "^0.1.5"
+    "stria-icons": "^0.1.6"
   }
 }
